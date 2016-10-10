@@ -1,0 +1,15 @@
+{
+  "name": "volgactf-site",
+  "version": "3.0.0",
+  "description": "Main VolgaCTF site package",
+  "author": "Aleksey Volkov <volalex@volgactf.ru>",
+  "private": true,
+  "analyze": true,
+  "license": "MIT",
+  "devDependencies": {
+    "metalsmith": "^2.2.0",
+    "metalsmith-filter": "^1.0.2",
+    "metalsmith-less": "^2.0.0",
+    "metalsmith-uglify": "^1.5.1"
+  }
+}
