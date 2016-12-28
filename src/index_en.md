@@ -1,5 +1,4 @@
----
 title: Hello Layouts
-layout: base.html
+layout: base.pug
 ---
 Hello World!

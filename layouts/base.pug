@@ -1,0 +1,14 @@
+doctype html
+- var availableLangs = locales.filter(x => x !== locale && !!lang(x))
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title #{title}
+    include partials/static.pug
+    body
+      p
+        each lc, index in availableLangs
+          - var url = lang(lc).path
+          a(href="/"+url) #{lc}
+      section #{contents}

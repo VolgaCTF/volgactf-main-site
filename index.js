@@ -5,6 +5,10 @@ filter = require('metalsmith-filter');
 serve = require('metalsmith-serve');
 layouts = require('metalsmith-layouts');
 markdown = require('metalsmith-markdown');
+multiLanguage = require('metalsmith-multi-language');
+
+const DEFAULT_LANG = "ru";
+const LANGS = ['ru', 'en']
 
 
 readFileSync = require('fs').readFileSync;
@@ -25,6 +29,10 @@ copy_assets = function(assets, dist_dir) {
 }
 
 Metalsmith(__dirname)
+    .use(multiLanguage({
+      default: DEFAULT_LANG,
+      locales: LANGS
+    }))
     .use(uglify({
         concat: "js/main.min.js"
     }))
@@ -32,12 +40,11 @@ Metalsmith(__dirname)
     .use(copy_assets(["node_modules/jquery/dist/jquery.min.js", "node_modules/foundation-sites/dist/foundation.min.js"], "js"))
     .use(less())
     .use(filter(['*', '**/*', '!**/*.less']))
+
     .use(markdown())
     .use(layouts({
-        engine: 'handlebars',
-        partials: 'partials'
+        engine: 'pug'
     }))
-    .use(serve())
     .build(function(err) {
         if (err) {
             console.log(err);
