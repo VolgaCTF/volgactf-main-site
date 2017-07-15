@@ -8,11 +8,11 @@ markdown = require('metalsmith-markdown');
 multiLanguage = require('metalsmith-multi-language');
 
 const DEFAULT_LANG = "ru";
-const LANGS = ['ru', 'en']
+const LANGS = ['ru', 'en'];
 
 
 readFileSync = require('fs').readFileSync;
-basename = require('path').basename
+basename = require('path').basename;
 
 
 //simple metalsmith plugin for assets copy
@@ -26,7 +26,7 @@ copy_assets = function(assets, dist_dir) {
         });
         done();
     }
-}
+};
 
 Metalsmith(__dirname)
     .use(multiLanguage({
@@ -36,9 +36,18 @@ Metalsmith(__dirname)
     .use(uglify({
         concat: "js/main.min.js"
     }))
-    .use(copy_assets(["node_modules/foundation-sites/dist/foundation.min.css"], "css"))
-    .use(copy_assets(["node_modules/jquery/dist/jquery.min.js", "node_modules/foundation-sites/dist/foundation.min.js"], "js"))
-    .use(less())
+    .use(copy_assets(["node_modules/foundation-sites/dist/css/foundation.min.css"], "css"))
+    .use(copy_assets(["node_modules/jquery/dist/jquery.min.js", "node_modules/foundation-sites/dist/js/foundation.min.js"], "js"))
+    .use(less({
+        pattern: [
+            '**/main.less'
+        ],
+        render: {
+            paths: [
+                'src/css/'
+            ]
+        }
+    }))
     .use(filter(['*', '**/*', '!**/*.less']))
 
     .use(markdown())
