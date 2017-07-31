@@ -1,14 +1,71 @@
 doctype html
 - var availableLangs = locales.filter(x => x !== locale && !!lang(x))
-html
+include partials/mixins
+html(lang=locale)
   head
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
     title #{title}
-    include partials/static.pug
+    include partials/static
     body
-      p
-        each lc, index in availableLangs
-          - var url = lang(lc).path
-          a(href="/"+url) #{lc}
-      section #{contents}
+        div#bg-first
+            header
+                div.grid-x
+                    div.large-2.cell.large-offset-1
+                        img.logo(src="images/logo.svg")
+                    div.large-6.large-offset-2.cell.menu-cell
+                        ul.menu.align-center
+                            li
+                                a(href="#") #{main}
+                            li
+                                a(href="#") #{ctf}
+                            li
+                                a(href="#") #{contacts}
+            section#welcome
+                div.grid-x
+                    div.large-offset-1.large-3.cell #{welcome_text}
+                        hr
+        section#about
+            div.grid-x
+                div.large-offset-1.large-4.cell.cell-text
+                    h1.main #{about_header_main}
+                    h1 #{about_header_sub}
+                    .
+                        #{about_text}
+                    br
+                    br
+                    .
+                        #{about_text2}
+                    hr
+                div.large-6.cell
+        section#describe
+            div.grid-x.bg-second
+                div.large-offset-1.large-2.cell.cell-text
+                    h1.main #{describe_header_main}
+                    h1 !{describe_header_sub}
+                div.large-6.large-offset-2.cell.cell-text
+                    div.grid-x.cell-window
+                        div.large-6.cell
+                            +iconedText("images/command.svg",about_team_text)
+                        div.large-6.cell
+                            +iconedText("images/tribune.svg",about_tribune_text)
+                        div.large-6.cell.top-padding
+                            +iconedText("images/like.svg",about_heart_text)
+
+
+        section#orgs
+            div.grid-x
+                div.large-offset-1.large-4.cell.cell-text
+                    h1.main #{orgs_header_main}
+                    h1 #{orgs_header_sub}
+                div.large-offset-1.large-10.cell
+                    div.grid-x.align-center-middle
+                        div.large-3.text-center
+                            +partnerLogo("images/dit.png","http://dit.samregion.ru/")
+                        div.large-3.text-center
+                            +partnerLogo("images/su.svg","http://www.ssau.ru/")
+                        div.large-3.text-center
+                            +partnerLogo("images/sroo.png","")
+                        div.large-3.text-center
+                            +partnerLogo("images/infsp.png","http://samis.geosamara.ru/")
+        footer

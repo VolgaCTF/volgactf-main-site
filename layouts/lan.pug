@@ -1,0 +1,6 @@
+p
+    each lc, index in availableLangs
+        - var url = lang(lc).path
+        a(href="/"+url) #{lc}
+section !{contents}
+p Hi!

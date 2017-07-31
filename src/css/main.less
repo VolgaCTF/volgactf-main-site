@@ -1,5 +1,104 @@
-@import "./fonts.less";
+@import "fonts";
+@import "font-face";
+@import "colors";
+@import "mixins";
 
-div{
-  font-family: 'Gilroy', serif3;
+a{
+  color: inherit;
+}
+body {
+  overflow-x: hidden;
+  background-color: @background-gray;
+  .body-font;
+}
+div.cell-text{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+hr{
+  background-color: @yellow;
+  color: @yellow;
+  border: none;
+  height: 2px;
+  width: 50px;
+  text-align:left;
+  margin-left:0
+}
+
+h1.main{
+  .header-font-bold
+}
+
+h1{
+  .header-font
+}
+
+div#bg-first{
+  .background-cover("../images/bg-first.jpg");
+}
+
+.bg-second{
+  background-image: url("../images/bg-second.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+}
+
+.icon{
+  width: 80px;
+  height: 60px;
+}
+
+.top-padding{
+  padding-top: 20px;
+}
+
+.cell-window{
+  background: rgba(255,255,255,0.7);
+  padding: 50px
+}
+
+.partner{
+  display: block;
+  position:relative;
+  width: 200px;
+  height: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: 0.7;
+  margin: 0 auto;
+  img{
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+  }
+}
+
+header{
+  padding-top: 30px;
+  .logo{
+    width: 200px;
+    height: 100px;
+  }
+  .menu-cell{
+    .menu-font;
+    .menu{
+      padding: 20px 30px;
+      background-color: white;
+    }
+  }
+}
+
+section#welcome{
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+footer{
+
 }

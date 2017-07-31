@@ -53,3 +53,5 @@ jspm_packages
 
 /build
 /bower_components
+*.iml
+.idea/

@@ -2,6 +2,7 @@ Metalsmith = require('metalsmith');
 less = require('metalsmith-less');
 uglify = require('metalsmith-uglify');
 filter = require('metalsmith-filter');
+watch = require('metalsmith-watch');
 serve = require('metalsmith-serve');
 layouts = require('metalsmith-layouts');
 markdown = require('metalsmith-markdown');
@@ -54,6 +55,17 @@ Metalsmith(__dirname)
     .use(layouts({
         engine: 'pug'
     }))
+    .use(
+        watch({
+            paths: {
+                "layouts/**/*": "**/*",
+                "src/css/**/*": "**/*",
+                "src/*.md": "**/*"
+            },
+            livereload: true,
+        })
+    )
+    .use(serve())
     .build(function(err) {
         if (err) {
             console.log(err);

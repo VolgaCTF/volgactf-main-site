@@ -1,0 +1,13 @@
+mixin iconedText(imagePath, text)
+    div.grid-x
+        div.cell.large-12.text-center
+            img.icon(src=imagePath)
+        div.cell.large-12.align-center-middle.text-center #{text}
+
+mixin partnerLogo(imagePath, href)
+    if href==""
+        a.partner
+            img(src=imagePath)
+    else
+        a.partner(href=href target="_blank")
+            img(src=imagePath)
