@@ -5,7 +5,7 @@ mixin iconedText(imagePath, text)
         div.cell.large-12.align-center-middle.text-center #{text}
 
 mixin partnerLogo(imagePath, href)
-    if href==""
+    if href===""
         a.partner
             img(src=imagePath)
     else

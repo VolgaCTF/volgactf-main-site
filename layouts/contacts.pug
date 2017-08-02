@@ -22,23 +22,6 @@ html(lang=locale)
                                 a(href=path+"finals.html") #{ctf}
                             li
                                 a(href=path+"contacts.html") #{contacts}
-            section#welcome
-                div.grid-x
-                    div.large-offset-1.large-3.cell #{welcome_text}
-                        hr
-        section#about
-            div.grid-x
-                div.large-offset-1.large-4.cell.cell-text
-                    h1.main #{about_header_main}
-                    h1 #{about_header_sub}
-                    .
-                        #{about_text}
-                    br
-                    br
-                    .
-                        #{about_text2}
-                    hr
-                div.large-6.cell
         section#describe
             div.grid-x.bg-second
                 div.large-offset-1.large-2.cell.cell-text
@@ -52,21 +35,4 @@ html(lang=locale)
                             +iconedText("images/tribune.svg",about_tribune_text)
                         div.large-6.cell.top-padding
                             +iconedText("images/like.svg",about_heart_text)
-
-
-        section#orgs
-            div.grid-x
-                div.large-offset-1.large-4.cell.cell-text
-                    h1.main #{orgs_header_main}
-                    h1 #{orgs_header_sub}
-                div.large-offset-1.large-10.cell
-                    div.grid-x.align-center-middle
-                        div.large-3.text-center
-                            +partnerLogo("images/dit.png","http://dit.samregion.ru/")
-                        div.large-3.text-center
-                            +partnerLogo("images/su.svg","http://www.ssau.ru/")
-                        div.large-3.text-center
-                            +partnerLogo("images/sroo.png","")
-                        div.large-3.text-center
-                            +partnerLogo("images/infsp.png","http://samis.geosamara.ru/")
         footer

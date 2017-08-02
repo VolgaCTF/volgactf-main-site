@@ -6,7 +6,7 @@ watch = require('metalsmith-watch');
 serve = require('metalsmith-serve');
 layouts = require('metalsmith-layouts');
 markdown = require('metalsmith-markdown');
-multiLanguage = require('metalsmith-multi-language');
+multiLanguage = require('./metalsmith-multilang');
 
 const DEFAULT_LANG = "ru";
 const LANGS = ['ru', 'en'];

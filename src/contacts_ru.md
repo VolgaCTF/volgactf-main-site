@@ -1,5 +1,5 @@
 ---
-title: VolgaCTF::Главная
+title: VolgaCTF::Контакты
 main: ГЛАВНАЯ
 ctf: ТЕКУЩИЕ СОРЕВНОВАНИЯ
 contacts: КОНТАКТЫ
