@@ -8,6 +8,7 @@ layouts = require('metalsmith-layouts');
 markdown = require('metalsmith-markdown');
 multiLanguage = require('./metalsmith-multilang');
 metadata = require('metalsmith-metadata');
+imagemin = require('metalsmith-imagemin');
 
 const DEFAULT_LANG = "ru";
 const LANGS = ['ru', 'en'];
