@@ -4,8 +4,8 @@
     teams:
       - name: "NaruseJun"
         edu:
-          en: "Tokyo Institue of Technology"
-          ru: "Tokyo Institue of Technology"
+          en: "Tokyo Institute of Technology"
+          ru: "Tokyo Institute of Technology"
         status: true
       - name: "RPISEC"
         edu:
@@ -48,7 +48,7 @@
           status: true
   - name:
       en: "Volga federal district teams"
-      ru: "Команды приволожского федерального округа"
+      ru: "Команды приволжского федерального округа"
     teams:
         - name: "\\xf0\\x9f\\x90\\xa7"
           edu:
