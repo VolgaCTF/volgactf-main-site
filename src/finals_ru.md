@@ -12,5 +12,8 @@ teams_table_accepted: Приглашение принято
 teams_table_waiting: Приглашение отправлено
 partners_header_main: ПАРТНЕРЫ И
 partners_header_sub: СПОНСОРЫ
+documents_header_main: ДОКУМЕНТЫ
+document1_text: Какой то документ
+document2_text: Ещё один документ
 layout: finals.pug
 ---

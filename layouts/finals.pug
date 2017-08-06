@@ -7,7 +7,7 @@ html(lang=locale)
     body
         div.bg-first
             +headerMenu("ctf")
-            section#welcome
+            section#finals_welcome
                 div.grid-x
                     div.large-offset-1.large-3.cell.cell-text
                         h1.main #{finals_header_main}
@@ -22,6 +22,16 @@ html(lang=locale)
                     h1 #{teams_header_sub}
                 div.large-offset-1.large-10.cell.cell-text
                     +teamsTable(teams_table_accepted,teams_table_waiting,teams,locale)
+        section#documents
+            div.grid-x.bg-second
+                div.large-offset-1.large-2.cell.cell-text
+                    h1.main #{documents_header_main}
+                div.large-6.large-offset-2.cell.cell-text
+                    div.grid-x.cell-window
+                        div.large-6.cell
+                            +iconedText("images/download.svg",document1_text)
+                        div.large-6.cell
+                            +iconedText("images/download.svg",document2_text)
         section#partners
             div.grid-x
                 div.large-offset-1.large-4.cell.cell-text
@@ -29,4 +39,6 @@ html(lang=locale)
                     h1 #{partners_header_sub}
                 div.large-offset-1.large-10.cell
                     +partnersGrid(partners,locale,-1)
+
+
         include partials/footer
