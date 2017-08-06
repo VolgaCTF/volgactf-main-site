@@ -37,7 +37,8 @@ copy_assets = function(assets, dist_dir) {
 var baseBuild = Metalsmith(__dirname)
     .use(metadata({
         teams: 'meta/teams.yaml',
-        partners: 'meta/partners.yaml'
+        partners: 'meta/partners.yaml',
+        menu: 'meta/menu.yaml'
     }))
     .use(multiLanguage({
       default: DEFAULT_LANG,

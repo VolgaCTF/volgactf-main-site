@@ -1,11 +1,11 @@
 doctype html
 - var availableLangs = locales.filter(x => x !== locale && !!lang(x))
-- var path = locale==defaultLocale ? "/" : "/"+locale+"/"
+- var localePath = locale==defaultLocale ? "" : "/"+locale
 include mixins
 html(lang=locale)
     include partials/head
     body.bg-third
-        +headerMenu("contacts")
+        +headerMenu(menu,locale,localePath,"contacts")
         section#contacts
             div.grid-x
                 div.large-offset-1.large-2.cell.cell-text

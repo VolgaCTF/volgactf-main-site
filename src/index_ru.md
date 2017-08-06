@@ -1,8 +1,5 @@
 ---
 title: VolgaCTF::Главная
-main: ГЛАВНАЯ
-ctf: ТЕКУЩИЕ СОРЕВНОВАНИЯ
-contacts: КОНТАКТЫ
 welcome_text: Добро пожаловать на ежегодные открытые соревнования в области информационной безопастности VolgaCTF
 about_header_main: ЧТО ТАКОЕ
 about_header_sub: VOLGA CTF

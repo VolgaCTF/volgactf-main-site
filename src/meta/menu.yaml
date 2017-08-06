@@ -1,0 +1,15 @@
+- name:
+    en: "MAIN"
+    ru: "ГЛАВНАЯ"
+  title: "main"
+  page: "/"
+- name:
+    en: "VOLGACTF 2017 FINALS"
+    ru: "VOLGACTF 2017 FINALS"
+  title: "ctf"
+  page: "/finals.html"
+- name:
+    en: "CONTACTS"
+    ru: "КОНТАКТЫ"
+  title: "contacts"
+  page: "/contacts.html"

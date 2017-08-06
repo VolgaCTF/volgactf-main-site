@@ -1,8 +1,5 @@
 ---
 title: VolgaCTF::Контакты
-main: ГЛАВНАЯ
-ctf: ТЕКУЩИЕ СОРЕВНОВАНИЯ
-contacts: КОНТАКТЫ
 contacts_header_main: КАК С НАМИ
 contacts_header_sub: СВЯЗАТЬСЯ
 social_header_main: СЛЕДИТЬ ЗА

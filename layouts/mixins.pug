@@ -13,19 +13,16 @@ mixin partnerLogo(imagePath, href)
         a.partner(href=href target="_blank")
             img(src=imagePath)
 
-mixin headerMenu(selectedTitle)
+mixin headerMenu(menu,locale, localePath,selectedTitle)
     header
         div.grid-x
             div.large-2.cell.large-offset-1.hide-for-small-only.hide-for-medium-only
                 img.logo(src="images/logo.svg")
             div.large-6.large-offset-2.cell.menu-cell
                 ul.menu.align-center
-                    li(class={"is-active": selectedTitle === "main"})
-                        a(href=path) #{main}
-                    li(class={"is-active": selectedTitle === "ctf"})
-                        a(href=path + "finals.html") #{ctf}
-                    li(class={"is-active": selectedTitle === "contacts"})
-                        a(href=path + "contacts.html") #{contacts}
+                    each item in menu
+                        li(class={"is-active": selectedTitle === item.title})
+                            a(href=localePath+item.page) #{item.name[locale]}
 
 mixin partnersGrid(partners,locale,level)
     if level !== -1

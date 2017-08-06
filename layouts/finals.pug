@@ -1,12 +1,12 @@
 doctype html
 - var availableLangs = locales.filter(x => x !== locale && !!lang(x))
-- var path = locale==defaultLocale ? "/" : "/"+locale+"/"
+- var localePath = locale==defaultLocale ? "" : "/"+locale
 include mixins
 html(lang=locale)
     include partials/head
     body
         div.bg-first
-            +headerMenu("ctf")
+            +headerMenu(menu,locale,localePath,"ctf")
             section#finals_welcome.finals_welcome_padding
                 div.grid-x
                     div.large-offset-1.large-3.cell.cell-text

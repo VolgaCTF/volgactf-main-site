@@ -1,8 +1,5 @@
 ---
 title: VolgaCTF::VolgaCTF 2017 Finals
-main: ГЛАВНАЯ
-ctf: ТЕКУЩИЕ СОРЕВНОВАНИЯ
-contacts: КОНТАКТЫ
 finals_header_main: VOLGA CTF 2017
 finals_header_sub: FINALS
 finals_text: Традиционный финал соревнований VolgaCTF 2017 пройдет в Самаре с 18 по 22 сентября 2017 года на базе отеля Holiday Inn
