@@ -87,6 +87,11 @@ else{
     baseBuild.use(imagemin({
         optimizationLevel: 3,
         svgoPlugins: [{ removeViewBox: true }]
-    }))
+    })).build(function(err) {
+        if (err) {
+            console.log(err);
+        }
+        console.log("Build finished!!!");
+    });
 
 }
