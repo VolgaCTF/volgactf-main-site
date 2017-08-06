@@ -1,0 +1,77 @@
+  - name:
+      en: "International teams"
+      ru: "Международные команды"
+    teams:
+      - name: "NaruseJun"
+        edu:
+          en: "Tokyo Institue of Technology"
+          ru: "Tokyo Institue of Technology"
+        status: true
+      - name: "RPISEC"
+        edu:
+          en: "Rensselaer Polytechnic Institute"
+          ru: "Rensselaer Polytechnic Institute"
+        status: false
+      - name: "STT"
+        edu:
+          en: "Instituto Superior Tecnico"
+          ru: "Instituto Superior Tecnico"
+        status: true
+  - name:
+        en: "Russian teams"
+        ru: "Российские команды"
+    teams:
+        - name: "BIZone"
+          edu:
+            en: "National Research Nuclear University MEPhI"
+            ru: "НИЯУ МИФИ"
+          status: true
+        - name: "Corrupted Reflection"
+          edu:
+            en: "Higher School of Economics"
+            ru: "Высшая школа экономики"
+          status: true
+        - name: "Destructive Voice"
+          edu:
+            en: "Ural Federal University"
+            ru: "Уральский федеральный университет"
+          status: true
+        - name: "SUSlo.PAS"
+          edu:
+            en: "Novosibirsk State University"
+            ru: "Новосибирский государственный университет"
+          status: true
+        - name: "SiBears"
+          edu:
+            en: "Tomsk State University"
+            ru: "Томский государственный университет"
+          status: true
+  - name:
+      en: "Volga federal district teams"
+      ru: "Команды приволожского федерального округа"
+    teams:
+        - name: "\\xf0\\x9f\\x90\\xa7"
+          edu:
+            en: "Penza State University"
+            ru: "Пензенский государственный университет"
+          status: true
+        - name: "ThunderClap"
+          edu:
+            en: "Chuvash State University"
+            ru: "Чувашский государственный университет"
+          status: true
+        - name: "Koibasta"
+          edu:
+            en: "Samara University"
+            ru: "Самарский университет"
+          status: true
+        - name: "Magic-Hat"
+          edu:
+            en: "Samara State Technical University"
+            ru: "Самарский государственный политехнический университет"
+          status: true
+        - name: "Singularity"
+          edu:
+            en: "Saratov State University"
+            ru: "Саратовский государственный университет"
+          status: true

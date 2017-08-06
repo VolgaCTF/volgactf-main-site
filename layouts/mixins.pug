@@ -1,0 +1,61 @@
+mixin iconedText(imagePath, text)
+    - var transformedText = markdown_text(text)
+    div.grid-x
+        div.cell.large-12.text-center
+            img.icon(src=imagePath)
+        div.cell.large-12.align-center-middle.text-center !{transformedText}
+
+mixin partnerLogo(imagePath, href)
+    if href===""
+        a.partner
+            img(src=imagePath)
+    else
+        a.partner(href=href target="_blank")
+            img(src=imagePath)
+
+mixin headerMenu(selectedTitle)
+    header
+        div.grid-x
+            div.large-2.cell.large-offset-1
+                img.logo(src="images/logo.svg")
+            div.large-6.large-offset-2.cell.menu-cell
+                ul.menu.align-center
+                    li(class={"is-active":selectedTitle==="main"})
+                        a(href=path) #{main}
+                    li(class={"is-active":selectedTitle==="ctf"})
+                        a(href=path+"finals.html") #{ctf}
+                    li(class={"is-active":selectedTitle==="contacts"})
+                        a(href=path+"contacts.html") #{contacts}
+
+mixin partnersGrid(partners,locale,level)
+    if level!==-1
+        - var target = partners[level]
+        div.grid-x.align-center-middle
+            each partner in target.partners
+                div.large-3.text-center
+                    +partnerLogo("images/"+partner.image,partner.link)
+    else
+        div.grid-x.align-center-middle
+            each section in partners
+                div.large-12.cell-text.cell
+                    h2 #{section.name[locale]}
+                each partner in section.partners
+                    div.large-3.text-center
+                        +partnerLogo("images/" + partner.image,partner.link)
+
+mixin teamsTable(sentStatus,acceptedStatus,teams, sourceLang)
+    table.unstriped
+        tbody
+            each section in teams
+                tr
+                    th(colspan="3") #{section.name[sourceLang]}
+                each team in section.teams
+                    tr
+                        td #{team.name}
+                        td #{team.edu[sourceLang]}
+                        if team.status
+                            td #{acceptedStatus}
+                        else
+                            td #{sentStatus}
+
+

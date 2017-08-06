@@ -1,38 +1,37 @@
 doctype html
 - var availableLangs = locales.filter(x => x !== locale && !!lang(x))
 - var path = locale==defaultLocale ? "/" : "/"+locale+"/"
-include partials/mixins
+include mixins
 html(lang=locale)
-    head
-        meta(charset='utf-8')
-        meta(name='viewport' content='width=device-width, initial-scale=1.0')
-        title #{title}
-        include partials/static
-    body
-        div#bg-first
-            header
-                div.grid-x
-                    div.large-2.cell.large-offset-1
-                        img.logo(src="images/logo.svg")
-                    div.large-6.large-offset-2.cell.menu-cell
-                        ul.menu.align-center
-                            li
-                                a(href=path) #{main}
-                            li
-                                a(href=path+"finals.html") #{ctf}
-                            li
-                                a(href=path+"contacts.html") #{contacts}
-        section#describe
-            div.grid-x.bg-second
+    include partials/head
+    body.bg-third
+        +headerMenu("contacts")
+        section#contacts
+            div.grid-x
                 div.large-offset-1.large-2.cell.cell-text
-                    h1.main #{describe_header_main}
-                    h1 !{describe_header_sub}
+                    h1.main #{contacts_header_main}
+                    h1 !{contacts_header_sub}
                 div.large-6.large-offset-2.cell.cell-text
                     div.grid-x.cell-window
                         div.large-6.cell
-                            +iconedText("images/command.svg",about_team_text)
+                            +iconedText("images/question.svg",about_invite_text)
                         div.large-6.cell
                             +iconedText("images/tribune.svg",about_tribune_text)
                         div.large-6.cell.top-padding
-                            +iconedText("images/like.svg",about_heart_text)
-        footer
+                            +iconedText("images/handshake.svg",about_partners_text)
+                        div.large-6.cell.top-padding
+                            +iconedText("images/information-button.svg",about_info_text)
+        section#social
+            div.grid-x
+                div.large-offset-1.large-2.cell.cell-text
+                    h1.main #{social_header_main}
+                    h1 !{social_header_sub}
+                div.large-6.large-offset-2.cell.cell-text
+                    div.grid-x.cell-window
+                        div.large-6.cell
+                            +iconedText("images/vk.svg",about_vk_text)
+                        div.large-6.cell
+                            +iconedText("images/twitter.svg",about_twitter_text)
+                        div.large-6.cell.top-padding
+                            +iconedText("images/github.svg",about_github_text)
+        include partials/footer

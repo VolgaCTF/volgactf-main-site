@@ -7,6 +7,7 @@ serve = require('metalsmith-serve');
 layouts = require('metalsmith-layouts');
 markdown = require('metalsmith-markdown');
 multiLanguage = require('./metalsmith-multilang');
+metadata = require('metalsmith-metadata');
 
 const DEFAULT_LANG = "ru";
 const LANGS = ['ru', 'en'];
@@ -14,6 +15,9 @@ const LANGS = ['ru', 'en'];
 
 readFileSync = require('fs').readFileSync;
 basename = require('path').basename;
+
+
+var env = process.env.NODE_ENV;
 
 
 //simple metalsmith plugin for assets copy
@@ -29,7 +33,11 @@ copy_assets = function(assets, dist_dir) {
     }
 };
 
-Metalsmith(__dirname)
+var baseBuild = Metalsmith(__dirname)
+    .use(metadata({
+        teams: 'meta/teams.yaml',
+        partners: 'meta/partners.yaml'
+    }))
     .use(multiLanguage({
       default: DEFAULT_LANG,
       locales: LANGS
@@ -54,8 +62,10 @@ Metalsmith(__dirname)
     .use(markdown())
     .use(layouts({
         engine: 'pug'
-    }))
-    .use(
+    }));
+
+if(env === "development"){
+    baseBuild.use(
         watch({
             paths: {
                 "layouts/**/*": "**/*",
@@ -65,10 +75,18 @@ Metalsmith(__dirname)
             livereload: true,
         })
     )
-    .use(serve())
-    .build(function(err) {
-        if (err) {
-            console.log(err);
-        }
-        console.log("Build finished!!!");
-    });
+        .use(serve())
+        .build(function(err) {
+            if (err) {
+                console.log(err);
+            }
+            console.log("Build finished!!!");
+        });
+}
+else{
+    baseBuild.use(imagemin({
+        optimizationLevel: 3,
+        svgoPlugins: [{ removeViewBox: true }]
+    }))
+
+}

@@ -1,0 +1,32 @@
+doctype html
+- var availableLangs = locales.filter(x => x !== locale && !!lang(x))
+- var path = locale==defaultLocale ? "/" : "/"+locale+"/"
+include mixins
+html(lang=locale)
+    include partials/head
+    body
+        div.bg-first
+            +headerMenu("ctf")
+            section#welcome
+                div.grid-x
+                    div.large-offset-1.large-3.cell.cell-text
+                        h1.main #{finals_header_main}
+                        h1 #{finals_header_sub}
+                        .
+                            #{finals_text}
+                        hr
+        section#teams
+            div.grid-x
+                div.large-offset-1.large-4.cell.cell-text
+                    h1.main #{teams_header_main}
+                    h1 #{teams_header_sub}
+                div.large-offset-1.large-10.cell.cell-text
+                    +teamsTable(teams_table_accepted,teams_table_waiting,teams,locale)
+        section#partners
+            div.grid-x
+                div.large-offset-1.large-4.cell.cell-text
+                    h1.main #{partners_header_main}
+                    h1 #{partners_header_sub}
+                div.large-offset-1.large-10.cell
+                    +partnersGrid(partners,locale,-1)
+        include partials/footer

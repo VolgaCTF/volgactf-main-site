@@ -1,0 +1,22 @@
+- name:
+    en: "COMPETITION BOARD"
+    ru: "ОРГАНИЗАТОРЫ СОРЕВНОВАНИЙ"
+  partners:
+    - image: "dit.png"
+      link: "http://dit.samregion.ru/"
+    - image: "su.svg"
+      link: "http://www.ssau.ru/"
+    - image: "sroo.png"
+      link: ""
+    - image: "infsp.png"
+      link: "http://samis.geosamara.ru/"
+#- name:
+#    en: "Partners"
+#    ru: "Партнеры"
+#- name:
+#    en: "Technical partners"
+#    ru: "Технические партнеры"
+#- name:
+#    en: "Media partners"
+#    ru: "Информационные партнеры"
+
