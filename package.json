@@ -22,5 +22,8 @@
     "metalsmith-uglify": "^1.5.1",
     "metalsmith-watch": "^1.0.3",
     "pug": "^2.0.0-rc.3"
+  },
+  "scripts": {
+    "build": "node ./index.js"
   }
 }
