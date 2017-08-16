@@ -1,9 +1,15 @@
-mixin iconedText(imagePath, text)
-    - var transformedText = markdown_text(text)
+mixin iconedText(imagePath, imageText, link)
+    - var transformedText = markdown_text(imageText)
     div.grid-x
-        div.cell.large-12.text-center
-            img.icon(src=imagePath)
-        div.cell.large-12.align-center-middle.text-center !{transformedText}
+        if link
+            div.cell.large-12.text-center
+                a(href=link, target="_blank")
+                    img.icon(src=imagePath)
+            div.cell.large-12.align-center-middle.text-center !{transformedText}
+        else
+            div.cell.large-12.text-center
+                img.icon(src=imagePath)
+            div.cell.large-12.align-center-middle.text-center !{transformedText}
 
 mixin partnerLogo(imagePath, href)
     if href === ""
@@ -22,7 +28,7 @@ mixin headerMenu(menu,locale, localePath,selectedTitle)
                 ul.menu.align-center
                     each item in menu
                         li(class={"is-active": selectedTitle === item.title})
-                            a(href=localePath+item.page) #{item.name[locale]}
+                            a(href=localePath + item.page) #{item.name[locale]}
 
 mixin partnersGrid(partners,locale,level)
     if level !== -1
