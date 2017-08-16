@@ -46,6 +46,11 @@
             en: "Tomsk State University"
             ru: "Томский государственный университет"
           status: true
+        - name: "Bushwhackers"
+          edu:
+            en: "Moscow State University"
+            ru: "Московский государственный университет"
+          status: true  
   - name:
       en: "Volga federal district teams"
       ru: "Команды приволжского федерального округа"
