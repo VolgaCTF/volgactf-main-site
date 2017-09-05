@@ -23,7 +23,7 @@ mixin headerMenu(menu,locale, localePath,selectedTitle)
     header
         div.grid-x
             div.large-2.cell.large-offset-1.hide-for-small-only.hide-for-medium-only
-                img.logo(src="images/logo.svg")
+                img.logo(src="/images/logo.svg")
             div.large-6.large-offset-2.cell.menu-cell
                 ul.menu.align-center
                     each item in menu
@@ -36,7 +36,7 @@ mixin partnersGrid(partners,locale,level)
         div.grid-x.align-center-middle
             each partner in target.partners
                 div.large-3.small-6.text-center
-                    +partnerLogo("images/" + partner.image,partner.link)
+                    +partnerLogo("/images/" + partner.image,partner.link)
     else
         div.grid-x.align-center-middle
             each section in partners
@@ -44,7 +44,7 @@ mixin partnersGrid(partners,locale,level)
                     h2 #{section.name[locale]}
                 each partner in section.partners
                     div.large-3.small-6.text-center
-                        +partnerLogo("images/" + partner.image,partner.link)
+                        +partnerLogo("/images/" + partner.image,partner.link)
 
 mixin teamsTable(sentStatus,acceptedStatus,teams, sourceLang)
     div.table-scroll

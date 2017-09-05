@@ -1,0 +1,18 @@
+doctype html
+- var availableLangs = locales.filter(x => x !== locale && !!lang(x))
+- var localePath = locale==defaultLocale ? "" : "/"+locale
+include mixins
+html(lang=locale)
+    include partials/head
+    body
+        div
+            +headerMenu(menu,locale,localePath)
+        section#news
+            div.grid-x
+                div.large-offset-1.large-10.cell.cell-text
+                    h1.main #{news_header_main}
+                    .
+                        !{contents}
+                    hr
+                div.large-6.cell
+        include partials/footer
