@@ -2,16 +2,16 @@
       en: "International teams"
       ru: "Международные команды"
     teams:
-      - name: "NaruseJun"
+      - name: "WeAreScientists"
         edu:
-          en: "Tokyo Institute of Technology"
-          ru: "Tokyo Institute of Technology"
+          en: "Sankt Pölten University of Applied Sciences"
+          ru: "Sankt Pölten University of Applied Sciences"
         status: true
-      - name: "RPISEC"
+      - name: "Batman's Kitchen"
         edu:
-          en: "Rensselaer Polytechnic Institute"
-          ru: "Rensselaer Polytechnic Institute"
-        status: false
+          en: "University of Washington"
+          ru: "University of Washington"
+        status: true
       - name: "STT"
         edu:
           en: "Instituto Superior Tecnico"
