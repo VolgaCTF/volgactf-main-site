@@ -17,6 +17,11 @@
           en: "Instituto Superior Tecnico"
           ru: "Instituto Superior Tecnico"
         status: true
+      - name: "ISITDTU"
+        edu:
+          en: "Duy Tan University"
+          ru: "Duy Tan University"
+        status: true
   - name:
         en: "Russian teams"
         ru: "Российские команды"
