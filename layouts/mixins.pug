@@ -33,12 +33,12 @@ mixin headerMenu(menu,locale, localePath,selectedTitle)
 mixin partnersGrid(partners,locale,level)
     if level !== -1
         - var target = partners[level]
-        div.grid-x.align-center-middle
+        div.grid-x
             each partner in target.partners
                 div.large-3.small-6.text-center
                     +partnerLogo("/images/" + partner.image,partner.link)
     else
-        div.grid-x.align-center-middle
+        div.grid-x
             each section in partners
                 div.large-12.cell-text.cell
                     h2 #{section.name[locale]}

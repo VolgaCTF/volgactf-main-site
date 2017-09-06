@@ -10,13 +10,51 @@
       link: ""
     - image: "infsp.png"
       link: "http://samis.geosamara.ru/"
-#- name:
-#    en: "Partners"
-#    ru: "Партнеры"
-#- name:
-#    en: "Technical partners"
-#    ru: "Технические партнеры"
-#- name:
-#    en: "Media partners"
-#    ru: "Информационные партнеры"
-
+- name:
+    en: "GENERAL SPONSOR"
+    ru: "ГЕНЕРАЛЬНЫЙ СПОНСОР"
+  partners:
+    - image: "rostelecom.png"
+      link: "http://www.rostelecom.ru/"
+- name:
+    en: "GENERAL MEDIA PARTNER"
+    ru: "ГЕНЕРАЛЬНЫЙ ИНФОПАРТНЁР"
+  partners:
+    - image: "interfax.svg"
+      link: "http://www.interfax.ru/"
+- name:
+    en: "OFFICIAL PARTNER"
+    ru: "ОФИЦИАЛЬНЫЙ ПАРТНЕР"
+  partners:
+    - image: "Infotex.png"
+      link: "https://www.infotecs.ru/"
+- name:
+    en: "PARTNERS"
+    ru: "ПАРТНЁРЫ СОРЕВНОВАНИЙ"
+  partners:
+    - image: "gis.png"
+      link: "http://www.gaz-is.ru/"
+    - image: "kaspersky.svg"
+      link: "http://www.kaspersky.ru/"
+    - image: "it_universe.png"
+      link: "http://www.it-universe.ru/"
+- name:
+    en: "TECHNICAL PARTNERS"
+    ru: "ТЕХНИЧЕСКИЕ ПАРТНЕРЫ"
+  partners:
+    - image: "dlink.svg"
+      link: "http://www.dlink.ru/"
+- name:
+    en: "MEDIA PARTNERS"
+    ru: "ИНФОРМАЦИОННЫЕ ПАРТНЕРЫ"
+  partners:
+    - image: "dsec.png"
+      link: "http://dsec.ru/"
+    - image: "PT.jpg"
+      link: "https://www.ptsecurity.ru/"
+    - image: "sbertex.jpg"
+      link: "http://vk.com/sbertechnology"
+    - image: "xakep_logo.png"
+      link: "https://xakep.ru/"
+    - image: "bis.png"
+      link: "https://journal.ib-bank.ru/"

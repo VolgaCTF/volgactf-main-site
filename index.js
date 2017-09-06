@@ -72,7 +72,8 @@ if(env === "development"){
             paths: {
                 "layouts/**/*": "**/*",
                 "src/css/**/*": "**/*",
-                "src/*.md": "**/*"
+                "src/**/*.md": "**/*",
+                "src/meta/*" : "**/*"
             },
             livereload: true,
         })
