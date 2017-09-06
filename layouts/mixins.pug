@@ -55,7 +55,8 @@ mixin teamsTable(sentStatus,acceptedStatus,teams, sourceLang)
                         th(colspan="3") #{section.name[sourceLang]}
                     each team in section.teams
                         tr
-                            td #{team.name}
+                            td
+                                a(href=team.ctftime_link, target="_blank") #{team.name}
                             td #{team.edu[sourceLang]}
                             if team.status
                                 td #{acceptedStatus}

@@ -55,3 +55,5 @@ jspm_packages
 /bower_components
 *.iml
 .idea/
+
+.DS_Store
