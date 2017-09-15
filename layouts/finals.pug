@@ -15,6 +15,13 @@ html(lang=locale)
                         .
                             #{finals_text}
                         hr
+        section#schedule
+            div.grid-x
+                div.large-offset-1.large-4.cell.cell-text
+                    h1.main #{schedule_header}
+            div.grid-x
+                div.cell.medium-offset-4.medium-4.schedule
+                    +schedule(schedule,locale)
         section#teams
             div.grid-x
                 div.large-offset-1.large-4.cell.cell-text
@@ -22,14 +29,14 @@ html(lang=locale)
                     h1 #{teams_header_sub}
                 div.large-offset-1.large-10.cell.cell-text
                     +teamsTable(teams_table_waiting, teams_table_accepted, teams, locale)
-            section#documents
-                div.grid-x.bg-second
-                    div.large-offset-1.large-2.cell.cell-text
-                        h1.main #{documents_header_main}
-                    div.large-6.large-offset-2.cell.cell-text
-                        div.grid-x.cell-window
-                            div.large-6.cell
-                                +iconedText("images/download.svg",document1_text,"/volgactf-2017-finals/press-release.html")
+        section#documents
+            div.grid-x.bg-second
+                div.large-offset-1.large-2.cell.cell-text
+                    h1.main #{documents_header_main}
+                div.large-6.large-offset-2.cell.cell-text
+                    div.grid-x.cell-window
+                        div.large-6.cell
+                            +iconedText("images/download.svg",document1_text,"/volgactf-2017-finals/press-release.html")
         section#partners
             div.grid-x
                 div.large-offset-1.large-4.cell.cell-text

@@ -38,7 +38,8 @@ var baseBuild = Metalsmith(__dirname)
     .use(metadata({
         teams: 'meta/teams.yaml',
         partners: 'meta/partners.yaml',
-        menu: 'meta/menu.yaml'
+        menu: 'meta/menu.yaml',
+        schedule: 'meta/schedule.yaml'
     }))
     .use(multiLanguage({
       default: DEFAULT_LANG,

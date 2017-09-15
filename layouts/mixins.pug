@@ -1,3 +1,22 @@
+mixin schedule(scheduleData,locale)
+    each day,index in scheduleData
+        div(class= index === 0 ? "grid-x" : "grid-x hide")
+            div.large-offset-8.large-3.cell.text-right.date
+                img.schedule-control.schedule-previous(src="/images/previous.svg")
+                .
+                    #{day.date}
+                img.schedule-control.schedule-next(src="/images/next.svg")
+            div.large-12.cell
+                each item in day.schedule
+                    div.grid-x.schedule-element
+                        div.cell.small-offset-1.small-1 #{item.time}
+                        div.cell.small-offset-1.small-8 #{item.name[locale]}
+                            if item.author
+                                br
+                                em #{item.author[locale]}
+
+
+
 mixin iconedText(imagePath, imageText, link)
     - var transformedText = markdown_text(imageText)
     div.grid-x

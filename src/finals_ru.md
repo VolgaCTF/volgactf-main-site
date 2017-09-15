@@ -10,6 +10,7 @@ teams_table_waiting: Приглашение отправлено
 partners_header_main: ПАРТНЕРЫ И
 partners_header_sub: СПОНСОРЫ
 documents_header_main: ДОКУМЕНТЫ
+schedule_header: РАСПИСАНИЕ
 document1_text: "[Пресс релиз](/volgactf-2017-finals/press-release.html){target=_blank}"
 layout: finals.pug
 ---

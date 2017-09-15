@@ -3,136 +3,157 @@
 @import "colors";
 @import "mixins";
 
-a{
+a {
   color: inherit;
 }
+
 body {
   overflow-x: hidden;
   background-color: @background-gray;
   .body-font;
 }
 
-section{
-  padding-left:10px;
+section {
+  padding-left: 10px;
   padding-right: 10px;
 }
 
-div.cell-text{
+div.cell-text {
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
-.menu .is-active>a {
+.menu .is-active > a {
   background: @violet;
   color: white;
 }
 
-hr{
+hr {
   background-color: @yellow;
   color: @yellow;
   border: none;
   height: 2px;
   width: 50px;
-  text-align:left;
-  margin-left:0
+  text-align: left;
+  margin-left: 0
 }
 
-table.teams{
+table.teams {
   margin: auto;
 }
 
-h1.main{
+h1.main {
   .header-font-bold
 }
 
-h1{
+h1 {
   .header-font
 }
 
-h2{
+h2 {
   .subheader-font
 }
 
-.welcome_padding{
+.welcome_padding {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.finals_welcome_padding{
+.finals_welcome_padding {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-header{
-  .menu-cell{
+header {
+  .menu-cell {
     .menu-font;
-    .menu{
+    .menu {
       padding: 20px 30px;
       background-color: white;
     }
   }
 }
 
-
-.icon{
+.icon {
   width: 80px;
   height: 60px;
 }
 
-.top-padding{
+.top-padding {
   padding-top: 20px;
 }
 
-.cell-window{
-  background: rgba(255,255,255,0.85);
+.cell-window {
+  background: rgba(255, 255, 255, 0.85);
   padding: 50px
 }
 
-
-
-footer{
+footer {
   margin-top: 30px;
   background-color: @violet;
-  .logo_white{
+  .logo_white {
     width: 80px;
     height: 60px;
   }
-  .menu{
+  .menu {
     .footer-font;
-    a{
+    a {
       padding: .5rem .8rem;
     }
   }
 }
-.partner{
+
+.partner {
   display: block;
-  position:relative;
+  position: relative;
   width: 100px;
   height: 100px;
   padding-left: 5px;
   padding-right: 5px;
   opacity: 0.7;
   margin: 0 auto;
-  img{
-    position:absolute;
-    top:0;
-    bottom:0;
+  img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
     margin: auto;
     left: 0;
     right: 0;
   }
 }
 
+div.schedule {
+  background-color: @violet;
+  color: @white;
+  div.date{
+    .header-font();
+    margin-top: 10px;
+  }
+  div.schedule-element {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  img.schedule-control{
+    width: 12pt;
+    height: 12pt;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+}
+
 @media (min-width: 769px) {
-  section{
-    padding-left:0;
+  section {
+    padding-left: 0;
     padding-right: 0;
   }
-  .bg-first{
+
+  .bg-first {
     .background-cover("../images/bg-first.jpg");
   }
 
-  .bg-second{
+  .bg-second {
     background-image: url("../images/bg-second.jpg");
     background-repeat: no-repeat;
     background-position-x: 100%;
@@ -140,44 +161,44 @@ footer{
     min-height: 500px;
   }
 
-  .bg-third{
+  .bg-third {
     background-image: url("../images/bg_third.jpg");
     background-repeat: no-repeat;
     background-position-x: 100%;
     background-position-y: 0%;
   }
 
-  .welcome_padding{
+  .welcome_padding {
     padding-top: 100px;
     padding-bottom: 300px;
   }
 
-  .finals_welcome_padding{
+  .finals_welcome_padding {
     padding-top: 50px;
     padding-bottom: 227px;
   }
 
-  header{
+  header {
     padding-top: 30px;
-    .logo{
+    .logo {
       width: 200px;
       height: 100px;
     }
   }
 
-  .partner{
+  .partner {
     display: block;
-    position:relative;
+    position: relative;
     width: 200px;
     height: 100px;
     padding-left: 5px;
     padding-right: 5px;
     opacity: 0.7;
     margin: 0 auto;
-    img{
-      position:absolute;
-      top:0;
-      bottom:0;
+    img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
       margin: auto;
       left: 0;
       right: 0;

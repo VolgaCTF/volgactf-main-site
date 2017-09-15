@@ -1,0 +1,93 @@
+- date: "19.09"
+  schedule:
+    - time: "11:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "11:15"
+      name:
+        en: "Hacking POS for economy and fun"
+        ru: "Как взломать POS системы и сэкономить"
+      author:
+        en: "Vladimir Egorov a.k.a NotSoFunny"
+        ru: "Владимир Егоров a.k.a NotSoFunny"
+    - time: "12:15"
+      name:
+        en: "Quantum information security"
+        ru: "Квантовая информационная безопасность"
+      author:
+        en: "Andrey Zhilyaev, Researcher, OJSC Infotex"
+        ru: "Андрей Жиляев, Исследователь, ОАО Инфотекс"
+
+    - time: "13:15"
+      name:
+        en: "Malware persistence: Case study"
+        ru: "Malware persistence: обзор интересных кейсов"
+      author:
+        en: "Oleg Ababilov, information security analyst, OJSC Kaspersky Lab"
+        ru: "Олег Абабилов, аналитик по информационной безопасности, АО Лаборатория Касперского"
+    - time: "14:00"
+      name:
+        en: "Lunch"
+        ru: "Обед"
+    - time: "15:00"
+      name:
+        en: "Introduction to competitive intelligence by example"
+        ru: "Введение в конкурентную разведку. Примеры и методы"
+      author:
+        en: "Maksim Avdyunin, Senior Analyst, CJSC PM"
+        ru: "Максим Авдюнин, Старший аналитик, ЗАО ПМ"
+    - time: "16:00"
+      name:
+        en: "Dynamical analysis of iOS applications without Jailbreak"
+        ru: "Динамический анализ iOS приложений без Jailbreak"
+      author:
+        en: "Egor Saltykov, Analyst, Digital Security"
+        ru: "Егор Салтыков, Аналитик, Digital Security"
+    - time: "17:00"
+      name:
+        en: "What can a WannaCry do in industry infrastructure? History of one incident"
+        ru: "Что может сделать WannaCry в промышленной инфраструктуре? История одного инцидента"
+      author:
+        en: "Vyacheslav Kopeycev, OJSC Kaspersky Lab"
+        ru: "Вячеслав Копейцев, АО Лаборатория Касперского"
+- date: "20.09"
+  schedule:
+    - time: "9:00"
+      name:
+        en: "Implementing network security with Cisco ASA and FirePOWER services (Sergey Romenskiy, LLC GAZINFORMSERVIS)"
+        ru: "Защита сети при помощи Cisco ASA с сервисами FirePOWER (Сергей Роменский, ООО ГАЗИНФОРМСЕРВИС)"
+    - time: "10:00"
+      name:
+        en: "PHD VII Hackbattle: tasks analysis (Eldar Beibutov)"
+        ru: "Разбор заданий PHD VII Hackbatlle (Эльдар Бейбутов)"
+    - time: "11:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "11:15"
+      name:
+        en: "Inside hardware (Hardware Village)"
+        ru: "Inside hardware (Hardware Village, Деревушка для любителей хардварного хакинга)"
+    - time: "12:15"
+      name:
+        en: "Magstripe, RFID, NFC (Hardware Village)"
+        ru: "Magstripe, RFID, NFC (Hardware Village, Деревушка для любителей хардварного хакинга)"
+    - time: "13:15"
+      name:
+        en: "GSM (Hardware Village)"
+        ru: "GSM (Hardware Village, Деревушка для любителей хардварного хакинга)"
+    - time: "14:00"
+      name:
+        en: "Lunch"
+        ru: "Обед"
+    - time: "15:00"
+      name:
+        en: "Infrared (Hardware Village)"
+        ru: "Infrared (Hardware Village, Деревушка для любителей хардварного хакинга)"
+    - time: "16:00"
+      name:
+        en: "2.4GHz: WiFi/Bluetooth/other (Hardware Village)"
+        ru: "2.4GHz: WiFi/Bluetooth/other (Hardware Village, Деревушка для любителей хардварного хакинга)"
+
+
