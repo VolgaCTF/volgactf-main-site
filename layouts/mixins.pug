@@ -1,7 +1,7 @@
 mixin schedule(scheduleData,locale)
     each day,index in scheduleData
         div(class= index === 0 ? "grid-x" : "grid-x hide")
-            div.large-offset-8.large-3.cell.text-right.date
+            div.large-offset-7.large-4.cell.text-right.date
                 img.schedule-control.schedule-previous(src="/images/previous.svg")
                 .
                     #{day.date}
