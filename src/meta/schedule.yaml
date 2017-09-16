@@ -1,5 +1,13 @@
 - date: "19.09"
   schedule:
+    - time: "9:00"
+      name:
+        en: "Registration of contestants"
+        ru: "Регистрация участников"
+    - time: "10:00"
+      name:
+        en: ""
+        ru: "Открытие соревнований"
     - time: "11:00"
       name:
         en: "Coffee break"
@@ -55,39 +63,95 @@
   schedule:
     - time: "9:00"
       name:
-        en: "Implementing network security with Cisco ASA and FirePOWER services (Sergey Romenskiy, LLC GAZINFORMSERVIS)"
-        ru: "Защита сети при помощи Cisco ASA с сервисами FirePOWER (Сергей Роменский, ООО ГАЗИНФОРМСЕРВИС)"
+        en: "Implementing network security with Cisco ASA and FirePOWER services"
+        ru: "Защита сети при помощи Cisco ASA с сервисами FirePOWER"
+      author:
+        en: "Sergey Romenskiy, LLC GAZINFORMSERVIS"
+        ru: "Сергей Роменский, ООО ГАЗИНФОРМСЕРВИС"
     - time: "10:00"
       name:
-        en: "PHD VII Hackbattle: tasks analysis (Eldar Beibutov)"
-        ru: "Разбор заданий PHD VII Hackbatlle (Эльдар Бейбутов)"
+        en: "PHD VII Hackbattle: tasks analysis"
+        ru: "Разбор заданий PHD VII Hackbatlle"
+      author:
+        en: "Eldar Beibutov"
+        ru: "Эльдар Бейбутов"
     - time: "11:00"
       name:
         en: "Coffee break"
         ru: "Кофе-брейк"
     - time: "11:15"
       name:
-        en: "Inside hardware (Hardware Village)"
-        ru: "Inside hardware (Hardware Village, Деревушка для любителей хардварного хакинга)"
+        en: "Inside hardware"
+        ru: "Inside hardware"
+      author:
+        en: "Hardware Village"
+        ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
     - time: "12:15"
       name:
-        en: "Magstripe, RFID, NFC (Hardware Village)"
-        ru: "Magstripe, RFID, NFC (Hardware Village, Деревушка для любителей хардварного хакинга)"
+        en: "Magstripe, RFID, NFC"
+        ru: "Magstripe, RFID, NFC"
+      author:
+        en: "Hardware Village"
+        ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
     - time: "13:15"
       name:
-        en: "GSM (Hardware Village)"
-        ru: "GSM (Hardware Village, Деревушка для любителей хардварного хакинга)"
+        en: "GSM"
+        ru: "GSM"
+      author:
+        en: "Hardware Village"
+        ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
     - time: "14:00"
       name:
         en: "Lunch"
         ru: "Обед"
     - time: "15:00"
       name:
-        en: "Infrared (Hardware Village)"
-        ru: "Infrared (Hardware Village, Деревушка для любителей хардварного хакинга)"
+        en: "Infrared"
+        ru: "Infrared"
+      author:
+        en: "Hardware Village"
+        ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
     - time: "16:00"
       name:
-        en: "2.4GHz: WiFi/Bluetooth/other (Hardware Village)"
-        ru: "2.4GHz: WiFi/Bluetooth/other (Hardware Village, Деревушка для любителей хардварного хакинга)"
-
+        en: "2.4GHz: WiFi/Bluetooth/other"
+        ru: "2.4GHz: WiFi/Bluetooth/other"
+      author:
+        en: "Hardware Village"
+        ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
+- date: "21.09"
+  schedule:
+    - time: "9:00"
+      name:
+        en: "CTF start"
+        ru: "Начало соревнований"
+    - time: "14:00"
+      name:
+        en: "Lunch"
+        ru: "Обед"
+    - time: "15:00"
+      name:
+        en: "CTF"
+        ru: "Продолжение соревнований"
+    - time: "19:00"
+      name:
+        en: "CTF end"
+        ru: "Окончание соревнований"
+    - time: "21:00"
+      name:
+        en: "Volga Challenge 21+"
+        ru: "Volga Challenge 21+"
+- date: "22.09"
+  schedule:
+    - time: "11:00"
+      name:
+        en: ""
+        ru: "Обсуждение результатов соревнований"
+    - time: "12:00"
+      name:
+        en: ""
+        ru: "Выступление представителей Ростелеком и Интерфакс"
+    - time: "13:00"
+      name:
+        en: ""
+        ru: "Награждение, закрытие соревнований"
 
