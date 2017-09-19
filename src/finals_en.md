@@ -9,6 +9,7 @@ partners_header_main: PARTNERS AND
 partners_header_sub: SPONSORS
 documents_header_main: DOCUMENTS
 schedule_header: SCHEDULE OF EVENTS
+stream_header: VIDEO STREAM
 document1_text: "[Press Release](/volgactf-2017-finals/press-release.html){target=_blank}"
 layout: finals.pug
 ---
