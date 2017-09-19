@@ -50,7 +50,7 @@ mixin headerMenu(menu,locale, localePath,selectedTitle)
                     each item in menu
                         li(class={"is-active": selectedTitle === item.title})
                             a(href=localePath + item.page) #{item.name[locale]}
-            div.large-1.cell.language-selector
+            div.large-1.cell.language-selector.small-centered.text-center
                 if(locale === "ru")
                     b RU
                     .
