@@ -39,6 +39,8 @@ mixin partnerLogo(imagePath, href)
             img(src=imagePath)
 
 mixin headerMenu(menu,locale, localePath,selectedTitle)
+    - var altPath = locale==="en" ? "/" : "/en/"
+    - var alternativeUrl = altPath + altFiles[locale].filename.substr(altFiles[locale].filename.lastIndexOf("/")+1).replace(".md",".html").replace("_"+locale,"")
     header
         div.grid-x
             div.large-2.cell.large-offset-1.hide-for-small-only.hide-for-medium-only
@@ -48,6 +50,18 @@ mixin headerMenu(menu,locale, localePath,selectedTitle)
                     each item in menu
                         li(class={"is-active": selectedTitle === item.title})
                             a(href=localePath + item.page) #{item.name[locale]}
+            div.large-1.cell.language-selector
+                if(locale === "ru")
+                    b RU
+                    .
+                        /
+                    a(href=alternativeUrl) EN
+                else
+                    a(href=alternativeUrl) RU
+                    .
+                        /
+                    b EN
+
 
 mixin partnersGrid(partners,locale,level)
     if level !== -1

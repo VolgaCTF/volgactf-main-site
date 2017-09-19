@@ -1,19 +1,16 @@
 ---
-title: VolgaCTF::Главная
-main: ГЛАВНАЯ
-ctf: ТЕКУЩИЕ СОРЕВНОВАНИЯ
-contacts: КОНТАКТЫ
-welcome_text: Добро пожаловать на ежегодные открытые соревнования в области информационной безопастности VolgaCTF
-about_header_main: ЧТО ТАКОЕ
-about_header_sub: VOLGA CTF
-about_text: Это международные открытые соревнования которые собирают до 700 команд со всего мира.
-about_text2: Финал соревнования проходит в г. Самара и организовывается Самарским университетом совместно с департаментом информационных технологий и связи Самарской области
+title: VolgaCTF::Home
+welcome_text: Welcome to Volga CTF annual open competition in the field of cyber security
+about_header_main: WHAT IS
+about_header_sub: VOLGA CTF?
+about_text: It is an international contest that gathers up to 700 teams from all around the globe.
+about_text2: Competition finals are held in Samara city and are hosted by Samara University in cooperation with IT and Communications Department of Samara Region
 describe_header_main: VOLGA CTF
-describe_header_sub: ЭТО&#58;
-orgs_header_main: НАШИ
-orgs_header_sub: ОРГАНИЗАТОРЫ
-about_team_text: Место встрeчи активных и целеустремленных молодых специалистов в области информационной безопастности
-about_tribune_text: Площадка где ведущие специалисты из России и из-за рубежа делятся опытом с новым поколением специалистов по информационной безопастности
-about_heart_text: VolgaCTF - это дружба!
+describe_header_sub: IS&#58;
+orgs_header_main: COMPETITION
+orgs_header_sub: ORGANISERS
+about_team_text: The meeting place for active and committed young specialists in the field of cyber security.
+about_tribune_text: The forum site where leading specialists both from Russia and from abroad share their experience with the new generation of cyber security professionals.
+about_heart_text: VolgaCTF is friendship!
 layout: base.pug
 ---

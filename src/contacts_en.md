@@ -1,19 +1,15 @@
 ---
-title: VolgaCTF::Главная
-main: ГЛАВНАЯ
-ctf: ТЕКУЩИЕ СОРЕВНОВАНИЯ
-contacts: КОНТАКТЫ
-welcome_text: Добро пожаловать на ежегодные открытые соревнования в области информационной безопастности VolgaCTF
-about_header_main: ЧТО ТАКОЕ
-about_header_sub: VOLGA CTF
-about_text: Это международные открытые соревнования которые собирают до 700 команд со всего мира.
-about_text2: Финал соревнования проходит в г. Самара и организовывается Самарским университетом совместно с департаментом информационных технологий и связи Самарской области
-describe_header_main: VOLGA CTF
-describe_header_sub: ЭТО&#58;
-orgs_header_main: НАШИ
-orgs_header_sub: ОРГАНИЗАТОРЫ
-about_team_text: Место встрeчи активных и целеустремленных молодых специалистов в области информационной безопастности
-about_tribune_text: Площадка где ведущие специалисты из России и из-за рубежа делятся опытом с новым поколением специалистов по информационной безопастности
-about_heart_text: VolgaCTF - это дружба!
-layout: base.pug
+title: VolgaCTF::Contacts
+contacts_header_main: WAYS TO
+contacts_header_sub: CONTACT US
+social_header_main: FOLLOW THE
+social_header_sub: NEWS
+about_invite_text: Submit participation-related questions to [invite@volgactf.ru](mailto:invite@volgactf.ru)
+about_tribune_text: Suggest a lecture/seminar via [speakers@volgactf.ru](mailto:speakers@volgactf.ru)
+about_partners_text: Offer your cooperation via [partners@volgactf.ru](mailto:partners@volgactf.ru)
+about_info_text: "Should you need any further information, consult the group [https://vk.com/volgactf](https://vk.com/volgactf){target=_blank}"
+about_vk_text: "[VKontakte community](https://vk.com/volgactf){target=_blank}"
+about_twitter_text: "[Twitter](https://twitter.com/volgactf){target=_blank}"
+about_github_text: "[Github](https://github.com/volgactf){target=_blank}"
+layout: contacts.pug
 ---

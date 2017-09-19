@@ -9,6 +9,7 @@ markdown = require('metalsmith-markdown');
 multiLanguage = require('./metalsmith-multilang');
 metadata = require('metalsmith-metadata');
 imagemin = require('metalsmith-imagemin');
+filename = require('metalsmith-filenames');
 
 const DEFAULT_LANG = "ru";
 const LANGS = ['ru', 'en'];
@@ -22,9 +23,9 @@ var env = process.env.NODE_ENV;
 
 
 //simple metalsmith plugin for assets copy
-copy_assets = function(assets, dist_dir) {
-    return function(files, metalsmith, done) {
-        assets.forEach(function(file) {
+copy_assets = function (assets, dist_dir) {
+    return function (files, metalsmith, done) {
+        assets.forEach(function (file) {
             contents = readFileSync(file);
             files[dist_dir + "/" + (basename(file))] = {
                 contents: contents
@@ -42,8 +43,8 @@ var baseBuild = Metalsmith(__dirname)
         schedule: 'meta/schedule.yaml'
     }))
     .use(multiLanguage({
-      default: DEFAULT_LANG,
-      locales: LANGS
+        default: DEFAULT_LANG,
+        locales: LANGS
     }))
     .use(uglify({
         concat: "js/main.min.js"
@@ -63,35 +64,36 @@ var baseBuild = Metalsmith(__dirname)
     .use(filter(['*', '**/*', '!**/*.less']))
 
     .use(markdown())
+    .use(filename())
     .use(layouts({
         engine: 'pug'
     }));
 
-if(env === "development"){
+if (env === "development") {
     baseBuild.use(
         watch({
             paths: {
                 "layouts/**/*": "**/*",
                 "src/css/**/*": "**/*",
                 "src/**/*.md": "**/*",
-                "src/meta/*" : "**/*"
+                "src/meta/*": "**/*"
             },
             livereload: true,
         })
     )
         .use(serve())
-        .build(function(err) {
+        .build(function (err) {
             if (err) {
                 console.log(err);
             }
             console.log("Build finished!!!");
         });
 }
-else{
+else {
     baseBuild.use(imagemin({
         optimizationLevel: 3,
-        svgoPlugins: [{ removeViewBox: true }]
-    })).build(function(err) {
+        svgoPlugins: [{removeViewBox: true}]
+    })).build(function (err) {
         if (err) {
             console.log(err);
         }

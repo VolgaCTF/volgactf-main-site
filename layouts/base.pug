@@ -1,6 +1,5 @@
 doctype html
-- var availableLangs = locales.filter(x => x !== locale && !!lang(x))
-- var localePath = locale==defaultLocale ? "" : "/"+locale
+- var localePath = locale===defaultLocale ? "" : "/"+locale
 include mixins
 html(lang=locale)
     include partials/head
@@ -32,11 +31,11 @@ html(lang=locale)
                 div.large-6.large-offset-2.cell.cell-text
                     div.grid-x.cell-window
                         div.large-6.cell
-                            +iconedText("images/command.svg",about_team_text)
+                            +iconedText("/images/command.svg",about_team_text)
                         div.large-6.cell
-                            +iconedText("images/tribune.svg",about_tribune_text)
+                            +iconedText("/images/tribune.svg",about_tribune_text)
                         div.large-6.cell.top-padding
-                            +iconedText("images/like.svg",about_heart_text)
+                            +iconedText("/images/like.svg",about_heart_text)
 
         section#orgs
             div.grid-x

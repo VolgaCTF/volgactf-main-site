@@ -2,11 +2,11 @@
   schedule:
     - time: "9:00"
       name:
-        en: "Registration of contestants"
+        en: "Registration of participants"
         ru: "Регистрация участников"
     - time: "10:00"
       name:
-        en: ""
+        en: "Conference opening"
         ru: "Открытие соревнований"
     - time: "11:00"
       name:
@@ -14,59 +14,59 @@
         ru: "Кофе-брейк"
     - time: "11:15"
       name:
-        en: "Hacking POS for economy and fun"
+        en: "How to hack POS systems and save"
         ru: "Как взломать POS системы и сэкономить"
       author:
         en: "Vladimir Egorov a.k.a NotSoFunny"
         ru: "Владимир Егоров a.k.a NotSoFunny"
     - time: "12:15"
       name:
-        en: "Quantum information security"
+        en: "Quantum cyber security"
         ru: "Квантовая информационная безопасность"
       author:
-        en: "Andrey Zhilyaev, Researcher, OJSC Infotex"
+        en: "Andrey Zhilyaev, Researcher, Infoteks OJSC"
         ru: "Андрей Жиляев, Исследователь, ОАО Инфотекс"
 
     - time: "13:15"
       name:
-        en: "Malware persistence: Case study"
+        en: "Malware Persistence: review of interesting cases"
         ru: "Malware persistence: обзор интересных кейсов"
       author:
-        en: "Oleg Ababilov, information security analyst, OJSC Kaspersky Lab"
+        en: "Oleg Ababilov, cyber security analyst, Kaspersky Lab OJSC"
         ru: "Олег Абабилов, аналитик по информационной безопасности, АО Лаборатория Касперского"
     - time: "14:00"
       name:
-        en: "Lunch"
+        en: "Lunchtime"
         ru: "Обед"
     - time: "15:00"
       name:
         en: "Introduction to competitive intelligence by example"
         ru: "Введение в конкурентную разведку. Примеры и методы"
       author:
-        en: "Maksim Avdyunin, Senior Analyst, CJSC PM"
+        en: "Maksim Avdyunin, Senior Analyst, PM CJSC"
         ru: "Максим Авдюнин, Старший аналитик, ЗАО ПМ"
     - time: "16:00"
       name:
-        en: "Dynamical analysis of iOS applications without Jailbreak"
+        en: "Dynamic analysis of iOS applications without Jailbreak"
         ru: "Динамический анализ iOS приложений без Jailbreak"
       author:
         en: "Egor Saltykov, Analyst, Digital Security"
         ru: "Егор Салтыков, Аналитик, Digital Security"
     - time: "17:00"
       name:
-        en: "What can a WannaCry do in industry infrastructure? History of one incident"
+        en: "What WannaCry can do in industrial infrastructure? The history of an incident"
         ru: "Что может сделать WannaCry в промышленной инфраструктуре? История одного инцидента"
       author:
-        en: "Vyacheslav Kopeycev, OJSC Kaspersky Lab"
+        en: "Vyacheslav Kopeytsev, Kaspersky Lab OJSC"
         ru: "Вячеслав Копейцев, АО Лаборатория Касперского"
 - date: "20.09"
   schedule:
     - time: "9:00"
       name:
-        en: "Implementing network security with Cisco ASA and FirePOWER services"
+        en: "Network protection using Cisco ASA and FirePOWER services"
         ru: "Защита сети при помощи Cisco ASA с сервисами FirePOWER"
       author:
-        en: "Sergey Romenskiy, LLC GAZINFORMSERVIS"
+        en: "Sergey Romenskiy, GAZINFORMSERVIS LLC"
         ru: "Сергей Роменский, ООО ГАЗИНФОРМСЕРВИС"
     - time: "10:00"
       name:
@@ -84,21 +84,21 @@
         en: "Inside hardware"
         ru: "Inside hardware"
       author:
-        en: "Hardware Village"
+        en: "Hardware Village, the village for hardware hacking fans"
         ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
     - time: "12:15"
       name:
         en: "Magstripe, RFID, NFC"
         ru: "Magstripe, RFID, NFC"
       author:
-        en: "Hardware Village"
+        en: "Hardware Village, the village for hardware hacking fans"
         ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
     - time: "13:15"
       name:
         en: "GSM"
         ru: "GSM"
       author:
-        en: "Hardware Village"
+        en: "Hardware Village, the village for hardware hacking fans"
         ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
     - time: "14:00"
       name:
@@ -109,20 +109,20 @@
         en: "Infrared"
         ru: "Infrared"
       author:
-        en: "Hardware Village"
+        en: "Hardware Village, the village for hardware hacking fans"
         ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
     - time: "16:00"
       name:
         en: "2.4GHz: WiFi/Bluetooth/other"
         ru: "2.4GHz: WiFi/Bluetooth/other"
       author:
-        en: "Hardware Village"
+        en: "Hardware Village, the village for hardware hacking fans"
         ru: "Hardware Village, Деревушка для любителей хардварного хакинга"
 - date: "21.09"
   schedule:
     - time: "9:00"
       name:
-        en: "CTF start"
+        en: "Start of CTF"
         ru: "Начало соревнований"
     - time: "14:00"
       name:
@@ -134,7 +134,7 @@
         ru: "Продолжение соревнований"
     - time: "19:00"
       name:
-        en: "CTF end"
+        en: "End of CTF"
         ru: "Окончание соревнований"
     - time: "21:00"
       name:
@@ -144,14 +144,14 @@
   schedule:
     - time: "11:00"
       name:
-        en: ""
+        en: "CTF review"
         ru: "Обсуждение результатов соревнований"
     - time: "12:00"
       name:
-        en: ""
+        en: "Speech by representatives of Rostelekom OJSC and Interfax group"
         ru: "Выступление представителей Ростелеком и Интерфакс"
     - time: "13:00"
       name:
-        en: ""
+        en: "Award ceremony"
         ru: "Награждение, закрытие соревнований"
 

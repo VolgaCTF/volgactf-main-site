@@ -1,5 +1,5 @@
 - name:
-    en: "COMPETITION BOARD"
+    en: "COMPETITION ORGANISERS"
     ru: "ОРГАНИЗАТОРЫ СОРЕВНОВАНИЙ"
   partners:
     - image: "dit.png"
@@ -29,7 +29,7 @@
     - image: "Infotex.png"
       link: "https://www.infotecs.ru/"
 - name:
-    en: "PARTNERS"
+    en: "COMPETITION PARTNERS"
     ru: "ПАРТНЁРЫ СОРЕВНОВАНИЙ"
   partners:
     - image: "gis.png"
