@@ -8,6 +8,7 @@ layouts = require('metalsmith-layouts');
 markdown = require('metalsmith-markdown');
 multiLanguage = require('./metalsmith-multilang');
 expose_markdown = require('./metalsmith-expose-markdown');
+page_metadata = require('./metalsmith-pagemetadata');
 metadata = require('metalsmith-metadata');
 imagemin = require('metalsmith-imagemin');
 filename = require('metalsmith-filenames');
@@ -39,16 +40,16 @@ copy_assets = function (assets, dist_dir) {
 
 var baseBuild = Metalsmith(__dirname)
     .use(metadata({
-        teams: 'meta/teams.yaml',
-        partners: 'meta/partners.yaml',
-        menu: 'meta/menu.yaml',
-        schedule: 'meta/schedule.yaml'
+        menu: 'meta/menu.yaml'
     }))
     .use(multiLanguage({
         default: DEFAULT_LANG,
         locales: LANGS
     }))
     .use(expose_markdown())
+    .use(page_metadata({
+        metakeys: ["schedule", "partners", "teams"]
+    }))
     .use(uglify({
         concat: "js/main.min.js"
     }))
@@ -65,7 +66,6 @@ var baseBuild = Metalsmith(__dirname)
         }
     }))
     .use(filter(['*', '**/*', '!**/*.less']))
-
     .use(markdown())
     .use(filename())
     .use(layouts({

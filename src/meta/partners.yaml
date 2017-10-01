@@ -11,6 +11,12 @@
     - image: "infsp.png"
       link: "http://samis.geosamara.ru/"
 - name:
+    en:
+    ru: "ПРИ ПОДДЕРЖКЕ"
+  partners:
+    - image: "mfa.svg"
+      link: "http://www.mid.ru"
+- name:
     en: "GENERAL SPONSOR"
     ru: "ГЕНЕРАЛЬНЫЙ СПОНСОР"
   partners:
