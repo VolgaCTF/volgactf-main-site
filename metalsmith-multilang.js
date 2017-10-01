@@ -2,8 +2,6 @@
  * BICYCLE!
  */
 var ext = require('path').extname;
-var markdown_it = require('markdown-it')();
-var markdown_it_plugin = require('markdown-it-attrs');
 
 module.exports = function (options) {
     var lang = new Multilanguage(options);
@@ -68,21 +66,6 @@ Multilanguage.prototype.getPlugin = function () {
         }
     }
 
-    function markdown_text(text) {
-        try{
-            markdown_it.use(markdown_it_plugin);
-            return markdown_it.render(text,{
-                linkify:true,
-                typographer: true,
-                inline:true
-            })
-        }
-        catch(e){
-            console.error("Markdown error",e);
-            return "";
-        }
-    }
-
     return function (files, ms, done) {
         ms.metadata().locales = self.locales;
         ms.metadata().defaultLocale = self.default;
@@ -116,7 +99,6 @@ Multilanguage.prototype.getPlugin = function () {
 
             // Bind lang()
             files[file].lang = lang.bind(files[file]);
-            files[file].markdown_text = markdown_text.bind(files[file]);
             files[file].defaultLocale = this.default;
         }
 

@@ -7,9 +7,11 @@ serve = require('metalsmith-serve');
 layouts = require('metalsmith-layouts');
 markdown = require('metalsmith-markdown');
 multiLanguage = require('./metalsmith-multilang');
+expose_markdown = require('./metalsmith-expose-markdown');
 metadata = require('metalsmith-metadata');
 imagemin = require('metalsmith-imagemin');
 filename = require('metalsmith-filenames');
+
 
 const DEFAULT_LANG = "ru";
 const LANGS = ['ru', 'en'];
@@ -46,6 +48,7 @@ var baseBuild = Metalsmith(__dirname)
         default: DEFAULT_LANG,
         locales: LANGS
     }))
+    .use(expose_markdown())
     .use(uglify({
         concat: "js/main.min.js"
     }))
