@@ -13,6 +13,7 @@ documents_header_main: ДОКУМЕНТЫ
 schedule_header: РАСПИСАНИЕ
 stream_header: ВИДЕОТРАНСЛЯЦИЯ
 document1_text: "[Пресс релиз](/volgactf-2017-finals/press-release.html){target=_blank}"
+document2_text: "[Итоги соревнований](/volgactf-2017-finals/press-release-finals.html){target=_blank}"
 meta-schedule: meta/schedule.yaml
 meta-partners: meta/partners.yaml
 meta-teams: meta/teams.yaml
