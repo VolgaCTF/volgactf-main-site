@@ -92,4 +92,19 @@ mixin teamsTable(sentStatus,acceptedStatus,teams, sourceLang)
                                 a(href=team.ctftime_link, target="_blank") #{team.name}
                             td #{team.edu[sourceLang]}
 
+mixin scoreboard(data)
+    div.table-scroll
+        table.unstriped.teams
+            tbody
+                tr
+                    th #
+                    th Team
+                    th Score
+                each team in data.standings
+                    tr
+                        td #{team.pos}
+                        td #{team.team}
+                        - var score = (team.score*100).toFixed(2) + "%"
+                        td #{score}
+
 

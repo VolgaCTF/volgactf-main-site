@@ -48,7 +48,7 @@ var baseBuild = Metalsmith(__dirname)
     }))
     .use(expose_markdown())
     .use(page_metadata({
-        metakeys: ["schedule", "partners", "teams"]
+        metakeys: ["schedule", "partners", "teams", "scoreboard"]
     }))
     .use(uglify({
         concat: "js/main.min.js"

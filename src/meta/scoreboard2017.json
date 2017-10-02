@@ -1,0 +1,89 @@
+{
+  "standings": [
+    {
+      "pos": 1,
+      "team": "BIZone",
+      "score": 0.9344416993038879
+    },
+    {
+      "pos": 2,
+      "team": "SUSlo.PAS",
+      "score": 0.9121485243682167
+    },
+    {
+      "pos": 3,
+      "team": "Corrupted Reflection",
+      "score": 0.8700889605212517
+    },
+    {
+      "pos": 4,
+      "team": "Destructive Voice",
+      "score": 0.8012893498303665
+    },
+    {
+      "pos": 5,
+      "team": "Bushwhackers",
+      "score": 0.7683644523829729
+    },
+    {
+      "pos": 6,
+      "team": "Guest2",
+      "score": 0.6980843074838479
+    },
+    {
+      "pos": 7,
+      "team": "Guest1",
+      "score": 0.6049406949820586
+    },
+    {
+      "pos": 8,
+      "team": "SiBears",
+      "score": 0.5630556077020127
+    },
+    {
+      "pos": 9,
+      "team": "WeAreScientists",
+      "score": 0.5543725348046734
+    },
+    {
+      "pos": 10,
+      "team": "Magic-Hat",
+      "score": 0.4743150623170221
+    },
+    {
+      "pos": 11,
+      "team": "ISITDTU",
+      "score": 0.4478923949772189
+    },
+    {
+      "pos": 12,
+      "team": "ThunderClap",
+      "score": 0.43628759995026617
+    },
+    {
+      "pos": 13,
+      "team": "Koibasta",
+      "score": 0.35675412466719597
+    },
+    {
+      "pos": 14,
+      "team": "Batman's Kitchen",
+      "score": 0.2750183727498075
+    },
+    {
+      "pos": 15,
+      "team": "STT",
+      "score": 0.23675857843243156
+    },
+    {
+      "pos": 16,
+      "team": "\\xf0\\x9f\\x90\\xa7",
+      "score": 0.18874917711083725
+    },
+    {
+      "pos": 17,
+      "team": "Singularity",
+      "score": 0.1418356684045821
+    }
+  ]
+}

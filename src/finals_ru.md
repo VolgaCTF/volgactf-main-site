@@ -16,5 +16,6 @@ document1_text: "[Пресс релиз](/volgactf-2017-finals/press-release.htm
 meta-schedule: meta/schedule.yaml
 meta-partners: meta/partners.yaml
 meta-teams: meta/teams.yaml
+meta-scoreboard: meta/scoreboard2017.json
 layout: finals.pug
 ---
