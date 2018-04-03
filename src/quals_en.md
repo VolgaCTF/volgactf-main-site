@@ -1,4 +1,4 @@
 ---
-quals_text: VolgaCTF 2018 Quals will be held from March 23 till March 25. Sign up at [https://quals.2018.volgactf.ru](https://quals.2018.volgactf.ru)
+quals_text: VolgaCTF 2018 Quals was held from 23 March to 25 March. The winners will be invited to VolgaCTF 2018 Finals
 layout: quals.pug
 ---

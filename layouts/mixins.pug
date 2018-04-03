@@ -92,7 +92,7 @@ mixin teamsTable(sentStatus,acceptedStatus,teams, sourceLang)
                                 a(href=team.ctftime_link, target="_blank") #{team.name}
                             td #{team.edu[sourceLang]}
 
-mixin scoreboard(data)
+mixin scoreboard(data, normalizeScore)
     div.table-scroll
         table.unstriped.teams
             tbody
@@ -104,7 +104,7 @@ mixin scoreboard(data)
                     tr
                         td #{team.pos}
                         td #{team.team}
-                        - var score = (team.score*100).toFixed(2) + "%"
+                        - if(normalizeScore) var score = (team.score*100).toFixed(2) + "%"; else var score = team.score
                         td #{score}
 
 

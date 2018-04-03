@@ -4,8 +4,8 @@ doctype html
 include mixins
 html(lang=locale)
     include partials/head
-    body.bg-third
-        div
+    body
+        div.bg-first
             +headerMenu(menu,locale,localePath,"ctf")
             - var transformedText = markdown_text(quals_text)
             section#quals_welcome.second_welcome_padding
@@ -16,4 +16,10 @@ html(lang=locale)
                         .
                             !{transformedText}
                         hr
+            section#quals-scoreboard
+                div.grid-x
+                    div.large-offset-1.large-4.cell.cell-text
+                        h1.main SCOREBOARD
+                    div.large-offset-1.large-10.cell.cell-text
+                        +scoreboard(scoreboard)
         include partials/footer
