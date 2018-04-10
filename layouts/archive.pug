@@ -1,0 +1,16 @@
+doctype html
+- var localePath = locale===defaultLocale ? "" : "/"+locale
+include mixins
+html(lang=locale)
+    include partials/head
+    body
+        +headerMenu(menu,locale,localePath,'archive')
+        section#archive
+        div.grid-x
+            div.large-offset-1.large-10.cell.cell-text
+                h1.main #{archive_header}
+                .
+                    #{archive_text}
+                hr
+                +archiveList(archive,locale,localePath)
+        include partials/footer

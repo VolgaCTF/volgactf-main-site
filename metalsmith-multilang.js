@@ -99,7 +99,7 @@ Multilanguage.prototype.getPlugin = function () {
 
             // Bind lang()
             files[file].lang = lang.bind(files[file]);
-            files[file].defaultLocale = this.default;
+            files[file].defaultLocale = self.default;
         }
 
         // Folder handling

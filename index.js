@@ -40,7 +40,8 @@ copy_assets = function (assets, dist_dir) {
 
 var baseBuild = Metalsmith(__dirname)
     .use(metadata({
-        menu: 'meta/menu.yaml'
+        menu: 'meta/menu.yaml',
+        archive: 'meta/archive.yaml'
     }))
     .use(multiLanguage({
         default: DEFAULT_LANG,
@@ -81,7 +82,7 @@ if (env === "development") {
                 "src/**/*.md": "**/*",
                 "src/meta/*": "**/*"
             },
-            livereload: true,
+            livereload: true
         })
     )
         .use(serve())

@@ -4,12 +4,17 @@
   title: "main"
   page: "/"
 - name:
-    en: "VOLGACTF 2018 QUALS"
-    ru: "VOLGACTF 2018 QUALS"
+    en: "VOLGACTF 2018 FINALS"
+    ru: "VOLGACTF 2018 FINALS"
   title: "ctf"
-  page: "/quals.html"
+  page: "/volgactf-2018-finals/finals.html"
 - name:
     en: "CONTACTS"
     ru: "КОНТАКТЫ"
   title: "contacts"
   page: "/contacts.html"
+- name:
+    en: "ARCHIVE"
+    ru: "АРХИВ"
+  title: "archive"
+  page: "/archive.html"

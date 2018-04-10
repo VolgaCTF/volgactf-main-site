@@ -14,10 +14,8 @@ schedule_header: РАСПИСАНИЕ
 stream_header: ВИДЕОТРАНСЛЯЦИЯ
 document1_text: "[Пресс релиз](/volgactf-2017-finals/press-release.html){target=_blank}"
 document2_text: "[Итоги соревнований](/volgactf-2017-finals/press-release-finals.html){target=_blank}"
-meta-schedule: meta/volgactf-2017/schedule-finals-2017.yaml
 meta-partners: meta/partners.yaml
 meta-teams: meta/volgactf-2017/teams-finals-2017.yaml
-meta-scoreboard: meta/volgactf-2017/scoreboard-finals-2017.json
-selected_menu_item: archive
+selected_menu_item: ctf
 layout: finals.pug
 ---

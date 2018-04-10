@@ -1,0 +1,16 @@
+- name: "VolgaCTF 2017"
+  events:
+    - name: "VolgaCTF 2017 Quals"
+      ctf_time_link: "https://ctftime.org/event/374"
+    - name: "VolgaCTF 2017 Finals"
+      ctf_time_link: "https://ctftime.org/event/473"
+      internal_link: "/volgactf-2017-finals/finals.html"
+- name: "VolgaCTF 2018"
+  events:
+    - name: "VolgaCTF 2018 Quals"
+      ctf_time_link: "https://ctftime.org/event/539"
+      internal_link: "/volgactf-2018-quals/quals.html"
+    - name: "VolgaCTF 2018 Finals"
+      ctf_time_link: ""
+      internal_link: "/finals.html"
+

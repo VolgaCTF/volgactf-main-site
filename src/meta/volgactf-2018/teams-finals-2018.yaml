@@ -1,0 +1,102 @@
+  - name:
+      en: "International teams"
+      ru: "Международные команды"
+    teams:
+      - name: "RPISEC"
+        edu:
+          en: "Sankt Pölten University of Applied Sciences"
+          ru: "Sankt Pölten University of Applied Sciences"
+        status: true
+        ctftime_link: "https://ctftime.org/team/2010"
+      - name: "Batman's Kitchen"
+        edu:
+          en: "University of Washington"
+          ru: "University of Washington"
+        status: true
+        ctftime_link: "https://ctftime.org/team/3135"
+      - name: "STT"
+        edu:
+          en: "Instituto Superior Tecnico"
+          ru: "Instituto Superior Tecnico"
+        status: true
+        ctftime_link: "https://ctftime.org/team/34619"
+      - name: "ISITDTU"
+        edu:
+          en: "Duy Tan University"
+          ru: "Duy Tan University"
+        status: true
+        ctftime_link: "https://ctftime.org/team/8241"
+  - name:
+        en: "Russian teams"
+        ru: "Российские команды"
+    teams:
+        - name: "BIZone"
+          edu:
+            en: "National Research Nuclear University MEPhI"
+            ru: "НИЯУ МИФИ"
+          status: true
+          ctftime_link: "https://ctftime.org/team/32190"
+        - name: "Corrupted Reflection"
+          edu:
+            en: "Higher School of Economics"
+            ru: "Высшая школа экономики"
+          status: true
+          ctftime_link: "https://ctftime.org/team/20904"
+        - name: "Destructive Voice"
+          edu:
+            en: "Ural Federal University"
+            ru: "Уральский федеральный университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/7527"
+        - name: "SUSlo.PAS"
+          edu:
+            en: "Novosibirsk State University"
+            ru: "Новосибирский государственный университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/6502"
+        - name: "SiBears"
+          edu:
+            en: "Tomsk State University"
+            ru: "Томский государственный университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/557"
+        - name: "Bushwhackers"
+          edu:
+            en: "Moscow State University"
+            ru: "Московский государственный университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/586"
+  - name:
+      en: "Volga federal district teams"
+      ru: "Команды Приволжского федерального округа"
+    teams:
+        - name: "\\xf0\\x9f\\x90\\xa7"
+          edu:
+            en: "Penza State University"
+            ru: "Пензенский государственный университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/10175"
+        - name: "ThunderClap"
+          edu:
+            en: "Chuvash State University"
+            ru: "Чувашский государственный университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/16125"
+        - name: "Koibasta"
+          edu:
+            en: "Samara University"
+            ru: "Самарский университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/496"
+        - name: "Magic-Hat"
+          edu:
+            en: "Samara State Technical University"
+            ru: "Самарский государственный политехнический университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/1398"
+        - name: "Singularity"
+          edu:
+            en: "Saratov State University"
+            ru: "Саратовский государственный университет"
+          status: true
+          ctftime_link: "https://ctftime.org/team/1425"

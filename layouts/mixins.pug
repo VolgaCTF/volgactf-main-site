@@ -37,6 +37,21 @@ mixin partnerLogo(imagePath, href)
     else
         a.partner(href=href target="_blank")
             img(src=imagePath)
+mixin archiveList(archive, locale, localePath)
+    - var altPath = locale==="en" ? "/" : "/en/"
+    ul
+        each eventGroup in archive
+            li #{eventGroup.name}
+                if eventGroup.events && eventGroup.events.length > 0
+                    ul
+                        each event in eventGroup.events
+                            li
+                                if event.internal_link
+                                    a(href=localePath + event.internal_link) #{event.name}
+                                else
+                                    .
+                                        #{event.name}
+                                a(href=event.ctf_time_link target='_blank') &nbsp;(CTFTime)
 
 mixin headerMenu(menu,locale, localePath,selectedTitle)
     - var altPath = locale==="en" ? "/" : "/en/"

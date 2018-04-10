@@ -1,6 +1,5 @@
 doctype html
-- var availableLangs = locales.filter(x => x !== locale && !!lang(x))
-- var localePath = locale==defaultLocale ? "" : "/"+locale
+- var localePath = locale===defaultLocale ? "" : "/"+locale
 include mixins
 html(lang=locale)
     include partials/head
