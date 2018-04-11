@@ -54,8 +54,8 @@ mixin archiveList(archive, locale, localePath)
                                 a(href=event.ctf_time_link target='_blank') &nbsp;(CTFTime)
 
 mixin headerMenu(menu,locale, localePath,selectedTitle)
-    - var altPath = locale==="en" ? "/" : "/en/"
-    - var alternativeUrl = altPath + altFiles[locale].filename.replace(".md",".html").replace("_"+locale,"")
+    - var altPath = locale === "en" ? "/" : "/en/"
+    - var alternativeUrl = altPath + altFiles[locale].filename.replace(".md",".html").replace("_"+locale,"").replace("/"+locale+"/","").replace(locale+"/","")
     header
         div.grid-x
             div.large-2.cell.large-offset-1.hide-for-small-only.hide-for-medium-only
