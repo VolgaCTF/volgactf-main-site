@@ -28,7 +28,7 @@
   },
   "scripts": {
     "build": "node ./index.js",
-    "dev":   "NODE_ENV=development node ./index.js",
+    "dev": "NODE_ENV=development node ./index.js",
     "serve": "http-server build"
   }
 }
