@@ -1,8 +1,8 @@
 ---
-title: VolgaCTF::VolgaCTF 2017 Finals
-finals_header_main: VOLGA CTF 2017
+title: VolgaCTF::VolgaCTF 2018 Finals
+finals_header_main: VOLGA CTF 2018
 finals_header_sub: FINALS
-finals_text: Традиционный финал соревнований VolgaCTF 2017 прошел в Самаре с 18 по 22 сентября 2017 года на базе отеля Holiday Inn
+finals_text: Традиционный финал соревнований VolgaCTF 2018 пройдёт в Самаре с 17 по 21 сентября 2017 года на базе отеля Holiday Inn
 teams_header_main: УЧАСТНИКИ
 teams_header_sub: СОРЕВНОВАНИЙ
 teams_table_accepted: Приглашение принято
