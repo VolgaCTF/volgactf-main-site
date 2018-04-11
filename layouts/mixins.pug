@@ -55,7 +55,7 @@ mixin archiveList(archive, locale, localePath)
 
 mixin headerMenu(menu,locale, localePath,selectedTitle)
     - var altPath = locale==="en" ? "/" : "/en/"
-    - var alternativeUrl = altPath + altFiles[locale].filename.substr(altFiles[locale].filename.lastIndexOf("/")+1).replace(".md",".html").replace("_"+locale,"")
+    - var alternativeUrl = altPath + altFiles[locale].filename.replace('/'+locale,'').replace(".md",".html").replace("_"+locale,"")
     header
         div.grid-x
             div.large-2.cell.large-offset-1.hide-for-small-only.hide-for-medium-only
@@ -94,18 +94,28 @@ mixin partnersGrid(partners,locale,level)
                     div.large-3.small-6.text-center
                         +partnerLogo("/images/" + partner.image,partner.link)
 
-mixin teamsTable(sentStatus,acceptedStatus,teams, sourceLang)
+mixin teamsTable(sentStatus,acceptedStatus,shortListedStatus,teams, sourceLang, showStatus)
     div.table-scroll
         table.unstriped.teams
             tbody
                 each section in teams
+                    - var colspan = showStatus ? "3" : "2"
                     tr
-                        th(colspan="2") #{section.name[sourceLang]}
+                        th(colspan=colspan) #{section.name[sourceLang]}
                     each team in section.teams
                         tr
                             td
                                 a(href=team.ctftime_link, target="_blank") #{team.name}
                             td #{team.edu[sourceLang]}
+                            if(showStatus)
+                                case team.status
+                                    when "accepted"
+                                        td #{acceptedStatus}
+                                    when "sent"
+                                        td #{sentStatus}
+                                    when "shortlist"
+                                        td #{shortListedStatus}
+
 
 mixin scoreboard(data, normalizeScore)
     div.table-scroll

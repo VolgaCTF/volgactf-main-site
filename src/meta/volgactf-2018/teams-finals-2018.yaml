@@ -4,28 +4,22 @@
     teams:
       - name: "RPISEC"
         edu:
-          en: "Sankt Pölten University of Applied Sciences"
-          ru: "Sankt Pölten University of Applied Sciences"
-        status: true
-        ctftime_link: "https://ctftime.org/team/2010"
-      - name: "Batman's Kitchen"
+          en: "Rensselaer Polytechnic Institute"
+          ru: "Rensselaer Polytechnic Institute"
+        status: "sent"
+        ctftime_link: "https://ctftime.org/team/572"
+      - name: "Balsn"
         edu:
-          en: "University of Washington"
-          ru: "University of Washington"
-        status: true
-        ctftime_link: "https://ctftime.org/team/3135"
+          en: "National Taiwan University"
+          ru: "National Taiwan University"
+        status: "sent"
+        ctftime_link: "https://ctftime.org/team/16978"
       - name: "STT"
         edu:
           en: "Instituto Superior Tecnico"
           ru: "Instituto Superior Tecnico"
-        status: true
+        status: "sent"
         ctftime_link: "https://ctftime.org/team/34619"
-      - name: "ISITDTU"
-        edu:
-          en: "Duy Tan University"
-          ru: "Duy Tan University"
-        status: true
-        ctftime_link: "https://ctftime.org/team/8241"
   - name:
         en: "Russian teams"
         ru: "Российские команды"
@@ -34,69 +28,95 @@
           edu:
             en: "National Research Nuclear University MEPhI"
             ru: "НИЯУ МИФИ"
-          status: true
+          status: "accepted"
           ctftime_link: "https://ctftime.org/team/32190"
-        - name: "Corrupted Reflection"
-          edu:
-            en: "Higher School of Economics"
-            ru: "Высшая школа экономики"
-          status: true
-          ctftime_link: "https://ctftime.org/team/20904"
-        - name: "Destructive Voice"
-          edu:
-            en: "Ural Federal University"
-            ru: "Уральский федеральный университет"
-          status: true
-          ctftime_link: "https://ctftime.org/team/7527"
-        - name: "SUSlo.PAS"
-          edu:
-            en: "Novosibirsk State University"
-            ru: "Новосибирский государственный университет"
-          status: true
-          ctftime_link: "https://ctftime.org/team/6502"
-        - name: "SiBears"
-          edu:
-            en: "Tomsk State University"
-            ru: "Томский государственный университет"
-          status: true
-          ctftime_link: "https://ctftime.org/team/557"
         - name: "Bushwhackers"
           edu:
             en: "Moscow State University"
             ru: "Московский государственный университет"
-          status: true
+          status: "accepted"
           ctftime_link: "https://ctftime.org/team/586"
+        - name: "SUSlo.PAS"
+          edu:
+            en: "Novosibirsk State University"
+            ru: "Новосибирский государственный университет"
+          status: "accepted"
+          ctftime_link: "https://ctftime.org/team/6502"
+        - name: "Corrupted Reflection"
+          edu:
+            en: "Higher School of Economics"
+            ru: "Высшая школа экономики"
+          status: "accepted"
+          ctftime_link: "https://ctftime.org/team/20904"
+        - name: "Lights Out"
+          edu:
+            en: "Moscow Institute of Physics and Technology"
+            ru: "Московский физико-технический институт"
+          status: "accepted"
+          ctftime_link: "https://ctftime.org/team/7931"
   - name:
       en: "Volga federal district teams"
       ru: "Команды Приволжского федерального округа"
     teams:
-        - name: "\\xf0\\x9f\\x90\\xa7"
-          edu:
-            en: "Penza State University"
-            ru: "Пензенский государственный университет"
-          status: true
-          ctftime_link: "https://ctftime.org/team/10175"
-        - name: "ThunderClap"
-          edu:
-            en: "Chuvash State University"
-            ru: "Чувашский государственный университет"
-          status: true
-          ctftime_link: "https://ctftime.org/team/16125"
-        - name: "Koibasta"
-          edu:
-            en: "Samara University"
-            ru: "Самарский университет"
-          status: true
-          ctftime_link: "https://ctftime.org/team/496"
         - name: "Magic-Hat"
           edu:
             en: "Samara State Technical University"
             ru: "Самарский государственный политехнический университет"
-          status: true
+          status: "accepted"
           ctftime_link: "https://ctftime.org/team/1398"
-        - name: "Singularity"
+        - name: "KXTI_timur"
           edu:
-            en: "Saratov State University"
-            ru: "Саратовский государственный университет"
-          status: true
-          ctftime_link: "https://ctftime.org/team/1425"
+            en: "Kazan National Research Technological University"
+            ru: "Казанский национальный исследовательский технологический университет"
+          status: "accepted"
+          ctftime_link: "https://ctftime.org/team/52464"
+        - name: "ThunderClap"
+          edu:
+            en: "Chuvash State University"
+            ru: "Чувашский государственный университет"
+          status: "accepted"
+          ctftime_link: "https://ctftime.org/team/16125"
+        - name: "Cerberus"
+          edu:
+            en: "Kazan Federal University"
+            ru: "Казанский федеральный университет"
+          status: "accepted"
+          ctftime_link: "https://ctftime.org/team/6516"
+        - name: "Kamneezhka"
+          edu:
+            en: "Innopolis University"
+            ru: "Университет Иннополис"
+          status: "accepted"
+          ctftime_link: "https://ctftime.org/team/54542"
+  - name:
+      en: "Guest teams"
+      ru: "Гостевые команды"
+    teams:
+      - name: "v0rt3x"
+        edu:
+          ru: "Саратовский государственный университет"
+          en: "Saratov State University"
+        status: "accepted"
+        ctftime_link: "https://ctftime.org/team/3906"
+  - name:
+      en: "International teams short-list"
+      ru: "Шорт-лист международных команд"
+    teams:
+      - name: "Made In MIM"
+        edu:
+          en: "University of Warsaw"
+          ru: "University of Warsaw"
+        status: "shortlist"
+        ctftime_link: "https://ctftime.org/team/48557"
+      - name: "0x90r00t"
+        edu:
+          en: ""
+          ru: ""
+        status: "shortlist"
+        ctftime_link: "https://ctftime.org/team/16700"
+      - name: "hxp"
+        edu:
+          en: "Technical University of Munich"
+          ru: "Technical University of Munich"
+        status: "shortlist"
+        ctftime_link: "https://ctftime.org/team/585"

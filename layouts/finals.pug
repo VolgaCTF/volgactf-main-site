@@ -31,36 +31,44 @@ html(lang=locale)
         //    div.grid-x
         //        div.cell.medium-offset-4.medium-4.schedule
         //            +schedule(schedule,locale)
-        section#scoreboard
-            div.grid-x
-                div.large-offset-1.large-4.cell.cell-text
-                    h1.main SCOREBOARD
-                div.large-offset-1.large-10.cell.cell-text
-                    +scoreboard(scoreboard)
+        if(scoreboard)
+            section#scoreboard
+                div.grid-x
+                    div.large-offset-1.large-4.cell.cell-text
+                        h1.main SCOREBOARD
+                    div.large-offset-1.large-10.cell.cell-text
+                        +scoreboard(scoreboard)
         section#teams
             div.grid-x
                 div.large-offset-1.large-4.cell.cell-text
                     h1.main #{teams_header_main}
                     h1 #{teams_header_sub}
+                if(contents)
+                    div.large-offset-1.large-10.cell.cell-text
+                        .
+                            !{contents}
                 div.large-offset-1.large-10.cell.cell-text
-                    +teamsTable(teams_table_waiting, teams_table_accepted, teams, locale)
-        section#documents
-            div.grid-x.bg-second
-                div.large-offset-1.large-2.cell.cell-text
-                    h1.main #{documents_header_main}
-                div.large-6.large-offset-2.cell.cell-text
-                    div.grid-x.cell-window
-                        div.large-6.cell
-                            +iconedText("/images/download.svg",document1_text,"/volgactf-2017-finals/press-release.html")
-                        div.large-6.cell
-                            +iconedText("/images/download.svg",document2_text,"/volgactf-2017-finals/press-release-finals.html")
-        section#partners
-            div.grid-x
-                div.large-offset-1.large-4.cell.cell-text
-                    h1.main #{partners_header_main}
-                    h1 #{partners_header_sub}
-                div.large-offset-1.large-10.cell
-                    +partnersGrid(partners,locale,-1)
+                    +teamsTable(teams_table_waiting, teams_table_accepted,teams_table_shortlisted, teams, locale, showStatus)
+
+        if(!hide_documents)
+            section#documents
+                div.grid-x.bg-second
+                    div.large-offset-1.large-2.cell.cell-text
+                        h1.main #{documents_header_main}
+                    div.large-6.large-offset-2.cell.cell-text
+                        div.grid-x.cell-window
+                            div.large-6.cell
+                                +iconedText("/images/download.svg",document1_text,"/volgactf-2017-finals/press-release.html")
+                            div.large-6.cell
+                                +iconedText("/images/download.svg",document2_text,"/volgactf-2017-finals/press-release-finals.html")
+        if(!hide_partners)
+            section#partners
+                div.grid-x
+                    div.large-offset-1.large-4.cell.cell-text
+                        h1.main #{partners_header_main}
+                        h1 #{partners_header_sub}
+                    div.large-offset-1.large-10.cell
+                        +partnersGrid(partners,locale,-1)
 
 
         include partials/footer
