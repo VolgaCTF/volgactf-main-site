@@ -12,13 +12,13 @@
         edu:
           en: "National Taiwan University"
           ru: "National Taiwan University"
-        status: "sent"
+        status: "accepted"
         ctftime_link: "https://ctftime.org/team/16978"
       - name: "STT"
         edu:
           en: "Instituto Superior Tecnico"
           ru: "Instituto Superior Tecnico"
-        status: "sent"
+        status: "accepted"
         ctftime_link: "https://ctftime.org/team/34619"
   - name:
         en: "Russian teams"
