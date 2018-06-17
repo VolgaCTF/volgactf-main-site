@@ -2,12 +2,6 @@
       en: "International teams"
       ru: "Международные команды"
     teams:
-      - name: "RPISEC"
-        edu:
-          en: "Rensselaer Polytechnic Institute"
-          ru: "Rensselaer Polytechnic Institute"
-        status: "sent"
-        ctftime_link: "https://ctftime.org/team/572"
       - name: "Balsn"
         edu:
           en: "National Taiwan University"
@@ -20,6 +14,12 @@
           ru: "Instituto Superior Tecnico"
         status: "accepted"
         ctftime_link: "https://ctftime.org/team/34619"
+      - name: "JustDoIt"
+        edu:
+          en: "Salzburg University of Applied Sciences"
+          ru: "Salzburg University of Applied Sciences"
+        status: "accepted"
+        ctftime_link: "https://ctftime.org/team/35753"  
   - name:
         en: "Russian teams"
         ru: "Российские команды"
@@ -98,25 +98,3 @@
           en: "Saratov State University"
         status: "accepted"
         ctftime_link: "https://ctftime.org/team/3906"
-  - name:
-      en: "International teams short-list"
-      ru: "Шорт-лист международных команд"
-    teams:
-      - name: "Made In MIM"
-        edu:
-          en: "University of Warsaw"
-          ru: "University of Warsaw"
-        status: "shortlist"
-        ctftime_link: "https://ctftime.org/team/48557"
-      - name: "0x90r00t"
-        edu:
-          en: ""
-          ru: ""
-        status: "shortlist"
-        ctftime_link: "https://ctftime.org/team/16700"
-      - name: "hxp"
-        edu:
-          en: "Technical University of Munich"
-          ru: "Technical University of Munich"
-        status: "shortlist"
-        ctftime_link: "https://ctftime.org/team/585"
