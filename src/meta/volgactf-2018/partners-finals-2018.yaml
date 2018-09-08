@@ -1,0 +1,84 @@
+- name:
+    en: "COMPETITION ORGANISERS"
+    ru: "ОРГАНИЗАТОРЫ СОРЕВНОВАНИЙ"
+  partners:
+  - image: "dit.png"
+    link: "http://dit.samregion.ru/"
+  - image: "su.svg"
+    link: "http://www.ssau.ru/"
+  - image: "sroo.png"
+    link: ""
+  - image: "infsp.png"
+    link: "http://samis.geosamara.ru/"
+  - image: "ct.jpg"
+    link: "https://google.com"
+- name:
+    en:
+    ru: "ПРИ ПОДДЕРЖКЕ"
+  partners:
+  - image: "mfa.svg"
+    link: "http://www.mid.ru"
+- name:
+    en: "GENERAL SPONSOR"
+    ru: "ГЕНЕРАЛЬНЫЙ СПОНСОР"
+  partners:
+  - image: "rostelecom.png"
+    link: "http://www.rostelecom.ru/"
+- name:
+    en: "GENERAL MEDIA PARTNER"
+    ru: "ГЕНЕРАЛЬНЫЙ ИНФОПАРТНЁР"
+  partners:
+  - image: "interfax.svg"
+    link: "http://www.interfax.ru/"
+- name:
+    en: "OFFICIAL PARTNER"
+    ru: "ОФИЦИАЛЬНЫЙ ПАРТНЕР"
+  partners:
+  - image: "rostelecom-solar.png"
+    link: "https://rt-solar.ru/"
+- name:
+    en: "COMPETITION PARTNERS"
+    ru: "ПАРТНЁРЫ СОРЕВНОВАНИЙ"
+  partners:
+  - image: "gis.png"
+    link: "http://www.gaz-is.ru/"
+  - image: "kaspersky.svg"
+    link: "http://www.kaspersky.ru/"
+  - image: "it_universe.png"
+    link: "http://www.it-universe.ru/"
+  - image: "madrobots.svg"
+    link: "https://madrobots.ru"
+  - image: "aladdin.png"
+    link: "https://www.aladdin-rd.ru/"
+- name:
+    en: "TECHNICAL PARTNERS"
+    ru: "ТЕХНИЧЕСКИЕ ПАРТНЕРЫ"
+  partners:
+  - image: "dlink.svg"
+    link: "http://www.dlink.ru/"
+- name:
+    en: "MEDIA PARTNERS"
+    ru: "ИНФОРМАЦИОННЫЕ ПАРТНЕРЫ"
+  partners:
+  - image: "dsec.png"
+    link: "http://dsec.ru/"
+  - image: "xakep_logo.png"
+    link: "https://xakep.ru/"
+  - image: "terra.png"
+    link: "http://www.trkterra.ru/"
+  - image: "rus_radio.png"
+    link: "http://www.trkterra.ru/air/rusradio"
+  - image: "raec.png"
+    link: "http://raec.ru/"
+  - image: "boyazitov.png"
+    link: "https://boyazitov.ru/"
+  - image: "illuminator.png"
+    link: "https://vk.com/myphotoclub"
+- name:
+    en: "SPONSORS"
+    ru: "СПОНСОРЫ"
+  partners:
+    - image: "status_goloden.png"
+      link: "http://statusgoloden.ru/"
+    - image: "dodo.png"
+      link: "https://dodopizza.ru/samara"

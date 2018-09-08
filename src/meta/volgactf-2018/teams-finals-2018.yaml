@@ -1,100 +1,130 @@
-  - name:
-      en: "International teams"
-      ru: "Международные команды"
-    teams:
-      - name: "Balsn"
-        edu:
-          en: "National Taiwan University"
-          ru: "National Taiwan University"
-        status: "accepted"
-        ctftime_link: "https://ctftime.org/team/16978"
-      - name: "STT"
-        edu:
-          en: "Instituto Superior Tecnico"
-          ru: "Instituto Superior Tecnico"
-        status: "accepted"
-        ctftime_link: "https://ctftime.org/team/34619"
-      - name: "JustDoIt"
-        edu:
-          en: "Salzburg University of Applied Sciences"
-          ru: "Salzburg University of Applied Sciences"
-        status: "accepted"
-        ctftime_link: "https://ctftime.org/team/35753"  
-  - name:
-        en: "Russian teams"
-        ru: "Российские команды"
-    teams:
-        - name: "BIZone"
-          edu:
-            en: "National Research Nuclear University MEPhI"
-            ru: "НИЯУ МИФИ"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/32190"
-        - name: "Bushwhackers"
-          edu:
-            en: "Moscow State University"
-            ru: "Московский государственный университет"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/586"
-        - name: "SUSlo.PAS"
-          edu:
-            en: "Novosibirsk State University"
-            ru: "Новосибирский государственный университет"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/6502"
-        - name: "Corrupted Reflection"
-          edu:
-            en: "Higher School of Economics"
-            ru: "Высшая школа экономики"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/20904"
-        - name: "Lights Out"
-          edu:
-            en: "Moscow Institute of Physics and Technology"
-            ru: "Московский физико-технический институт"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/7931"
-  - name:
-      en: "Volga federal district teams"
-      ru: "Команды Приволжского федерального округа"
-    teams:
-        - name: "Magic-Hat"
-          edu:
-            en: "Samara State Technical University"
-            ru: "Самарский государственный политехнический университет"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/1398"
-        - name: "KXTI_timur"
-          edu:
-            en: "Kazan National Research Technological University"
-            ru: "Казанский национальный исследовательский технологический университет"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/52464"
-        - name: "ThunderClap"
-          edu:
-            en: "Chuvash State University"
-            ru: "Чувашский государственный университет"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/16125"
-        - name: "Cerberus"
-          edu:
-            en: "Kazan Federal University"
-            ru: "Казанский федеральный университет"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/6516"
-        - name: "Kamneezhka"
-          edu:
-            en: "Innopolis University"
-            ru: "Университет Иннополис"
-          status: "accepted"
-          ctftime_link: "https://ctftime.org/team/54542"
-  - name:
-      en: "Guest teams"
-      ru: "Гостевые команды"
-    teams:
-      - name: "v0rt3x"
-        edu:
-          ru: "Саратовский государственный университет"
-          en: "Saratov State University"
-        status: "accepted"
-        ctftime_link: "https://ctftime.org/team/3906"
+- name:
+    en: "International teams"
+    ru: "Международные команды"
+  teams:
+  - name: "WeAreScientists"
+    edu:
+      en: "Sankt Pölten University of Applied Sciences"
+      ru: "Sankt Pölten University of Applied Sciences"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/2010"
+  - name: "cyber3y6p"
+    edu:
+      en: "Belarusian State University of Informatics and Radioelectronics"
+      ru: "Белорусский государственный университет информатики и радиоэлектроники"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/58989"
+  - name: "JustDoIt"
+    edu:
+      en: "Salzburg University of Applied Sciences"
+      ru: "Salzburg University of Applied Sciences"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/35753"
+  - name: "HackXore 337"
+    edu:
+      en: "Seoul"
+      ru: "Seoul"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/19216"
+  - name: "BambooFox"
+    edu:
+      en: "National Chiao Tung University"
+      ru: "National Chiao Tung University"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/9871"
+  - name: "ISITDTU"
+    edu:
+      en: "Duy Tan University"
+      ru: "Duy Tan University"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/8241"
+- name:
+    en: "Russian teams"
+    ru: "Российские команды"
+  teams:
+  - name: "BIZone"
+    edu:
+      en: "National Research Nuclear University MEPhI"
+      ru: "НИЯУ МИФИ"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/32190"
+  - name: "Bushwhackers"
+    edu:
+      en: "Moscow State University"
+      ru: "Московский государственный университет"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/586"
+  - name: "SUSlo.PAS"
+    edu:
+      en: "Novosibirsk State University"
+      ru: "Новосибирский государственный университет"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/6502"
+  - name: "Corrupted Reflection"
+    edu:
+      en: "Higher School of Economics"
+      ru: "Высшая школа экономики"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/20904"
+  - name: "Lights Out"
+    edu:
+      en: "Moscow Institute of Physics and Technology"
+      ru: "Московский физико-технический институт"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/7931"
+- name:
+    en: "Volga federal district teams"
+    ru: "Команды Приволжского федерального округа"
+  teams:
+  - name: "Magic-Hat"
+    edu:
+      en: "Samara State Technical University"
+      ru: "Самарский государственный политехнический университет"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/1398"
+  - name: "KXTI_timur"
+    edu:
+      en: "Kazan National Research Technological University"
+      ru: "Казанский национальный исследовательский технологический университет"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/52464"
+  - name: "ThunderClap"
+    edu:
+      en: "Chuvash State University"
+      ru: "Чувашский государственный университет"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/16125"
+  - name: "Cerberus"
+    edu:
+      en: "Kazan Federal University"
+      ru: "Казанский федеральный университет"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/6516"
+  - name: "Kamneezhka"
+    edu:
+      en: "Innopolis University"
+      ru: "Университет Иннополис"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/54542"
+- name:
+    en: "Guest teams"
+    ru: "Гостевые команды"
+  teams:
+  - name: "v0rt3x"
+    edu:
+      ru: "Саратовский государственный университет"
+      en: "Saratov State University"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/3906"
+  - name: "MIA_division"
+    edu:
+      ru: "Краснодарский Университет Министерства Внутренних Дел Российской Федерации"
+      en: "Krasnodar University of the Ministry of Internal Affairs of the Russian Federation"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/58599"
+  - name: "Pixels"
+    edu:
+      ru: "5 Научная Рота"
+      en: "5th Science Division"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/17424"

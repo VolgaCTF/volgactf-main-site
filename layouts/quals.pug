@@ -6,7 +6,7 @@ html(lang=locale)
     include partials/head
     body
         div.bg-first
-            +headerMenu(menu,locale,localePath,"ctf")
+            +headerMenu(menu,locale,localePath,selected_menu_item)
             - var transformedText = markdown_text(quals_text)
             section#quals_welcome.second_welcome_padding
                 div.grid-x

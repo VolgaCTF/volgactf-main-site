@@ -24,13 +24,14 @@ html(lang=locale)
         //                VolgaCTF Stream
         //            br
         //            a(href="http://stream.finals.2017.volgactf.ru/", target="_blank") http://stream.finals.2017.volgactf.ru/
-        //section#schedule
-        //    div.grid-x
-        //        div.large-offset-1.large-4.cell.cell-text
-        //            h1.main #{schedule_header}
-        //    div.grid-x
-        //        div.cell.medium-offset-4.medium-4.schedule
-        //            +schedule(schedule,locale)
+        if(schedule && !hide_schedule)
+            section#schedule
+                div.grid-x
+                    div.large-offset-1.large-4.cell.cell-text
+                        h1.main #{schedule_header}
+                div.grid-x
+                    div.cell.medium-offset-4.medium-4.schedule
+                        +schedule(schedule,locale)
         if(scoreboard)
             section#scoreboard
                 div.grid-x

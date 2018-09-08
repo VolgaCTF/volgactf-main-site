@@ -18,6 +18,7 @@ meta-schedule: meta/volgactf-2017/schedule-finals-2017.yaml
 meta-partners: meta/partners.yaml
 meta-teams: meta/volgactf-2017/teams-finals-2017.yaml
 meta-scoreboard: meta/volgactf-2017/scoreboard-finals-2017.json
+hide_schedule: true
 selected_menu_item: archive
 layout: finals.pug
 ---
