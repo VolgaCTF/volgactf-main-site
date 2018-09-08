@@ -10,6 +10,8 @@
       link: ""
     - image: "infsp.png"
       link: "http://samis.geosamara.ru/"
+    - image: "ct.jpg"
+      link: ""
 - name:
     en:
     ru: "ПРИ ПОДДЕРЖКЕ"
