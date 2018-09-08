@@ -11,7 +11,7 @@
   - image: "infsp.png"
     link: "http://samis.geosamara.ru/"
   - image: "ct.jpg"
-    link: "https://google.com"
+    link: ""
 - name:
     en:
     ru: "ПРИ ПОДДЕРЖКЕ"
@@ -73,7 +73,7 @@
   - image: "boyazitov.png"
     link: "https://boyazitov.ru/"
   - image: "illuminator.png"
-    link: "https://vk.com/myphotoclub"
+    link: "https://vk.com/ph.illuminator"
 - name:
     en: "SPONSORS"
     ru: "СПОНСОРЫ"
