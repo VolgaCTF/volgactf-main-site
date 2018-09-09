@@ -119,7 +119,7 @@
   - name: "Koibasta"
     edu:
       ru: "Самарский университет"
-      en: "Самарский университет"
+      en: "Samara University"
     status: "accepted"
     ctftime_link: "https://ctftime.org/team/496"
   - name: "MIA_division"
