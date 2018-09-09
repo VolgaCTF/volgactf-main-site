@@ -22,8 +22,8 @@
     ctftime_link: "https://ctftime.org/team/35753"
   - name: "HackXore 337"
     edu:
-      en: "Seoul"
-      ru: "Seoul"
+      en: "Ecole Nationale Supérieure d'Informatique et d'Analyse des Systèmes"
+      ru: "Ecole Nationale Supérieure d'Informatique et d'Analyse des Systèmes"
     status: "accepted"
     ctftime_link: "https://ctftime.org/team/19216"
   - name: "BambooFox"
