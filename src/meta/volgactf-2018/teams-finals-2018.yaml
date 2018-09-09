@@ -116,6 +116,12 @@
       en: "Saratov State University"
     status: "accepted"
     ctftime_link: "https://ctftime.org/team/3906"
+  - name: "Koibasta"
+    edu:
+      ru: "Самарский университет"
+      en: "Самарский университет"
+    status: "accepted"
+    ctftime_link: "https://ctftime.org/team/496"
   - name: "MIA_division"
     edu:
       ru: "Краснодарский Университет Министерства Внутренних Дел Российской Федерации"
