@@ -1,0 +1,76 @@
+- date: "18.09"
+  schedule:
+    - time: "10:00"
+      name:
+        en: "Registration of participants"
+        ru: "Регистрация участников"
+    - time: "11:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "11:15"
+      name:
+        en: "Conference opening"
+        ru: "Открытие соревнований"
+    - time: "11:45"
+      name:
+        en: "Introduction of the participants"
+        ru: "Представление команд-участниц cоревнований"
+
+    - time: "12:15"
+      name:
+        en: "A handful of stories from the SOC activity"
+        ru: "Несколько историй из жизни центра кибербезопасности"
+      author:
+        en: "Vladimir Driukov, Head of SOC, Rostelekom Solar"
+        ru: "Дрюков Владимир Викторович, Ростелеком Solar (директор центра мониторинга и реагирования на компьютерные атаки)"
+
+    - time: "13:15"
+      name:
+        en: "Yet another one CSP bypass method"
+        ru: "Еще один способ обхода CSP"
+      author:
+        en: "Anton Lopanitsyn aka Bo0oM"
+        ru: "Лопаницын Антон aka Bo0oM"
+
+    - time: "14:00"
+      name:
+        en: "Lunchtime"
+        ru: "Обед"
+
+    - time: "15:00"
+      name:
+        en: "Intel ME: Security keys Genealogy, Obfuscation and other Magic"
+        ru: "Ключи безопасности Intel ME. Генеалогия, обфускация и прочая магия"
+      author:
+        en: "Dmitry Sklyarov, Head of Reverse Engineering, Positive Technologies"
+        ru: "Скляров Дмитрий, ЗАО «Positive Technologies» (руководитель отдела анализа приложений)"
+
+    - time: "16:00"
+      name:
+        en: "Attacks on industrial enterprises using remote administration tools"
+        ru: "Использование утилит удаленного администрирования в атаках на промышленные предприятия"
+      author:
+        en: "Vyacheslav Kopeytsev, Security researcher, Kaspersky Lab"
+        ru: "Копейцев Вячеслав, АО «Лаборатория Касперского» (вирусный аналитик)"
+
+    - time: "17:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+
+    - time: "17:15"
+      name:
+        en: "Introduction to software-based microarchitectural side-channel attacks"
+        ru: "Введение в атаки по сторонним каналам на микроархитектуру, основанные на исполнении кода"
+      author:
+        en: "Aleksandr Rumiantsev, Digital Security"
+        ru: "Румянцев Александр, ООО «Digital Security»"
+
+    - time: "18:15"
+      name:
+        en: "Ibs - the Good, the Bad and the Ugly practice"
+        ru: "Ibs - the Good, the Bad and the Ugly practice"
+      author:
+        en: "Anatoly Katyushin, Kaspersky Lab OJSC"
+        ru: "Катюшин Анатолий, АО «Лаборатория Касперского»"
