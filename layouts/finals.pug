@@ -14,16 +14,14 @@ html(lang=locale)
                         .
                             #{finals_text}
                         hr
-        //section#stream
-        //    div.grid-x
-        //        div.large-offset-1.large-4.cell.cell-text
-        //            h1.main #{stream_header}
-        //    div.grid-x
-        //        div.cell.medium-offset-1.medium-10.stream
-        //            .
-        //                VolgaCTF Stream
-        //            br
-        //            a(href="http://stream.finals.2017.volgactf.ru/", target="_blank") http://stream.finals.2017.volgactf.ru/
+        if(!hide_stream)
+        section#stream
+            div.grid-x
+                div.large-offset-1.large-4.cell.cell-text
+                    h1.main #{stream_header}
+                div.large-offset-1.large-10.cell
+                    div.flex-video
+                        iframe(frameborder='0', width='100%', height='100%', scrolling='no', src='//ZOBRtv.webcaster.pro/iframe/feed/start/free_e51ff8e6c654b7129f8e9fc4df234ab7_hd/207_3416272770/c2e37dfe58bcc6f8de5c5c4936a14dd6/4692924963?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru', allowfullscreen='', allow='encrypted-media')
         if(schedule && !hide_schedule)
             section#schedule
                 div.grid-x
