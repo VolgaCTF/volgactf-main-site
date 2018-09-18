@@ -74,3 +74,120 @@
       author:
         en: "Anatoly Katyushin, Kaspersky Lab OJSC"
         ru: "Катюшин Анатолий, АО «Лаборатория Касперского»"
+- date: "19.09"
+  schedule:
+      - time: "9:00"
+        name:
+          en: "AnkeySIEM: Analytics module"
+          ru: "Обзор системы мониторинга и управления событиями информационной безопасности AnkeySIEM и модуля аналитики данных событий"
+        author:
+          en: "Valentin Terentyev, Gazinforservice LLC"
+          ru: "Валентин Терентьев, ООО Газинформсервис"
+      - time: "10:00"
+        name:
+          en: "Web Application Firewall use cases based on 'Hack Battle' competition tasks of 'Positive Hack Days 8' forum."
+          ru: "Сценарии использования WAF на примере задач конкурса 'Hack Battle' форума 'Positive Hack Days 8'"
+        author:
+          en: "Eldar Beibutov, Application Security Consultant in Positive Technologies"
+          ru: "Бейбутов Эльдар, Консультант по безопасности приложений в Positive Technologies"
+      - time: "11:00"
+        name:
+          en: "Coffee break"
+          ru: "Кофе-брейк"
+      - time: "11:15"
+        name:
+          en: "GhostInTheChaos - Untraceable Hacking and Filtering Bypass"
+          ru: "Призрак в Хаосе -  Неотслеживаемый Взлом и Обход Блокировок"
+        author:
+          en: "Maksym Zaitsev, cryptolok"
+          ru: "Максим Зайцев, cryptolok"
+      - time: "12:15"
+        name:
+          en: "Имиджевые аккаунты стран мира: цифровая дипломатия через позитив."
+          ru: "Image Accounts of Countries of the World: Digital Diplomacy from a Positive Perspective"
+        author:
+          en: "Polina Ivanova, Ministry of oreign Affairs of the Russian Federation"
+          ru: "Полина Иванова, Министерство иностранных дел Российской Федерации"
+      - time: "13:15"
+        name:
+          en: "Bar code scanners. Bar code writes shell code"
+          ru: "Сканнерам штрих кодов. Штрих кот пишет шеллкод"
+        author:
+          en: "Hardware Village + Lockpick Village"
+          ru: "Hardware Village + Lockpick Village"
+      - time: "14:00"
+        name:
+          en: "Lunchtime"
+          ru: "Обед"
+      - time: "15:00"
+        name:
+          en: "iPhone NVME NAND reverse"
+          ru: "iPhone NVME NAND reverse"
+        author:
+          en: "Hardware Village + Lockpick Village"
+          ru: "Hardware Village + Lockpick Village"
+      - time: "16:00"
+        name:
+          en: "Thunderbolt and PCIE interfaces security in practice"
+          ru: "Безопасность интерфейсов PCIE и Thunderbolt на практике"
+        author:
+          en: "Hardware Village + Lockpick Village"
+          ru: "Hardware Village + Lockpick Village"
+      - time: "17:00"
+        name:
+          en: "Coffee break"
+          ru: "Кофе-брейк"
+      - time: "17:15"
+        name:
+          en: "Network firewalls vulnerabilities and some features of nerwork processors"
+          ru: "Уязвимости сетевых файрволлов и особенности сетевых процессоров"
+        author:
+          en: "Hardware Village + Lockpick Village"
+          ru: "Hardware Village + Lockpick Village"
+      - time: "18:00"
+        name:
+          en: "Plastic cards vulnerabilities"
+          ru: "Обзор уязвимостей карточек"
+        author:
+          en: "Hardware Village + Lockpick Village"
+          ru: "Hardware Village + Lockpick Village"
+- date: "20.09"
+  schedule:
+  - time: "9:00"
+    name:
+      en: "Start of CTF"
+      ru: "Начало соревнований"
+  - time: "14:00"
+    name:
+      en: "Lunch"
+      ru: "Обед"
+  - time: "15:00"
+    name:
+      en: "CTF"
+      ru: "Продолжение соревнований"
+  - time: "19:00"
+    name:
+      en: "End of first part of CTF"
+      ru: "Окончание первой части соревнований соревнований"
+- date: "21.09"
+  schedule:
+  - time: "9:00"
+    name:
+      en: "CTF"
+      ru: "Продолжение соревнований"
+  - time: "11:00"
+    name:
+      en: "Coffee break"
+      ru: "Кофе-брейк"
+  - time: "11:15"
+    name:
+      en: "CTF"
+      ru: "Продолжение соревнований"
+  - time: "14:00"
+    name:
+      en: "Lunch"
+      ru: "Обед"
+  - time: "15:00"
+    name:
+      en: "Award ceremony"
+      ru: "Награждение"
