@@ -82,7 +82,7 @@
           ru: "Обзор системы мониторинга и управления событиями информационной безопасности AnkeySIEM и модуля аналитики данных событий"
         author:
           en: "Valentin Terentyev, Gazinforservice LLC"
-          ru: "Валентин Терентьев, ООО Газинформсервис"
+          ru: "Валентин Терентьев, ООО «Газинформсервис»"
       - time: "10:00"
         name:
           en: "Web Application Firewall use cases based on 'Hack Battle' competition tasks of 'Positive Hack Days 8' forum."
@@ -111,7 +111,7 @@
       - time: "13:15"
         name:
           en: "Bar code scanners. Bar code writes shell code"
-          ru: "Сканнерам штрих кодов. Штрих кот пишет шеллкод"
+          ru: "Сканнеры штрих кодов. Штрих кот пишет шеллкод"
         author:
           en: "Hardware Village + Lockpick Village"
           ru: "Hardware Village + Lockpick Village"
@@ -146,8 +146,8 @@
           ru: "Hardware Village + Lockpick Village"
       - time: "18:00"
         name:
-          en: "Plastic cards vulnerabilities"
-          ru: "Обзор уязвимостей карточек"
+          en: "Contact cards vulnerabilities"
+          ru: "Обзор уязвимостей контактных карт"
         author:
           en: "Hardware Village + Lockpick Village"
           ru: "Hardware Village + Lockpick Village"
@@ -168,7 +168,7 @@
   - time: "19:00"
     name:
       en: "End of first part of CTF"
-      ru: "Окончание первой части соревнований соревнований"
+      ru: "Окончание первой части соревнований"
 - date: "21.09"
   schedule:
   - time: "9:00"
