@@ -23,6 +23,7 @@ selected_menu_item: ctf
 hide_documents: true
 hide_partners: false
 hide_schedule: false
+hide_stream: true
 showStatus: false
 layout: finals.pug
 ---
