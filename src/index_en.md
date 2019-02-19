@@ -3,7 +3,7 @@ title: VolgaCTF::Home
 welcome_text: Welcome to Volga CTF annual open competition in the field of cyber security
 about_header_main: WHAT IS
 about_header_sub: VOLGA CTF?
-about_text: It is an international contest that gathers up to 700 teams from all around the globe.
+about_text: It is an international contest that gathers up to 1000 teams from all around the globe.
 about_text2: Competition finals are held in Samara city and are hosted by Samara University in cooperation with IT and Communications Department of Samara Region
 describe_header_main: VOLGA CTF
 describe_header_sub: IS&#58;

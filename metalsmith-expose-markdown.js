@@ -8,6 +8,7 @@ module.exports = function (options) {
             return markdown_it.render(text, {
                 linkify: true,
                 typographer: true,
+                break: true,
                 inline: true
             })
         }

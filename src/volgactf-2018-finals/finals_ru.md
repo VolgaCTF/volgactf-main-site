@@ -19,11 +19,11 @@ document2_text: "[Итоги соревнований](/volgactf-2017-finals/pre
 meta-partners: meta/volgactf-2018/partners-finals-2018.yaml
 meta-teams: meta/volgactf-2018/teams-finals-2018.yaml
 meta-schedule: meta/volgactf-2018/schedule-finals-2018.yaml
-selected_menu_item: ctf
+selected_menu_item: archive 
 hide_documents: true
 hide_partners: false
-hide_schedule: false
-hide_stream: false
+hide_schedule: true
+hide_stream: true
 showStatus: false
 layout: finals.pug
 ---

@@ -11,6 +11,11 @@
       ctf_time_link: "https://ctftime.org/event/539"
       internal_link: "/volgactf-2018-quals/quals.html"
     - name: "VolgaCTF 2018 Finals"
-      ctf_time_link: ""
+      ctf_time_link: "https://ctftime.org/event/638"
       internal_link: "/volgactf-2018-finals/finals.html"
+- name: "VolgaCTF 2019"
+  events:
+    - name: "VolgaCTF 2019 Qualifier"
+      ctf_time_link: "https://ctftime.org/event/713"
+      internal_link: "/volgactf-2019-qualifier/qualifier.html"
 
