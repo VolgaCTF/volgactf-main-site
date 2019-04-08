@@ -4,10 +4,10 @@
   title: "main"
   page: "/"
 - name:
-    en: "VOLGACTF 2019 QUALIFIER"
-    ru: "VOLGACTF 2019 QUALIFIER"
+    en: "VOLGACTF 2019 FINAL"
+    ru: "VOLGACTF 2019 FINAL"
   title: "ctf"
-  page: "/volgactf-2019-qualifier/qualifier.html"
+  page: "/volgactf-2019-final/final.html"
 - name:
     en: "CONTACTS"
     ru: "КОНТАКТЫ"

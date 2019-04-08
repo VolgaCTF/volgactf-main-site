@@ -1,0 +1,112 @@
+- name:
+    en: "International teams"
+    ru: "Международные команды"
+  teams:
+    - name: "DuckDuckNo"
+      edu:
+        en: "University of Tartu"
+        ru: "University of Tartu"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/57587"
+    - name: "Balsn"
+      edu:
+        en: "National Taiwan University"
+        ru: "National Taiwan University"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/16978"
+    - name: "STT"
+      edu:
+        en: "Instituto Superior Técnico"
+        ru: "Instituto Superior Técnico"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/34619"
+- name:
+    en: "Russian teams"
+    ru: "Российские команды"
+  teams:
+    - name: "LC↯BC"
+      edu:
+        en: "ITMO University"
+        ru: "Университет ИТМО"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/15726"
+    - name: "VoidHack"
+      edu:
+        en: "Ural Federal University"
+        ru: "Уральский федеральный университет"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/21137"
+    - name: "--==__Har[u]6aToP__==--"
+      edu:
+        en: "Novosibirsk State University"
+        ru: "Новосибирский государственный университет"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/76449"
+    - name: "Shadow Servants"
+      edu:
+        en: "Higher School of Economics"
+        ru: "Высшая школа экономики"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/20904"
+    - name: "ntcZajebisty"
+      edu:
+        en: "National Research Nuclear University MEPhI"
+        ru: "НИЯУ МИФИ"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/70634"
+    - name: "Bushwhackers"
+      edu:
+        en: "Moscow State University"
+        ru: "Московский государственный университет"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/586"
+- name:
+    en: "Volga federal district teams"
+    ru: "Команды Приволжского федерального округа"
+  teams:
+    - name: "Kappa"
+      edu:
+        en: "Ufa State Aviation Technical University"
+        ru: "Уфимский государственный авиационный технический университет"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/1607"
+    - name: "BE4HOXVII"
+      edu:
+        ru: "Самарский университет"
+        en: "Samara University"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/34480"
+    - name: "Great_Octopus"
+      edu:
+        en: "Kazan University"
+        ru: "Казанский университет"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/36237"
+    - name: "WNG"
+      edu:
+        en: "Orenburg State University"
+        ru: "Оренбургский государственный университет"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/68915"
+    - name: "AVe M"
+      edu:
+        en: "Penza State University"
+        ru: "Пензенский государственный университет"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/32509"
+- name:
+    en: "Guest teams"
+    ru: "Гостевые команды"
+  teams:
+    - name: "v0rt3x"
+      edu:
+        ru: "Саратовский государственный университет"
+        en: "Saratov State University"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/3906"
+    - name: "Pixels"
+      edu:
+        ru: "5 Научная Рота"
+        en: "5th Science Division"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/17424"

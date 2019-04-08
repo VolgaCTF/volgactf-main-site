@@ -1,4 +1,4 @@
 ---
-quals_text: VolgaCTF 2019 Qualifier event will be held from 29 March to 31 March. Registration will be open on 1 March. Sign up on [https://q.2019.volgactf.ru/](https://q.2019.volgactf.ru/)
+quals_text: VolgaCTF 2019 Qualifier event was held from 29 March to 31 March. The winners will be invited to VolgaCTF 2019 Final
 layout: quals.pug
 ---
