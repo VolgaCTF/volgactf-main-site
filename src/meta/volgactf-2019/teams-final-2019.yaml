@@ -64,12 +64,6 @@
     en: "Volga federal district teams"
     ru: "Команды Приволжского федерального округа"
   teams:
-    - name: "Kappa"
-      edu:
-        en: "Ufa State Aviation Technical University"
-        ru: "Уфимский государственный авиационный технический университет"
-      status: "sent"
-      ctftime_link: "https://ctftime.org/team/1607"
     - name: "BE4HOXVII"
       edu:
         ru: "Самарский университет"
@@ -94,6 +88,12 @@
         ru: "Пензенский государственный университет"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/32509"
+    - name: "tarradiddle"
+      edu:
+        en: "Saratov State Technical University"
+        ru: "Саратовский государственный технический университет"
+      status: "sent"
+      ctftime_link: "https://ctftime.org/team/76452"
 - name:
     en: "Guest teams"
     ru: "Гостевые команды"
