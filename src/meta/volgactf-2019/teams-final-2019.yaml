@@ -28,7 +28,7 @@
       edu:
         en: "ITMO University"
         ru: "Университет ИТМО"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/15726"
     - name: "VoidHack"
       edu:
@@ -40,25 +40,25 @@
       edu:
         en: "Novosibirsk State University"
         ru: "Новосибирский государственный университет"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/76449"
     - name: "Shadow Servants"
       edu:
         en: "Higher School of Economics"
         ru: "Высшая школа экономики"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/20904"
     - name: "ntcZajebisty"
       edu:
         en: "National Research Nuclear University MEPhI"
         ru: "НИЯУ МИФИ"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/70634"
     - name: "Bushwhackers"
       edu:
         en: "Moscow State University"
         ru: "Московский государственный университет"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/586"
 - name:
     en: "Volga federal district teams"
@@ -80,19 +80,19 @@
       edu:
         en: "Kazan University"
         ru: "Казанский университет"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/36237"
     - name: "WNG"
       edu:
         en: "Orenburg State University"
         ru: "Оренбургский государственный университет"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/68915"
     - name: "AVe M"
       edu:
         en: "Penza State University"
         ru: "Пензенский государственный университет"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/32509"
 - name:
     en: "Guest teams"
@@ -102,11 +102,11 @@
       edu:
         ru: "Саратовский государственный университет"
         en: "Saratov State University"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/3906"
     - name: "Pixels"
       edu:
         ru: "5 Научная Рота"
         en: "5th Science Division"
-      status: "sent"
+      status: "accepted"
       ctftime_link: "https://ctftime.org/team/17424"
