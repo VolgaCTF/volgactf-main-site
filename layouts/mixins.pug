@@ -94,7 +94,7 @@ mixin partnersGrid(partners,locale,level)
                     div.large-3.small-6.text-center
                         +partnerLogo("/images/" + partner.image,partner.link)
 
-mixin teamsTable(sentStatus,acceptedStatus,shortListedStatus,teams, sourceLang, showStatus)
+mixin teamsTable(sentStatus,acceptedStatus,shortListedStatus, declinedStatus,teams, sourceLang, showStatus)
     div.table-scroll
         table.unstriped.teams
             tbody
@@ -115,6 +115,8 @@ mixin teamsTable(sentStatus,acceptedStatus,shortListedStatus,teams, sourceLang, 
                                         td #{sentStatus}
                                     when "shortlist"
                                         td #{shortListedStatus}
+                                    when "declined"
+                                        td #{declinedStatus}
 
 
 mixin scoreboard(data, normalizeScore)

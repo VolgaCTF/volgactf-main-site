@@ -10,5 +10,6 @@ stream_header: VIDEO STREAM
 teams_table_accepted: Invitation accepted
 teams_table_waiting: Invitation sent
 teams_table_shortlisted: Team in short-list
+teams_table_declined: Team refused to participate
 layout: finals.pug
 ---

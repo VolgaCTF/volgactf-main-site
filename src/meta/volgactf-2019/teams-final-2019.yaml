@@ -8,12 +8,6 @@
         ru: "University of Tartu"
       status: "sent"
       ctftime_link: "https://ctftime.org/team/57587"
-    - name: "Balsn"
-      edu:
-        en: "National Taiwan University"
-        ru: "National Taiwan University"
-      status: "sent"
-      ctftime_link: "https://ctftime.org/team/16978"
     - name: "STT"
       edu:
         en: "Instituto Superior Técnico"
@@ -24,7 +18,7 @@
       edu:
         en: "University of Applied Sciences|Johannes Kepler University Linz"
         ru: "University of Applied Sciences|Johannes Kepler University Linz"
-      status: "shortlist"
+      status: "sent"
       ctftime_link: "https://ctftime.org/team/65641"
     - name: "0ops"
       edu:
@@ -32,6 +26,12 @@
         ru: "Shanghai Jiao Tong University"
       status: "shortlist"
       ctftime_link: "https://ctftime.org/team/4419"
+    - name: "Balsn"
+      edu:
+        en: "National Taiwan University"
+        ru: "National Taiwan University"
+      status: "declined"
+      ctftime_link: "https://ctftime.org/team/16978"
 - name:
     en: "Russian teams"
     ru: "Российские команды"

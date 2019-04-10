@@ -8,6 +8,7 @@ teams_header_sub: СОРЕВНОВАНИЙ
 teams_table_accepted: Приглашение принято
 teams_table_waiting: Приглашение отправлено
 teams_table_shortlisted: Команда в шорт-листе
+teams_table_declined: Команда отказалась от участия
 partners_header_main: ПАРТНЕРЫ И
 partners_header_sub: СПОНСОРЫ
 documents_header_main: ДОКУМЕНТЫ
