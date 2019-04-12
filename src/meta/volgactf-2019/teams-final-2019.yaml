@@ -16,8 +16,8 @@
       ctftime_link: "https:/ctftime.org/team/34619"
     - name: "UpperSec"
       edu:
-        en: "University of Applied Sciences|Johannes Kepler University Linz"
-        ru: "University of Applied Sciences|Johannes Kepler University Linz"
+        en: "University of applied sciences Upper Austria|Johannes Kepler University Linz"
+        ru: "University of applied sciences Upper Austria|Johannes Kepler University Linz"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/65641"
     - name: "0ops"
