@@ -2,7 +2,7 @@
   "name": "volgactf-site",
   "version": "3.1.0",
   "description": "Main VolgaCTF site package",
-  "author": "Aleksey Volkov <volalex@volgactf.ru>",
+  "author": "Alexey Volkov <volalex@volgactf.ru>",
   "private": true,
   "analyze": true,
   "license": "MIT",
