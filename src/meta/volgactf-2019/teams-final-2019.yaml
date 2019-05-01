@@ -2,12 +2,6 @@
     en: "International teams"
     ru: "Международные команды"
   teams:
-    - name: "DuckDuckNo"
-      edu:
-        en: "University of Tartu"
-        ru: "University of Tartu"
-      status: "sent"
-      ctftime_link: "https://ctftime.org/team/57587"
     - name: "STT"
       edu:
         en: "Instituto Superior Técnico"
@@ -32,6 +26,12 @@
         ru: "National Taiwan University"
       status: "declined"
       ctftime_link: "https://ctftime.org/team/16978"
+    - name: "DuckDuckNo"
+      edu:
+        en: "University of Tartu"
+        ru: "University of Tartu"
+      status: "declined"
+      ctftime_link: "https://ctftime.org/team/57587"
 - name:
     en: "Russian teams"
     ru: "Российские команды"
