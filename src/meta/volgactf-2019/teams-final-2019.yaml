@@ -26,6 +26,12 @@
         ru: "St. Pölten University of Applied Sciences"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/2010"
+    - name: "ISITDTU"
+      edu:
+        en: "Duy Tan University"
+        ru: "Duy Tan University"
+      status: "accepted"
+      ctftime_link: "https://ctftime.org/team/8241"
     #- name: "0ops"
     #  edu:
     #    en: "Shanghai Jiao Tong University"
