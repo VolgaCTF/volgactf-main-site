@@ -90,6 +90,12 @@
         ru: "Московский государственный университет"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/586"
+    - name: "SFT0"
+      edu:
+        en: "Bauman Moscow State Technical University"
+        ru: "Московский государственный технический университет имени Н. Э. Баумана"
+      status: "accepted"
+      ctftime_link: "https://ctftime.org/team/32139"
 - name:
     en: "Volga federal district teams"
     ru: "Команды Приволжского федерального округа"
