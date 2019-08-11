@@ -96,6 +96,12 @@
         ru: "Московский государственный технический университет имени Н. Э. Баумана"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/32139"
+    - name: "Kappa"
+      edu:
+        en: "ITMO University"
+        ru: "Университет ИТМО"
+      status: "accepted"
+      ctftime_link: "https://ctftime.org/team/1607"
 - name:
     en: "Volga federal district teams"
     ru: "Команды Приволжского федерального округа"
