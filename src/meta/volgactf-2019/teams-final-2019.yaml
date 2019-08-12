@@ -2,12 +2,6 @@
     en: "International teams"
     ru: "Международные команды"
   teams:
-    - name: "STT"
-      edu:
-        en: "Instituto Superior Técnico"
-        ru: "Instituto Superior Técnico"
-      status: "sent"
-      ctftime_link: "https:/ctftime.org/team/34619"
     - name: "UpperSec"
       edu:
         en: "University of applied sciences Upper Austria|Johannes Kepler University Linz"
@@ -32,12 +26,6 @@
         ru: "Duy Tan University"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/8241"
-    #- name: "0ops"
-    #  edu:
-    #    en: "Shanghai Jiao Tong University"
-    #    ru: "Shanghai Jiao Tong University"
-    #  status: "shortlist"
-    #  ctftime_link: "https://ctftime.org/team/4419"
     - name: "Balsn"
       edu:
         en: "National Taiwan University"
@@ -50,6 +38,12 @@
         ru: "University of Tartu"
       status: "declined"
       ctftime_link: "https://ctftime.org/team/57587"
+    - name: "STT"
+      edu:
+        en: "Instituto Superior Técnico"
+        ru: "Instituto Superior Técnico"
+      status: "declined"
+      ctftime_link: "https:/ctftime.org/team/34619"
 - name:
     en: "Russian teams"
     ru: "Российские команды"
