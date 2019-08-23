@@ -26,6 +26,12 @@
         ru: "Duy Tan University"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/8241"
+    - name: "JustDoIt"
+      edu:
+        en: "Salzburg University of Applied Sciences"
+        ru: "Salzburg University of Applied Sciences"
+      status: "accepted"
+      ctftime_link: "https://ctftime.org/team/35753"
     - name: "Balsn"
       edu:
         en: "National Taiwan University"
