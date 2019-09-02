@@ -92,7 +92,7 @@
         en: "Evgeniy 'japroc' Procenko, Yandex"
         ru: "Евгений 'japroc' Проценко, Яндекс"
 
-- date: "19.09"
+- date: "18.09"
   schedule:
     - time: "9:00"
       name:
@@ -159,7 +159,7 @@
       author:
         en: "Hardware Village + Lockpick Village"
         ru: "Hardware Village + Lockpick Village"
-- date: "20.09"
+- date: "19.09"
   schedule:
     - time: "9:00"
       name:
@@ -177,7 +177,7 @@
       name:
         en: "End of CTF"
         ru: "Окончание соревнований"
-- date: "21.09"
+- date: "20.09"
   schedule:
     - time: "11:30"
       name:
