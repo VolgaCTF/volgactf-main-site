@@ -1,0 +1,189 @@
+- date: "17.09"
+  schedule:
+    - time: "9:00"
+      name:
+        en: "Registration of participants"
+        ru: "Регистрация участников"
+    - time: "10:00"
+      name:
+        en: "Conference opening"
+        ru: "Открытие соревнований"
+    - time: "10:30"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "11:00"
+      name:
+        en: "Introduction of the participants"
+        ru: "Представление команд-участниц cоревнований"
+    - time: "11:30"
+      name:
+        en: "Welcome speech by Maria Zakharova"
+        ru: "Телемост с Марией Владимировной Захаровой"
+    - time: "11:45"
+      name:
+        en: "A History of one Apple software update"
+        ru: "История одного патча Apple"
+      author:
+        en: "Dmitry 'D1g1' Evdokimov and Alexey 'a1exdandy' Kovrizhnyh, Digital Security"
+        ru: "Дмитрий 'D1g1' Евдокимов и Алексей 'a1exdandy' Коврижных, Digital Security"
+
+    - time: "12:35"
+      name:
+        en: "Exploiting Kernel Memory Corruptions on Microsoft Windows 10 RedStone 6"
+        ru: "Exploiting Kernel Memory Corruptions on Microsoft Windows 10 RedStone 6"
+      author:
+        en: "Nikita Tarakanov"
+        ru: "Никита Тараканов"
+
+    - time: "13:15"
+      name:
+        en: "Debug like Intel: Activation of hardware debugging for x86 platforms"
+        ru: "Отлаживай как Intel: активируем аппаратную отладку для платформ x86"
+      author:
+        en: "Maxim Goryachy, Positive Technologies"
+        ru: "Максим Горячий, Positive Technologies"
+
+    - time: "14:00"
+      name:
+        en: "Lunchtime"
+        ru: "Обед"
+
+    - time: "15:00"
+      name:
+        en: "Side-channels on the Web: Attacks and Defences"
+        ru: "Side-channels on the Web: Attacks and Defences"
+      author:
+        en: "Tom Van Goethem"
+        ru: "Tom Van Goethem"
+
+    - time: "16:00"
+      name:
+        en: "Finding 0days in IoT device"
+        ru: "Поиск 0day уязвимостей в IoT устройстве"
+      author:
+        en: "Ilya 'drakylar' Shaposhnikov, PJSC Rostelekom, Red Team"
+        ru: "Илья 'drakylar' Шапошников, ПАО Ростелеком, Red Team"
+
+    - time: "17:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+
+    - time: "17:15"
+      name:
+        en: "Browser security"
+        ru: "Browser security"
+      author:
+        en: "SadQueen, Defence Group"
+        ru: "SadQueen, Defence Group"
+    - time: "18:00"
+      name:
+        en: "Linux Kernel fuzzing: Practical Approach"
+        ru: "Фаззинг ядра Linux: как это выглядит на практике"
+      author:
+        en: "Alexander 'a13xp0p0v' Popov, Positive Technologies"
+        ru: "Александр 'a13xp0p0v' Попов, Positive Technologies"
+    - time: "19:00"
+      name:
+        en: "Automated search of fuzzing targets based on static code analysis"
+        ru: "Автоматизированный выбор целей для фаззинга на основе статического анализа кода"
+      author:
+        en: "Evgeniy 'japroc' Procenko, Yandex"
+        ru: "Евгений 'japroc' Проценко, Яндекс"
+
+- date: "19.09"
+  schedule:
+    - time: "9:00"
+      name:
+        en: "The talk title is under consideration"
+        ru: "Название доклада в стадии рассмотрения"
+      author:
+        en: "Gazinforservice LLC"
+        ru: "ООО «Газинформсервис»"
+    - time: "10:00"
+      name:
+        en: "The talk is under consideration"
+        ru: "Доклад в стадии рассмотрения"
+    - time: "11:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "11:15"
+      name:
+        en: "TLS will not help. Searching of malicious network traffic without decryption"
+        ru: "TLS не спасет. Обнаруживаем вредоносный трафик без расшифровки‎"
+      author:
+        en: "Kirill Shipulin, Positive Technologies"
+        ru: "Кирилл Шипулин, Positive Technologies"
+    - time: "12:15"
+      name:
+        en: "NFC hacking and the joys of free transportation‎"
+        ru: "NFC hacking and the joys of free transportation‎"
+      author:
+        en: "Anatol Prisacaru"
+        ru: "Anatol Prisacaru"
+    - time: "13:15"
+      name:
+        en: "DIY Passwordless authentication, making Lua module for nginx"
+        ru: "Беспарольная аутентификация своими руками, разработка lua модуля к nginx"
+      author:
+        en: "Eldar Beibutov, Application Security Consultant in Positive Technologies"
+        ru: "Эльдар Бейбутов, Консультант по безопасности приложений в Positive Technologies"
+    - time: "14:00"
+      name:
+        en: "Lunchtime"
+        ru: "Обед"
+    - time: "15:00"
+      name:
+        en: "Blade Runner: Bots detection by HTTP request analysis"
+        ru: "Бегущий по лезвию: вычисляем ботов по HTTP-запросам"
+      author:
+        en: "Dmitry 'soxoj' Danilov"
+        ru: "Дмитрий 'soxoj' Данилов"
+    - time: "16:00"
+      name:
+        en: "SFP ONU - full scale computer that you cannot control"
+        ru: "SFP ONU - полноценный компьютер без вашего контроля"
+      author:
+        en: "Hardware Village + Lockpick Village"
+        ru: "Hardware Village + Lockpick Village"
+    - time: "17:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "17:15"
+      name:
+        en: "Hardware Village + Lockpick Village"
+        ru: "Hardware Village + Lockpick Village"
+      author:
+        en: "Hardware Village + Lockpick Village"
+        ru: "Hardware Village + Lockpick Village"
+- date: "20.09"
+  schedule:
+    - time: "9:00"
+      name:
+        en: "Start of CTF"
+        ru: "Начало соревнований"
+    - time: "14:00"
+      name:
+        en: "Lunch"
+        ru: "Обед"
+    - time: "15:00"
+      name:
+        en: "CTF"
+        ru: "Продолжение соревнований"
+    - time: "19:00"
+      name:
+        en: "End of CTF"
+        ru: "Окончание соревнований"
+- date: "21.09"
+  schedule:
+    - time: "11:30"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "12:00"
+      name:
+        en: "Award ceremony"
+        ru: "Награждение"

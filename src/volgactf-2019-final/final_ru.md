@@ -15,10 +15,11 @@ documents_header_main: ДОКУМЕНТЫ
 schedule_header: РАСПИСАНИЕ
 stream_header: ВИДЕОТРАНСЛЯЦИЯ
 meta-teams: meta/volgactf-2019/teams-final-2019.yaml
+meta-schedule: meta/volgactf-2019/schedule-final-2019.yaml
 selected_menu_item: ctf
 hide_documents: true
 hide_partners: true
-hide_schedule: true
+hide_schedule: false
 hide_stream: true
 showStatus: true
 layout: finals.pug
