@@ -128,8 +128,8 @@
         en: "DIY Passwordless authentication, making Lua module for nginx"
         ru: "Беспарольная аутентификация своими руками, разработка lua модуля к nginx"
       author:
-        en: "Eldar Beibutov, Application Security Consultant in Positive Technologies"
-        ru: "Эльдар Бейбутов, Консультант по безопасности приложений в Positive Technologies"
+        en: "Eldar Beibutov, Application Security Consultant, Positive Technologies"
+        ru: "Эльдар Бейбутов, Консультант по безопасности приложений, Positive Technologies"
     - time: "14:00"
       name:
         en: "Lunchtime"
