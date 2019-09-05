@@ -41,8 +41,8 @@
         en: "Debug like Intel: Activation of hardware debugging for x86 platforms"
         ru: "Отлаживай как Intel: активируем аппаратную отладку для платформ x86"
       author:
-        en: "Maxim Goryachy, Positive Technologies"
-        ru: "Максим Горячий, Positive Technologies"
+        en: "Maxim 'h0t_max' Goryachy, Positive Technologies"
+        ru: "Максим 'h0t_max' Горячий, Positive Technologies"
 
     - time: "14:00"
       name:
@@ -103,8 +103,11 @@
         ru: "ООО «Газинформсервис»"
     - time: "10:00"
       name:
-        en: "The talk is under consideration"
-        ru: "Доклад в стадии рассмотрения"
+        en: "Flat Earth theory. Analysis of discourse in social media"
+        ru: "Теория плоской Земли. Анализ дискурса в социальных медиа"
+      author:
+        en: "Maxim Bronzinskiy"
+        ru: "Максим Бронзинский»"
     - time: "11:00"
       name:
         en: "Coffee break"
@@ -139,8 +142,8 @@
         en: "Blade Runner: Bots detection by HTTP request analysis"
         ru: "Бегущий по лезвию: вычисляем ботов по HTTP-запросам"
       author:
-        en: "Dmitry 'soxoj' Danilov"
-        ru: "Дмитрий 'soxoj' Данилов"
+        en: "Dmitry @soxoj, DC7495, Avito"
+        ru: "Дмитрий @soxoj, DC7495, Авито"
     - time: "16:00"
       name:
         en: "SFP ONU - full scale computer that you cannot control"
