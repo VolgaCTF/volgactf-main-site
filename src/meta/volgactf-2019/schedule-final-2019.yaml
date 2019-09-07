@@ -30,12 +30,11 @@
 
     - time: "12:35"
       name:
-        en: "Exploiting Kernel Memory Corruptions on Microsoft Windows 10 RedStone 6"
-        ru: "Exploiting Kernel Memory Corruptions on Microsoft Windows 10 RedStone 6"
+        en: "Side-channels on the Web: Attacks and Defences"
+        ru: "Side-channels on the Web: Attacks and Defences"
       author:
-        en: "Nikita Tarakanov"
-        ru: "Никита Тараканов"
-
+        en: "Tom Van Goethem, University of Leuven (Belgium)"
+        ru: "Tom Van Goethem, University of Leuven (Belgium)"
     - time: "13:15"
       name:
         en: "Debug like Intel: Activation of hardware debugging for x86 platforms"
@@ -43,28 +42,24 @@
       author:
         en: "Maxim 'h0t_max' Goryachy, Positive Technologies"
         ru: "Максим 'h0t_max' Горячий, Positive Technologies"
-
     - time: "14:00"
       name:
         en: "Lunchtime"
         ru: "Обед"
-
     - time: "15:00"
-      name:
-        en: "Side-channels on the Web: Attacks and Defences"
-        ru: "Side-channels on the Web: Attacks and Defences"
-      author:
-        en: "Tom Van Goethem"
-        ru: "Tom Van Goethem"
-
-    - time: "16:00"
       name:
         en: "Finding 0days in IoT device"
         ru: "Поиск 0day уязвимостей в IoT устройстве"
       author:
         en: "Ilya 'drakylar' Shaposhnikov, PJSC Rostelekom, Red Team"
         ru: "Илья 'drakylar' Шапошников, ПАО Ростелеком, Red Team"
-
+    - time: "16:00"
+      name:
+        en: "Browser security"
+        ru: "Browser security"
+      author:
+        en: "SadQueen, Defence Group"
+        ru: "SadQueen, Defence Group"
     - time: "17:00"
       name:
         en: "Coffee break"
@@ -72,26 +67,18 @@
 
     - time: "17:15"
       name:
-        en: "Browser security"
-        ru: "Browser security"
-      author:
-        en: "SadQueen, Defence Group"
-        ru: "SadQueen, Defence Group"
-    - time: "18:00"
-      name:
         en: "Linux Kernel fuzzing: Practical Approach"
         ru: "Фаззинг ядра Linux: как это выглядит на практике"
       author:
         en: "Alexander 'a13xp0p0v' Popov, Positive Technologies"
         ru: "Александр 'a13xp0p0v' Попов, Positive Technologies"
-    - time: "19:00"
+    - time: "18:00"
       name:
         en: "Automated search of fuzzing targets based on static code analysis"
         ru: "Автоматизированный выбор целей для фаззинга на основе статического анализа кода"
       author:
         en: "Evgeniy 'japroc' Procenko, Yandex"
         ru: "Евгений 'japroc' Проценко, Яндекс"
-
 - date: "18.09"
   schedule:
     - time: "9:00"
