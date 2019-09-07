@@ -14,11 +14,12 @@ partners_header_sub: СПОНСОРЫ
 documents_header_main: ДОКУМЕНТЫ
 schedule_header: РАСПИСАНИЕ
 stream_header: ВИДЕОТРАНСЛЯЦИЯ
+meta-partners: meta/volgactf-2019/partners-final-2019.yaml
 meta-teams: meta/volgactf-2019/teams-final-2019.yaml
 meta-schedule: meta/volgactf-2019/schedule-final-2019.yaml
 selected_menu_item: ctf
 hide_documents: true
-hide_partners: true
+hide_partners: false
 hide_schedule: false
 hide_stream: true
 showStatus: true

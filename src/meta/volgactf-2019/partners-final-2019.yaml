@@ -1,0 +1,52 @@
+- name:
+    en: "COMPETITION ORGANISERS"
+    ru: "ОРГАНИЗАТОРЫ СОРЕВНОВАНИЙ"
+  partners:
+    - image: "dit.png"
+      link: "http://dit.samregion.ru/"
+    - image: "su.svg"
+      link: "http://www.ssau.ru/"
+    - image: "sroo.png"
+      link: ""
+    - image: "infsp.png"
+      link: "http://samis.geosamara.ru/"
+    - image: "ct.jpg"
+      link: ""
+- name:
+    en: "SUPPORTED BY"
+    ru: "ПРИ ПОДДЕРЖКЕ"
+  partners:
+    - image: "mfa.svg"
+      link: "http://www.mid.ru"
+- name:
+    en: "COMPETITION PARTNERS"
+    ru: "ПАРТНЁРЫ СОРЕВНОВАНИЙ"
+  partners:
+    - image: "gis.png"
+      link: "https://www.gaz-is.ru/"
+    - image: "pt.svg"
+      link: "https://www.ptsecurity.com"
+    - image: "dsec.png"
+      link: "http://dsec.ru/"
+    - image: "it_universe.png"
+      link: "http://www.it-universe.ru/"
+    - image: "kaspersky-logo.svg"
+      link: "https://www.kaspersky.ru/"
+- name:
+    en: "MEDIA PARTNERS"
+    ru: "ИНФОРМАЦИОННЫЕ ПАРТНЕРЫ"
+  partners:
+    - image: "rocrew.svg"
+      link: "https://forum.reverse4you.org/"
+    - image: "xakep_logo.png"
+      link: "https://xakep.ru/"
+    - image: "raec.png"
+      link: "http://raec.ru/"
+- name:
+    en: "SPONSORS"
+    ru: "СПОНСОРЫ"
+  partners:
+    - image: "status_goloden.png"
+      link: "http://statusgoloden.ru/"
+    - image: "veterok.png"
+      link: "https://vk.com/turbazaveterok"
