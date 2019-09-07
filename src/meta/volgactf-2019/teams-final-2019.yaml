@@ -76,7 +76,7 @@
       edu:
         en: "Higher School of Economics"
         ru: "Высшая школа экономики"
-      status: "accepted"
+      status: "declined"
       ctftime_link: "https://ctftime.org/team/20904"
     - name: "ntcZajebisty"
       edu:
@@ -134,7 +134,7 @@
       edu:
         en: "Saratov State Technical University"
         ru: "Саратовский государственный технический университет"
-      status: "accepted"
+      status: "declined"
       ctftime_link: "https://ctftime.org/team/76452"
 - name:
     en: "Guest teams"
