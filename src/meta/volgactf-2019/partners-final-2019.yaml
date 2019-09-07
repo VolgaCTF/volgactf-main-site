@@ -34,7 +34,7 @@
       link: "https://www.kaspersky.ru/"
 - name:
     en: "MEDIA PARTNERS"
-    ru: "ИНФОРМАЦИОННЫЕ ПАРТНЕРЫ"
+    ru: "ИНФОРМАЦИОННЫЕ ПАРТНЁРЫ"
   partners:
     - image: "rocrew.svg"
       link: "https://forum.reverse4you.org/"
