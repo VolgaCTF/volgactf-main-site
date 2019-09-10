@@ -19,8 +19,8 @@
     - image: "mfa.svg"
       link: "http://www.mid.ru"
 - name:
-    en: "GENERAL SPONSOR"
-    ru: "ГЕНЕРАЛЬНЫЙ СПОНСОР"
+    en: "GENERAL PARTNER"
+    ru: "ГЕНЕРАЛЬНЫЙ ПАРТНЁР"
   partners:
     - image: "rt-solar.png"
       link: "https://rt-solar.ru/"
