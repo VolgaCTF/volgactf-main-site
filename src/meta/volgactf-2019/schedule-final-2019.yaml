@@ -6,12 +6,12 @@
         ru: "Регистрация участников"
     - time: "10:00"
       name:
-        en: "Conference opening"
-        ru: "Открытие соревнований"
-    - time: "10:30"
-      name:
         en: "Coffee break"
         ru: "Кофе-брейк"
+    - time: "10:30"
+      name:
+        en: "Conference opening"
+        ru: "Открытие соревнований"
     - time: "11:00"
       name:
         en: "Introduction of the participants"
@@ -155,6 +155,10 @@
       name:
         en: "Start of CTF"
         ru: "Начало соревнований"
+    - time: "11:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
     - time: "14:00"
       name:
         en: "Lunch"
@@ -163,6 +167,10 @@
       name:
         en: "CTF"
         ru: "Продолжение соревнований"
+    - time: "17:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
     - time: "19:00"
       name:
         en: "End of CTF"
