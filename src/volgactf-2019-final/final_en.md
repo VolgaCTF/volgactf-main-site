@@ -1,5 +1,5 @@
 ---
-finals_text: Traditional VolgaCTF 2019 competition finals are held in Samara city at Holiday Inn from September, 16th till September, 20nd, 2019.
+finals_text: Traditional VolgaCTF 2019 competition final is held in Samara at Holiday Inn from September, 16th till September, 20nd, 2019.
 teams_header_main: PARTICIPANTS OF THE 
 teams_header_sub: COMPETITION
 partners_header_main: PARTNERS AND
