@@ -59,11 +59,11 @@
         ru: "Кофе-брейк"
     - time: "17:15"
       name:
-        en: "Linux Kernel fuzzing: Practical Approach"
+        en: "Linux Kernel Fuzzing in Practice"
         ru: "Фаззинг ядра Linux: как это выглядит на практике"
       author:
-        en: "Alexander 'a13xp0p0v' Popov, Positive Technologies"
-        ru: "Александр 'a13xp0p0v' Попов, Positive Technologies"
+        en: "Alexander Popov 'a13xp0p0v', Positive Technologies"
+        ru: "Александр Попов 'a13xp0p0v', Positive Technologies"
     - time: "18:15"
       name:
         en: "Automated search of fuzzing targets based on static code analysis"
@@ -132,8 +132,8 @@
         en: "SFP ONU - full scale computer that you cannot control"
         ru: "SFP ONU - полноценный компьютер без вашего контроля"
       author:
-        en: "Hardware Village + Lockpick Village(DC7495)"
-        ru: "Hardware Village + Lockpick Village(DC7495)"
+        en: "HardWare Village"
+        ru: "HardWare Village"
     - time: "17:00"
       name:
         en: "Coffee break"
@@ -143,15 +143,15 @@
         en: "Lockpick: Lock anatomy and vulnerabilities"
         ru: "Lockpick: устройство замков, их уязвимости и как с этим жить"
       author:
-        en: "@nipnull, @dumbmode, Hardware Village + Lockpick Village(DC7495)"
-        ru: "@nipnull, @dumbmode, Hardware Village + Lockpick Village(DC7495)"
+        en: "@nipnull, @dumbmode,DC7495"
+        ru: "@nipnull, @dumbmode,DC7495"
     - time: "18:15"
       name:
-        en: "Hardware Village + Lockpick Village(DC7495)"
-        ru: "Hardware Village + Lockpick Village(DC7495)"
+        en: "Interactive lecture"
+        ru: "Интерактив"
       author:
-        en: "Hardware Village + Lockpick Village(DC7495)"
-        ru: "Hardware Village + Lockpick Village(DC7495)"
+        en: "Hardware Village + Lockpick(DC7495)"
+        ru: "Hardware Village + Lockpick(DC7495)"
 - date: "19.09"
   schedule:
     - time: "10:00"
