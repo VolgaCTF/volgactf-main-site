@@ -19,9 +19,14 @@ html(lang=locale)
                 div.grid-x
                     div.large-offset-1.large-4.cell.cell-text
                         h1.main #{stream_header}
-                    div.large-offset-3.large-6.cell
-                        div.flex-video
-                            iframe(frameborder='0', width='100%', height='100%', scrolling='no', src='//ZOBRtv.webcaster.pro/iframe/feed/start/free_682c003e32e2a1ec07e150e9b30fefd7_hd/207_1555205756/5b43f1f8ffd8bf9d9511930f6c79907c/4693193600?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru', allowfullscreen='', allow='encrypted-media')
+                    if(stream_link)
+                        div.large-offset-3.large-6.cell
+                            div.flex-video
+                                iframe(frameborder='0', width='100%', height='100%', scrolling='no', src=stream_link, allowfullscreen='', allow='encrypted-media')
+                if(!stream_link)
+                    div.grid-x
+                        div.large-offset-1.large-6.cell
+                            p #{stream_placeholder_text}
         if(schedule && !hide_schedule)
             section#schedule
                 div.grid-x
