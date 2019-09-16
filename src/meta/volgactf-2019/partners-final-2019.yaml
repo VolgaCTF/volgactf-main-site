@@ -56,6 +56,8 @@
       link: "https://vk.com/ph.illuminator"
     - image: "zero_nights_2019.svg"
       link: "https://zeronights.ru"
+    - image: "offzone.png"
+      link: "https://offzone.moscow/"
 - name:
     en: "SPONSORS"
     ru: "СПОНСОРЫ"
