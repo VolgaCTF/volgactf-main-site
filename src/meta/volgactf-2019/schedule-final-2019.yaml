@@ -20,7 +20,7 @@
       name:
         en: "Welcome speech by Maria Zakharova"
         ru: "Телемост с Марией Владимировной Захаровой"
-    - time: "11:45"
+    - time: "12:00"
       name:
         en: "A History of one Apple software update"
         ru: "История одного патча Apple"
@@ -28,20 +28,13 @@
         en: "Dmitry 'D1g1' Evdokimov and Alexey 'a1exdandy' Kovrizhnyh, Digital Security"
         ru: "Дмитрий 'D1g1' Евдокимов и Алексей 'a1exdandy' Коврижных, Digital Security"
 
-    - time: "12:35"
+    - time: "13:00"
       name:
         en: "Side-channels on the Web: Attacks and Defences"
         ru: "Side-channels on the Web: Attacks and Defences"
       author:
         en: "Tom Van Goethem, University of Leuven (Belgium)"
         ru: "Tom Van Goethem, University of Leuven (Belgium)"
-    - time: "13:15"
-      name:
-        en: "Debug like Intel: Activation of hardware debugging for x86 platforms"
-        ru: "Отлаживай как Intel: активируем аппаратную отладку для платформ x86"
-      author:
-        en: "Maxim 'h0t_max' Goryachy, Positive Technologies"
-        ru: "Максим 'h0t_max' Горячий, Positive Technologies"
     - time: "14:00"
       name:
         en: "Lunchtime"
@@ -55,16 +48,15 @@
         ru: "Илья 'drakylar' Шапошников, ПАО Ростелеком, Red Team"
     - time: "16:00"
       name:
-        en: "Browser security"
-        ru: "Browser security"
+        en: "Debug like Intel: Activation of hardware debugging for x86 platforms"
+        ru: "Отлаживай как Intel: активируем аппаратную отладку для платформ x86"
       author:
-        en: "SadQueen, Defence Group"
-        ru: "SadQueen, Defence Group"
+        en: "Maxim 'h0t_max' Goryachy, Positive Technologies"
+        ru: "Максим 'h0t_max' Горячий, Positive Technologies"
     - time: "17:00"
       name:
         en: "Coffee break"
         ru: "Кофе-брейк"
-
     - time: "17:15"
       name:
         en: "Linux Kernel fuzzing: Practical Approach"
@@ -72,29 +64,33 @@
       author:
         en: "Alexander 'a13xp0p0v' Popov, Positive Technologies"
         ru: "Александр 'a13xp0p0v' Попов, Positive Technologies"
-    - time: "18:00"
+    - time: "18:15"
       name:
         en: "Automated search of fuzzing targets based on static code analysis"
         ru: "Автоматизированный выбор целей для фаззинга на основе статического анализа кода"
       author:
         en: "Evgeniy 'japroc' Procenko, Yandex"
         ru: "Евгений 'japroc' Проценко, Яндекс"
+    - time: "19:15"
+      name:
+        en: "Meeting with FinCERT members"
+        ru: "Встреча со специалистами FinCERT"
 - date: "18.09"
   schedule:
     - time: "9:00"
       name:
-        en: "The talk title is under consideration"
-        ru: "Название доклада в стадии рассмотрения"
+        en: "Automation of company network security control"
+        ru: "Автоматизация контроля защищености сети предпрития"
       author:
-        en: "Gazinforservice LLC"
-        ru: "ООО «Газинформсервис»"
+        en: "Alexey Egorov, Gazinforservice LLC"
+        ru: "Алексей Егоров, ООО «Газинформсервис»"
     - time: "10:00"
       name:
         en: "Flat Earth theory. Analysis of discourse in social media"
         ru: "Теория плоской Земли. Анализ дискурса в социальных медиа"
       author:
-        en: "Maxim Bronzinskiy"
-        ru: "Максим Бронзинский»"
+        en: "Vladislav Lapin, Kribrum"
+        ru: "Владислав Лапин, Крибрум"
     - time: "11:00"
       name:
         en: "Coffee break"
@@ -111,8 +107,8 @@
         en: "NFC hacking and the joys of free transportation‎"
         ru: "NFC hacking and the joys of free transportation‎"
       author:
-        en: "Anatol Prisacaru"
-        ru: "Anatol Prisacaru"
+        en: "Anatol Prisacaru, Security Espresso"
+        ru: "Anatol Prisacaru, Security Espresso"
     - time: "13:15"
       name:
         en: "DIY Passwordless authentication, making Lua module for nginx"
@@ -136,22 +132,29 @@
         en: "SFP ONU - full scale computer that you cannot control"
         ru: "SFP ONU - полноценный компьютер без вашего контроля"
       author:
-        en: "Hardware Village + Lockpick Village"
-        ru: "Hardware Village + Lockpick Village"
+        en: "Hardware Village + Lockpick Village(DC7495)"
+        ru: "Hardware Village + Lockpick Village(DC7495)"
     - time: "17:00"
       name:
         en: "Coffee break"
         ru: "Кофе-брейк"
     - time: "17:15"
       name:
-        en: "Hardware Village + Lockpick Village"
-        ru: "Hardware Village + Lockpick Village"
+        en: "Lockpick: Lock anatomy and vulnerabilities"
+        ru: "Lockpick: устройство замков, их уязвимости и как с этим жить"
       author:
-        en: "Hardware Village + Lockpick Village"
-        ru: "Hardware Village + Lockpick Village"
+        en: "Hardware Village + Lockpick Village(DC7495)"
+        ru: "Hardware Village + Lockpick Village(DC7495)"
+    - time: "18:15"
+      name:
+        en: "Hardware Village + Lockpick Village(DC7495)"
+        ru: "Hardware Village + Lockpick Village(DC7495)"
+      author:
+        en: "Hardware Village + Lockpick Village(DC7495)"
+        ru: "Hardware Village + Lockpick Village(DC7495)"
 - date: "19.09"
   schedule:
-    - time: "9:00"
+    - time: "10:00"
       name:
         en: "Start of CTF"
         ru: "Начало соревнований"
