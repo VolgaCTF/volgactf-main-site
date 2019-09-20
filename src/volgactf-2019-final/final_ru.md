@@ -15,7 +15,7 @@ documents_header_main: ДОКУМЕНТЫ
 schedule_header: РАСПИСАНИЕ
 stream_header: ВИДЕОТРАНСЛЯЦИЯ
 stream_placeholder_text: ЗДЕСЬ БУДЕТ ССЫЛКА
-stream_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_a8ce9e5358088b68a71f4ae99d42c8c4_hd/207_5782656086/c526e860473a11f863b94322b5c22e2a/4724495257?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru
+stream_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_48d0e0e2c34e4b1b15ac99c88d56f1f6_hd/207_5690415327/1d645b7c850b33dc135058abc1cdaa6e/4724636824?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru
 meta-partners: meta/volgactf-2019/partners-final-2019.yaml
 meta-teams: meta/volgactf-2019/teams-final-2019.yaml
 meta-schedule: meta/volgactf-2019/schedule-final-2019.yaml
