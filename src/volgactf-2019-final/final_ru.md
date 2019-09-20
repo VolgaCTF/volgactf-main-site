@@ -19,7 +19,7 @@ stream_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_48d0e0e2c34e4b1b15ac9
 meta-partners: meta/volgactf-2019/partners-final-2019.yaml
 meta-teams: meta/volgactf-2019/teams-final-2019.yaml
 meta-schedule: meta/volgactf-2019/schedule-final-2019.yaml
-meta-scoreboard: meta/volgactf-2019/scoreboard-finals-2019.json
+meta-scoreboard: meta/volgactf-2019/scoreboard-final-2019.json
 selected_menu_item: ctf
 hide_documents: true
 hide_partners: false
