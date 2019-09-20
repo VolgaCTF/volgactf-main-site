@@ -25,6 +25,6 @@ hide_documents: true
 hide_partners: false
 hide_schedule: false
 hide_stream: true
-showStatus: true
+showStatus: false
 layout: finals.pug
 ---
