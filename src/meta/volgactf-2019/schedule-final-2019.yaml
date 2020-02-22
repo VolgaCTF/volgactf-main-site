@@ -27,7 +27,6 @@
       author:
         en: "Dmitry 'D1g1' Evdokimov and Alexey 'a1exdandy' Kovrizhnyh, Digital Security"
         ru: "Дмитрий 'D1g1' Евдокимов и Алексей 'a1exdandy' Коврижных, Digital Security"
-
     - time: "13:00"
       name:
         en: "Side-channels on the Web: Attacks and Defences"
