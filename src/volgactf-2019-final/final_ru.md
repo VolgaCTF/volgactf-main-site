@@ -2,7 +2,7 @@
 title: VolgaCTF::VolgaCTF 2019 Final
 finals_header_main: VOLGA CTF 2019
 finals_header_sub: FINAL
-finals_text: Традиционный финал соревнований VolgaCTF 2019 пройдёт в Самаре с 16 по 20 сентября 2019 года на базе отеля Holiday Inn
+finals_text: Традиционный финал соревнований VolgaCTF 2019 проходил в Самаре с 16 по 20 сентября 2019 года на базе отеля Holiday Inn
 teams_header_main: УЧАСТНИКИ
 teams_header_sub: СОРЕВНОВАНИЙ
 teams_table_accepted: Приглашение принято
@@ -19,11 +19,11 @@ stream_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_362ce0c16e34f253d4126
 meta-partners: meta/volgactf-2019/partners-final-2019.yaml
 meta-teams: meta/volgactf-2019/teams-final-2019.yaml
 meta-schedule: meta/volgactf-2019/schedule-final-2019.yaml
-selected_menu_item: ctf
+selected_menu_item: archive
 hide_documents: true
 hide_partners: false
 hide_schedule: false
 hide_stream: false
-showStatus: true
+showStatus: false
 layout: finals.pug
 ---
