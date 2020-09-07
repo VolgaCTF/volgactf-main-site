@@ -1,0 +1,204 @@
+- date: "15.09"
+  schedule:
+    - time: "9:00"
+      name:
+        en: "Registration of participants"
+        ru: "Регистрация участников соревнований"
+    - time: "10:00"
+      name:
+        en: "Opening of the competition. Welcome speech by Maria Zakharova"
+        ru: "Открытие соревнований. Телемост с Марией Владимировной Захаровой"
+    - time: "11:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "11:30"
+      name:
+        en: "Reverse-engineering of one of the most popular compression algorithms of the 90s"
+        ru: "Реверс-инжиниринг одного из самых популярных алгоритмов сжатия 90-х"
+      author:
+        en: "Vladimir Kononovich, Positive Technologies"
+        ru: "Владимир Кононович, Positive Technologies"
+    - time: "12:00"
+      name:
+        en: "Один интерфейс и много уязвимостей: атаки на GraphQL"
+        ru: "Один интерфейс и много уязвимостей: атаки на GraphQL"
+      author:
+        en: "Илья Цатуров, младший специалист группы исследований безопасности банковских систем, Positive technologies"
+        ru: "Илья Цатуров, младший специалист группы исследований безопасности банковских систем, Positive technologies"
+    - time: "12:40"
+      name:
+        en: "Онлайн и мобильный банкинг в 2к20: механизмы защиты и векторы обхода"
+        ru: "Онлайн и мобильный банкинг в 2к20: механизмы защиты и векторы обхода"
+      author:
+        en: "Николай Анисеня, руководитель группы исследований безопасности мобильных приложений, и Максим Костиков, старший специалист группы исследований безопасности банковских систем, Positive technologies"
+        ru: "Николай Анисеня, руководитель группы исследований безопасности мобильных приложений, и Максим Костиков, старший специалист группы исследований безопасности банковских систем, Positive technologies"
+    - time: "14:00"
+      name:
+        en: "Lunch"
+        ru: "Обед"
+    - time: "15:00"
+      name:
+        en: "Hacking IoT from web perspective"
+        ru: "Исследование IoT устройств с точки зрения веб безопасности"
+      author:
+        en: "Никита Ступин, Huawei"
+        ru: "Никита Ступин, Huawei"
+    - time: "16:00"
+      name:
+        en: "Dev, Sec, Oops: How Agile Security increases Attack Surface"
+        ru: "Dev, Sec, Oops: как agile увеличивает поверхность атаки"
+      author:
+        en: "Denis Makrushin"
+        ru: "Денис Макрушин"
+    - time: "16:40"
+      name:
+        en: "TBA (online)"
+        ru: "уточняется (онлайн)"
+      author:
+        en: "Anatol Prisacaru aka shark0der"
+        ru: "Anatol Prisacaru aka shark0der"
+    - time: "17:30"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "17:45"
+      name:
+        en: "Использование opensource-проектов для выявления атак по журналам событий"
+        ru: "Использование opensource-проектов для выявления атак по журналам событий"
+      author:
+        en: "Антон Кутепов, Ильяс Очков, OSCD community"
+        ru: "Антон Кутепов, Ильяс Очков, OSCD community"
+    - time: "19:15"
+      name:
+        en: "Leisure activity «Volga Challenge Preparty»"
+        ru: "Досуговое мероприятие «Volga Challenge Preparty»"
+- date: "16.09"
+  schedule:
+    - time: "10:00"
+      name:
+        en: "Начало работы стендов"
+        ru: "Начало работы стендов"
+    - time: "10:30"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "11:00"
+      name:
+        en: "Реверс-инжиниринг микроконтроллеров для начинающих на примере avr"
+        ru: "Реверс-инжиниринг микроконтроллеров для начинающих на примере avr"
+      author:
+        en: "Zen и Tuo, Self-employed"
+        ru: "Zen и Tuo, Self-employed"
+    - time: "11:30"
+      name:
+        en: "TBA"
+        ru: "уточняется"
+      author:
+        en: "Солар"
+        ru: "Солар"
+    - time: "12:30"
+      name:
+        en: "TBA"
+        ru: "уточняется"
+      author:
+        en: "Сергей Белов"
+        ru: "Сергей Белов"
+    - time: "13:15"
+      name:
+        en: "Охота за ошибками. Как выбирать цель для атаки?"
+        ru: "Охота за ошибками. Как выбирать цель для атаки?"
+      author:
+        en: "Рамазан / r0hack, DeteAct"
+        ru: "Рамазан / r0hack, DeteAct"
+    - time: "14:00"
+      name:
+        en: "Lunch"
+        ru: "Обед"
+    - time: "15:00"
+      name:
+        en: "Антенный арсенал пентестера"
+        ru: "Антенный арсенал пентестера"
+      author:
+        en: "Lan"
+        ru: "Lan"
+    - time: "16:00"
+      name:
+        en: "TBA (online)"
+        ru: "уточняется (онлайн)"
+      author:
+        en: "Tom Van Goethem, University of Leuven (Belgium)"
+        ru: "Tom Van Goethem, University of Leuven (Belgium)"
+    - time: "16:45"
+      name:
+        en: "TBA"
+        ru: " уточняется"
+      author:
+        en: "Dan Demeter - Security Researcher @ GReAT @_xdanx"
+        ru: "Dan Demeter - Security Researcher @ GReAT @_xdanx"
+    - time: "17:30"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "17:45"
+      name:
+        en: "Обзор архитектурных подходов к реализации аутентификации и авторизации в микросервисных приложениях"
+        ru: "Обзор архитектурных подходов к реализации аутентификации и авторизации в микросервисных приложениях"
+      author:
+        en: "Александр Барабанов, Advanced Software Technology Lab, Huawei"
+        ru: "Александр Барабанов, Advanced Software Technology Lab, Huawei"
+    - time: "18:30"
+      name:
+        en: "Разбор задачи квеста по реверсу avr"
+        ru: "Разбор задачи квеста по реверсу avr"
+      author:
+        en: "Zen и Tuo, Self-employed"
+        ru: "Zen и Tuo, Self-employed"
+- date: "17.09"
+  schedule:
+    - time: "9:00"
+      name:
+        en: "CTF"
+        ru: "CTF"
+    - time: "11:00"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "11:30"
+      name:
+        en: "CTF"
+        ru: "CTF"
+    - time: "14:00"
+      name:
+        en: "Lunch"
+        ru: "Обед"
+    - time: "15:00"
+      name:
+        en: "CTF"
+        ru: "CTF"
+    - time: "17:30"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "17:45"
+      name:
+        en: "CTF"
+        ru: "CTF"
+    - time: "19:00"
+      name:
+        en: "Leisure activity «Volga Challenge»"
+        ru: "Досуговое мероприятие «Volga Challenge»"
+- date: "18.09"
+  schedule:
+    - time: "11:30"
+      name:
+        en: "Coffee break"
+        ru: "Кофе-брейк"
+    - time: "12:00"
+      name:
+        en: "Award ceremony"
+        ru: "Награждение"
+    - time: "14:00"
+      name:
+        en: "Leisure activity «Volga Challenge Afterparty»"
+        ru: "Досуговое мероприятие «Volga Challenge Afterparty»"

@@ -1,0 +1,68 @@
+- name:
+    en: "COMPETITION ORGANISERS"
+    ru: "ОРГАНИЗАТОРЫ СОРЕВНОВАНИЙ"
+  partners:
+    - image: "dit.png"
+      link: "http://dit.samregion.ru/"
+    - image: "su.svg"
+      link: "http://www.ssau.ru/"
+    - image: "sroo.png"
+      link: ""
+    - image: "informsputnik-new.png"
+      link: "http://samis.geosamara.ru/"
+    - image: "ct.jpg"
+      link: ""
+- name:
+    en: "SUPPORTED BY"
+    ru: "ПРИ ПОДДЕРЖКЕ"
+  partners:
+    - image: "mfa.svg"
+      link: "http://www.mid.ru"
+- name:
+    en: "GENERAL PARTNER"
+    ru: "ГЕНЕРАЛЬНЫЙ ПАРТНЁР"
+  partners:
+    - image: "rt-solar.png"
+      link: "https://rt-solar.ru/"
+- name:
+    en: "COMPETITION PARTNERS"
+    ru: "ПАРТНЁРЫ СОРЕВНОВАНИЙ"
+  partners:
+    - image: "gis.png"
+      link: "https://www.gaz-is.ru/"
+    - image: "pt.svg"
+      link: "https://www.ptsecurity.com"
+    - image: "dsec.png"
+      link: "http://dsec.ru/"
+    - image: "it_universe.png"
+      link: "http://www.it-universe.ru/"
+    - image: "kaspersky-logo.svg"
+      link: "https://www.kaspersky.ru/"
+- name:
+    en: "MEDIA PARTNERS"
+    ru: "ИНФОРМАЦИОННЫЕ ПАРТНЁРЫ"
+  partners:
+    - image: "rocrew.svg"
+      link: "https://forum.reverse4you.org/"
+    - image: "hacker.svg"
+      link: "https://xakep.ru/"
+    - image: "raec.png"
+      link: "http://raec.ru/"
+    - image: "region_samara.svg"
+      link: "https://regionsamara.ru"
+    - image: "samokat.svg"
+      link: "https://vk.com/smkt_media"
+    - image: "illuminator.svg"
+      link: "https://vk.com/ph.illuminator"
+    - image: "zero_nights_2019.svg"
+      link: "https://zeronights.ru"
+    - image: "offzone.png"
+      link: "https://offzone.moscow/"
+- name:
+    en: "SPONSORS"
+    ru: "СПОНСОРЫ"
+  partners:
+    - image: "status_goloden.png"
+      link: "http://statusgoloden.ru/"
+    - image: "veterok.png"
+      link: "https://vk.com/turbazaveterok"

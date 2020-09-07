@@ -1,6 +1,6 @@
 ---
 title: VolgaCTF::Home
-welcome_text: Welcome to Volga CTF annual open competition in the field of cyber security
+welcome_text: Welcome to VolgaCTF, an annual open competition in the field of cybersecurity
 about_header_main: WHAT IS
 about_header_sub: VOLGA CTF?
 about_text: It is an international contest that gathers more than 1000 teams from all around the globe.
