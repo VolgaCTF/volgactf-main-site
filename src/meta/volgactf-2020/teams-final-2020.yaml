@@ -93,7 +93,7 @@
     - name: "C4T BuT S4D"
       edu:
         en: "Higher School of Economics"
-        ru: "НИУ «Высшая школа экономики»"
+        ru: "Национальный исследовательский университет «Высшая школа экономики»"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/83435"
     - name: "SSTU"
@@ -104,8 +104,8 @@
       ctftime_link: "https://ctftime.org/team/114417"
     - name: "SamaraHackers"
       edu:
-        en: "The Volga Region State College"
-        ru: "Поволжский государственный колледж"
+        en: "Samara National Research University"
+        ru: "Самарский национальный исследовательский университет имени академика С. П. Королёва"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/88893"
     - name: "PASECA"
