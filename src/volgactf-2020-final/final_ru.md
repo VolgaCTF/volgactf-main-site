@@ -25,7 +25,9 @@ hide_documents: true
 hide_partners: false
 hide_schedule: false
 hide_stream: true
-showStatus: false
+showStatus: true
 scoreboard: false
 layout: finals.pug
+showExtraQuota: true
+teams_extra_quota_text: "Команда приглашена по решению оргкомитета за счёт дополнительной квоты"
 ---

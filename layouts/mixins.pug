@@ -94,7 +94,7 @@ mixin partnersGrid(partners,locale,level)
                     div.large-3.small-6.text-center
                         +partnerLogo("/images/" + partner.image,partner.link)
 
-mixin teamsTable(sentStatus,acceptedStatus,shortListedStatus, declinedStatus,teams, sourceLang, showStatus)
+mixin teamsTable(sentStatus, acceptedStatus, shortListedStatus, declinedStatus, teams, sourceLang, showStatus, showExtraQuota, extraQuotaText)
     div.table-scroll
         table.unstriped.teams
             tbody
@@ -117,6 +117,13 @@ mixin teamsTable(sentStatus,acceptedStatus,shortListedStatus, declinedStatus,tea
                                         td #{shortListedStatus}
                                     when "declined"
                                         td #{declinedStatus}
+                                    when "accepted_extra"
+                                        td #{acceptedStatus}
+                                            sup(style={color: 'red'}) *
+        if (showExtraQuota)
+            p
+                span(style={color: 'red'}) * 
+                span #{extraQuotaText}
 
 
 mixin scoreboard(data, normalizeScore)
