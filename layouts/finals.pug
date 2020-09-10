@@ -35,6 +35,11 @@ html(lang=locale)
                 div.grid-x
                     div.cell.medium-offset-4.medium-4.schedule
                         +schedule(schedule,locale)
+                    if (schedule_footnote_text)
+                        div.cell.medium-offset-4.medium-4
+                            p
+                                span(style={color: 'red'}) * 
+                                span #{schedule_footnote_text}
         if(scoreboard)
             section#scoreboard
                 div.grid-x

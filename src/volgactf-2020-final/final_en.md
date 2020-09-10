@@ -14,4 +14,5 @@ teams_table_shortlisted: Team in short-list
 teams_table_declined: Team refused to participate
 layout: finals.pug
 teams_extra_quota_text: "Team invited on board's decision by means of additional quota"
+schedule_footnote_text: "Dear VolgaCTF competitors and guests! During this unprecedented time we hope you pay attention to your health and to well-being of people around you. If you feel sick, please #stayhome and join us online."
 ---
