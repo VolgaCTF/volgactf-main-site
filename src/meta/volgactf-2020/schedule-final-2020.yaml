@@ -58,18 +58,25 @@
       author:
         en: "Anatol Prisacaru aka shark0der"
         ru: "Anatol Prisacaru aka shark0der"
-    - time: "17:30"
+    - time: "17:20"
+      name:
+        en: "Эволюция метода научного тыка"
+        ru: "Эволюция метода научного тыка"
+      author:
+        en: "Иннокентий Сенновксий (Rumata888), BI.ZONE"
+        ru: "Иннокентий Сенновксий (Rumata888), BI.ZONE"
+    - time: "18:00"
       name:
         en: "Coffee break"
         ru: "Кофе-брейк"
-    - time: "17:45"
+    - time: "18:15"
       name:
         en: "Использование opensource-проектов для выявления атак по журналам событий"
         ru: "Использование opensource-проектов для выявления атак по журналам событий"
       author:
         en: "Антон Кутепов, Ильяс Очков, OSCD community"
         ru: "Антон Кутепов, Ильяс Очков, OSCD community"
-    - time: "19:15"
+    - time: "19:45"
       name:
         en: "Leisure activity «Volga Challenge Preparty»"
         ru: "Досуговое мероприятие «Volga Challenge Preparty»"
@@ -95,12 +102,12 @@
         en: "It is easier to pull down than to build"
         ru: "Ломать – не строить"
       author:
-        en: "Egor Valov, pre-sale analyst at the Center for Monitoring and Responding to Cyber ​​Attacks"
-        ru: "Егор Валов, пресейл-аналитик центра мониторинга и реагирования на кибератаки"
+        en: "Egor Valov, pre-sale analyst at the Center for Monitoring and Responding to Cyber ​​Attacks, Rostelecom-Solar"
+        ru: "Егор Валов, пресейл-аналитик центра мониторинга и реагирования на кибератаки, Ростелеком-Солар"
     - time: "12:30"
       name:
-        en: "TBA"
-        ru: "уточняется"
+        en: "Топ ошибок в Application Security при проектировании сервисов"
+        ru: "Топ ошибок в Application Security при проектировании сервисов"
       author:
         en: "Сергей Белов"
         ru: "Сергей Белов"
@@ -124,8 +131,8 @@
         ru: "Lan"
     - time: "16:00"
       name:
-        en: "TBA (online)"
-        ru: "уточняется (онлайн)"
+        en: "Timeless Timing Attacks"
+        ru: "Timeless Timing Attacks"
       author:
         en: "Tom Van Goethem, University of Leuven (Belgium)"
         ru: "Tom Van Goethem, University of Leuven (Belgium)"
