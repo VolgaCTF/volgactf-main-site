@@ -13,9 +13,9 @@ partners_header_main: ПАРТНЕРЫ И
 partners_header_sub: СПОНСОРЫ
 documents_header_main: ДОКУМЕНТЫ
 schedule_header: РАСПИСАНИЕ
-# stream_header: ВИДЕОТРАНСЛЯЦИЯ
+stream_header: ВИДЕОТРАНСЛЯЦИЯ
 # stream_placeholder_text: ЗДЕСЬ БУДЕТ ССЫЛКА
-# stream_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_48d0e0e2c34e4b1b15ac99c88d56f1f6_hd/207_5690415327/1d645b7c850b33dc135058abc1cdaa6e/4724636824?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru
+stream_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_c627ca1ca3f0edbf0356b5361190339e_hd/207_9745669101/9da30c988b3242cb9ff69e797b608809/4755585855?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru
 meta-partners: meta/volgactf-2020/partners-final-2020.yaml
 meta-teams: meta/volgactf-2020/teams-final-2020.yaml
 meta-schedule: meta/volgactf-2020/schedule-final-2020.yaml
@@ -24,7 +24,7 @@ selected_menu_item: ctf
 hide_documents: true
 hide_partners: false
 hide_schedule: false
-hide_stream: true
+hide_stream: false
 showStatus: true
 scoreboard: false
 layout: finals.pug
