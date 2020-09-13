@@ -14,8 +14,6 @@ partners_header_sub: СПОНСОРЫ
 documents_header_main: ДОКУМЕНТЫ
 schedule_header: РАСПИСАНИЕ
 stream_header: ВИДЕОТРАНСЛЯЦИЯ
-# stream_placeholder_text: ЗДЕСЬ БУДЕТ ССЫЛКА
-stream_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_c627ca1ca3f0edbf0356b5361190339e_hd/207_9745669101/9da30c988b3242cb9ff69e797b608809/4755585855?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru
 meta-partners: meta/volgactf-2020/partners-final-2020.yaml
 meta-teams: meta/volgactf-2020/teams-final-2020.yaml
 meta-schedule: meta/volgactf-2020/schedule-final-2020.yaml
@@ -24,11 +22,20 @@ selected_menu_item: ctf
 hide_documents: true
 hide_partners: false
 hide_schedule: false
-hide_stream: false
+hide_stream: true
 showStatus: true
 scoreboard: false
 layout: finals.pug
 showExtraQuota: true
 teams_extra_quota_text: "Команда приглашена по решению оргкомитета за счёт дополнительной квоты"
 schedule_footnote_text: "Уважаемые гости и участники VolgaCTF, мы стараемся заботиться о вас. Поэтому надеемся, что вы тоже будете бережно относиться к своему здоровью и здоровью окружающих. Если вы почувствуете любое недомогание, оставайтесь дома и присоединяйтесь к нам онлайн."
+show_streams: true
+stream_day1_header: Конференция 15.09
+stream_day1_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_c627ca1ca3f0edbf0356b5361190339e_hd/207_9745669101/9da30c988b3242cb9ff69e797b608809/4755585855?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru
+stream_day2_header: Конференция 16.09
+# stream_day2_link: //ZOBRtv.webcaster.pro/iframe/feed/start/na_8febdb2f3191b5f4f9d931671d4dcb0c/207_192210973/674a34184050e633a0a621c6419d868f/4755586041?sr=443&type_id=&width=100%25&height=100%25&lang=ru
+stream_day3_header: Игра 17.09
+# stream_day3_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_fa96d97a5ec1937035efd1150c76f2ca_hd/207_9025844826/125d00d9a4e67b4fb1344c6485f99eca/4755586078?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru
+stream_day4_header: Награждение 18.09
+# stream_day4_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_f8545369d3cb1568d23edf7ad75e6eac_hd/207_2264862720/cb5dcb7234d6e77bb17e40f67ec90297/4755586197?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=ru
 ---
