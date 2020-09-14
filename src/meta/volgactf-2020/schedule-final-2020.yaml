@@ -21,17 +21,17 @@
         ru: "Владимир Кононович, Positive Technologies"
     - time: "12:00"
       name:
-        en: "Один интерфейс и много уязвимостей: атаки на GraphQL"
+        en: "One interface and many vulnerabilities: attacks on GraphQL"
         ru: "Один интерфейс и много уязвимостей: атаки на GraphQL"
       author:
-        en: "Илья Цатуров, младший специалист группы исследований безопасности банковских систем, Positive technologies"
+        en: "Ilya Tsaturov, Junior Specialist for Banking Systems Security Research Group, Positive technologies"
         ru: "Илья Цатуров, младший специалист группы исследований безопасности банковских систем, Positive technologies"
     - time: "12:40"
       name:
-        en: "Онлайн и мобильный банкинг в 2к20: механизмы защиты и векторы обхода"
+        en: "Online and mobile banking in 2k20: protection mechanisms and bypass vectors"
         ru: "Онлайн и мобильный банкинг в 2к20: механизмы защиты и векторы обхода"
       author:
-        en: "Николай Анисеня, руководитель группы исследований безопасности мобильных приложений, и Максим Костиков, старший специалист группы исследований безопасности банковских систем, Positive technologies"
+        en: "Nikolay Anisenya, Head of Mobile Application Security Research Group, and Maxim Kostikov, Senior Specialist, Banking Systems Security Research Group, Positive technologies"
         ru: "Николай Анисеня, руководитель группы исследований безопасности мобильных приложений, и Максим Костиков, старший специалист группы исследований безопасности банковских систем, Positive technologies"
     - time: "14:00"
       name:
@@ -42,7 +42,7 @@
         en: "Hacking IoT from web perspective"
         ru: "Исследование IoT устройств с точки зрения веб безопасности"
       author:
-        en: "Никита Ступин, Huawei"
+        en: "Nikita Stupin, Huawei"
         ru: "Никита Ступин, Huawei"
     - time: "16:00"
       name:
@@ -53,17 +53,17 @@
         ru: "Денис Макрушин"
     - time: "16:40"
       name:
-        en: "TBA (online)"
-        ru: "уточняется (онлайн)"
+        en: "Exploring vulnerabilities in ethereum smart contracts (online)"
+        ru: "Exploring vulnerabilities in ethereum smart contracts (онлайн)"
       author:
         en: "Anatol Prisacaru aka shark0der"
         ru: "Anatol Prisacaru aka shark0der"
     - time: "17:20"
       name:
-        en: "Эволюция метода научного тыка"
+        en: "Fuzzing through the ages: the evolution of mainstream fuzzers"
         ru: "Эволюция метода научного тыка"
       author:
-        en: "Иннокентий Сенновксий (Rumata888), BI.ZONE"
+        en: "Innokenty Sennovskiy (Rumata888), BI.ZONE"
         ru: "Иннокентий Сенновксий (Rumata888), BI.ZONE"
     - time: "18:00"
       name:
@@ -71,10 +71,10 @@
         ru: "Кофе-брейк"
     - time: "18:15"
       name:
-        en: "Использование opensource-проектов для выявления атак по журналам событий"
+        en: "Using opensource projects to detect event log attacks"
         ru: "Использование opensource-проектов для выявления атак по журналам событий"
       author:
-        en: "Антон Кутепов, Ильяс Очков, OSCD community"
+        en: "Anton Kutepov, Ilyas Ochkov, OSCD community"
         ru: "Антон Кутепов, Ильяс Очков, OSCD community"
     - time: "19:45"
       name:
@@ -84,7 +84,7 @@
   schedule:
     - time: "10:00"
       name:
-        en: "Начало работы стендов"
+        en: "Workshop"
         ru: "Начало работы стендов"
     - time: "10:30"
       name:
@@ -92,7 +92,7 @@
         ru: "Кофе-брейк"
     - time: "11:00"
       name:
-        en: "Реверс-инжиниринг микроконтроллеров для начинающих на примере avr"
+        en: "Reverse engineering of microcontrollers for beginners using the example of avr"
         ru: "Реверс-инжиниринг микроконтроллеров для начинающих на примере avr"
       author:
         en: "Zen и Tuo, Self-employed"
@@ -106,14 +106,14 @@
         ru: "Егор Валов, пресейл-аналитик центра мониторинга и реагирования на кибератаки, Ростелеком-Солар"
     - time: "12:30"
       name:
-        en: "Топ ошибок в Application Security при проектировании сервисов"
+        en: "Top Application Security mistakes while designing services"
         ru: "Топ ошибок в Application Security при проектировании сервисов"
       author:
-        en: "Сергей Белов"
+        en: "Sergey Belov"
         ru: "Сергей Белов"
     - time: "13:15"
       name:
-        en: "Охота за ошибками. Как выбирать цель для атаки?"
+        en: "Bug hunting. How to choose a target for an attack?"
         ru: "Охота за ошибками. Как выбирать цель для атаки?"
       author:
         en: "Рамазан / r0hack, DeteAct"
@@ -124,7 +124,7 @@
         ru: "Обед"
     - time: "15:00"
       name:
-        en: "Антенный арсенал пентестера"
+        en: "Pentester's antenna arsenal"
         ru: "Антенный арсенал пентестера"
       author:
         en: "Lan"
@@ -149,14 +149,14 @@
         ru: "Кофе-брейк"
     - time: "17:45"
       name:
-        en: "Обзор архитектурных подходов к реализации аутентификации и авторизации в микросервисных приложениях"
+        en: "Overview of architectural approaches to implementing authentication and authorization in microservice applications"
         ru: "Обзор архитектурных подходов к реализации аутентификации и авторизации в микросервисных приложениях"
       author:
-        en: "Александр Барабанов, Advanced Software Technology Lab, Huawei"
+        en: "Alexander Barabanov, Advanced Software Technology Lab, Huawei"
         ru: "Александр Барабанов, Advanced Software Technology Lab, Huawei"
     - time: "18:30"
       name:
-        en: "Разбор задачи квеста по реверсу avr"
+        en: "Analysis of the task of the reverse quest avr"
         ru: "Разбор задачи квеста по реверсу avr"
       author:
         en: "Zen и Tuo, Self-employed"
