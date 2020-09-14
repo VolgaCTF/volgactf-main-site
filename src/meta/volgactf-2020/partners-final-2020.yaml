@@ -62,6 +62,8 @@
       link: "https://tomhunter.ru/"
     - image: "rocrew.svg"
       link: "https://forum.reverse4you.org/"
+    - image: "security_lab.svg"
+      link: "https://www.securitylab.ru/news/tags/Positive+Technologies/"
 - name:
     en: "SPONSORS"
     ru: "СПОНСОРЫ"
