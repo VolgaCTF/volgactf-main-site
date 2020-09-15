@@ -73,6 +73,17 @@ html(lang=locale)
                             p
                                 span(style={color: 'red'}) * 
                                 span #{schedule_footnote_text}
+        if(activity)
+            section#activity
+                div.grid-x
+                    div.large-offset-1.large-4.cell.cell-text
+                        h1.main #{activity_header}
+                div.grid-x
+                    div.cell.large-offset-1.large-3
+                        p
+                            span #{activity_text}
+                            br
+                            a(href=activity_link, target='_blank', rel='noreferrer noopener') VolgaCTF Activity
         if(scoreboard)
             section#scoreboard
                 div.grid-x

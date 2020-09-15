@@ -24,4 +24,8 @@ stream_day3_header: Competition 17.09
 # stream_day3_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_fa96d97a5ec1937035efd1150c76f2ca_hd/207_9025844826/125d00d9a4e67b4fb1344c6485f99eca/4755586078?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=en
 stream_day4_header: Award ceremony 18.09
 # stream_day4_link: //ZOBRtv.webcaster.pro/iframe/feed/start/free_f8545369d3cb1568d23edf7ad75e6eac_hd/207_2264862720/cb5dcb7234d6e77bb17e40f67ec90297/4755586197?sr=443&type_id=&autostart=1&width=100%25&height=100%25&lang=en
+activity: true
+activity_header: Other activities
+activity_text: "During conference days you can also take part in a contest! It's held from 9/15 06:00 UTC (10:00 SAMT) till 9/16 18:00 UTC (22:00 SAMT)"
+activity_link: https://activity.volgactf.ru
 ---
