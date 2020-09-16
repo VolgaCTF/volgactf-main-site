@@ -131,15 +131,15 @@
         ru: "Lan"
     - time: "16:00"
       name:
-        en: "Timeless Timing Attacks"
-        ru: "Timeless Timing Attacks"
+        en: "Timeless Timing Attacks (online)"
+        ru: "Timeless Timing Attacks (онлайн)"
       author:
         en: "Tom Van Goethem, University of Leuven (Belgium)"
         ru: "Tom Van Goethem, University of Leuven (Belgium)"
     - time: "16:45"
       name:
-        en: "TBA"
-        ru: " уточняется"
+        en: "Top up your Threat Intel Game by using Yara (online)"
+        ru: "Top up your Threat Intel Game by using Yara (онлайн)"
       author:
         en: "Dan Demeter - Security Researcher @ GReAT @_xdanx"
         ru: "Dan Demeter - Security Researcher @ GReAT @_xdanx"
