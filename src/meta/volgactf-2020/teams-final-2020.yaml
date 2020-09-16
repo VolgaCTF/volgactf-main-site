@@ -143,9 +143,8 @@
         en: "Saratov State University"
       status: "accepted"
       ctftime_link: "https://ctftime.org/team/3906"
-    - name: "Tanuki Squad"
+    - name: "Roosters"
       edu:
-        ru: "Новосибирский государственный технический университет"
-        en: "Novosibirsk State Technical University"
+        en: "Samara State Technical University"
+        ru: "Самарский государственный технический университет"
       status: "accepted"
-      ctftime_link: "https://ctftime.org/team/76462"
