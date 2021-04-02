@@ -16,6 +16,11 @@ html(lang=locale)
                         .
                             !{transformedText}
                         hr
+                if report_url
+                    div.grid-x
+                        div.large-offset-1.large-3.cell.cell-text
+                            a(href=report_url) #{report_caption}
+
             if scoreboard
                 section#quals-scoreboard
                     div.grid-x
