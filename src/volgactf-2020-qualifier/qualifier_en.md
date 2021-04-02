@@ -1,4 +1,4 @@
 ---
-quals_text: VolgaCTF 2020 Qualifier event will be held from 27 March to 29 March. Registration will be open on 1 March. Sign up on [https://q.2020.volgactf.ru/](https://q.2020.volgactf.ru/)
+quals_text: VolgaCTF 2020 Qualifier event was held from 27 March to 29 March. Top teams will be invited to VolgaCTF 2020 Final in September
 layout: quals.pug
 ---
