@@ -1,4 +1,119 @@
 {
   "standings": [
+    {
+      "pos": 1,
+      "team": "More Smoked Leet Chicken",
+      "score": 4534.00
+    },
+    {
+      "pos": 2,
+      "team": "SUSlo.PAS",
+      "score": 2721.07
+    },
+    {
+      "pos": 3,
+      "team": "Bushwhackers",
+      "score": 2624.62
+    },
+    {
+      "pos": 4,
+      "team": "ENOFLAG",
+      "score": 2445.26
+    },
+    {
+      "pos": 5,
+      "team": "Corrupted Lights",
+      "score": 2358.82
+    },
+    {
+      "pos": 6,
+      "team": "[SPbCTF] Kappa",
+      "score": 1737.78
+    },
+    {
+      "pos": 7,
+      "team": "Maple Bacon",
+      "score": 1706.78
+    },
+    {
+      "pos": 8,
+      "team": "C4T BuT S4D",
+      "score": 1658.62
+    },
+    {
+      "pos": 9,
+      "team": "PASECA",
+      "score": 1639.80
+    },
+    {
+      "pos": 10,
+      "team": "ntcZ",
+      "score": 1623.99
+    },
+    {
+      "pos": 11,
+      "team": "JustDoIt",
+      "score": 1278.93
+    },
+    {
+      "pos": 12,
+      "team": "v0rt3x",
+      "score": 992.77
+    },
+    {
+      "pos": 13,
+      "team": "SIGFLAG",
+      "score": 848.80
+    },
+    {
+      "pos": 14,
+      "team": "[SPbCTF] Fargate",
+      "score": 613.05
+    },
+    {
+      "pos": 15,
+      "team": "STT",
+      "score": 557.15
+    },
+    {
+      "pos": 16,
+      "team": "SamaraHackers",
+      "score": 436.20
+    },
+    {
+      "pos": 17,
+      "team": "SSTU",
+      "score": 427.60
+    },
+    {
+      "pos": 18,
+      "team": "Roosters",
+      "score": 394.03
+    },
+    {
+      "pos": 19,
+      "team": "Pixels",
+      "score": 389.06
+    },
+    {
+      "pos": 20,
+      "team": "SFT0",
+      "score": 387.63
+    },
+    {
+      "pos": 21,
+      "team": "from Sousse, with love",
+      "score": 381.48
+    },
+    {
+      "pos": 22,
+      "team": "Balsn",
+      "score": 368.39
+    },
+    {
+      "pos": 23,
+      "team": "NoPwnIntended",
+      "score": 104.33
+    }
   ]
 }

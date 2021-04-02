@@ -17,7 +17,7 @@ stream_header: ВИДЕОТРАНСЛЯЦИЯ
 meta-partners: meta/volgactf-2020/partners-final-2020.yaml
 meta-teams: meta/volgactf-2020/teams-final-2020.yaml
 meta-schedule: meta/volgactf-2020/schedule-final-2020.yaml
-# meta-scoreboard: meta/volgactf-2020/scoreboard-final-2020.json
+meta-scoreboard: meta/volgactf-2020/scoreboard-final-2020.json
 selected_menu_item: ctf
 hide_documents: true
 hide_partners: false
