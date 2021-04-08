@@ -1,0 +1,14 @@
+- name:
+    en: "Foreign teams"
+    ru: "Иностранные команды"
+  teams: []
+
+- name:
+    en: "Russian teams"
+    ru: "Российские команды"
+  teams: []
+
+- name:
+    en: "Guest teams"
+    ru: "Гостевые команды"
+  teams: []

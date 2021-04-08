@@ -29,5 +29,10 @@
     - name: "VolgaCTF 2020 Final"
       ctf_time_link: "https://ctftime.org/event/1018"
       internal_link: "/volgactf-2020-final/final.html"
+- name: "VolgaCTF 2021"
+  events:
+    - name: "VolgaCTF 2021 Qualifier"
+      ctf_time_link: "https://ctftime.org/event/1229"
+      internal_link: "/volgactf-2021-qualifier/qualifier.html"
 
 
