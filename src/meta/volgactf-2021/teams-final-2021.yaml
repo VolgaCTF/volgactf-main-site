@@ -1,12 +1,90 @@
 - name:
     en: "Foreign teams"
     ru: "Иностранные команды"
-  teams: []
+  teams:
+    - name: "The Flat Network Society"
+      edu:
+        en: "to be clarified"
+        ru: "уточняется"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/87434"
+    - name: "c0r3dump"
+      edu:
+        en: "CrySyS Lab @ BME"
+        ru: "CrySyS Lab @ BME"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/65521"
+    - name: "XxTSJxX"
+      edu:
+        en: "to be clarified"
+        ru: "уточняется"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/150366"
 
 - name:
     en: "Russian teams"
     ru: "Российские команды"
-  teams: []
+  teams:
+    - name: "More Smoked Leet Chicken"
+      edu:
+        en: "ITMO University"
+        ru: "Университет ИТМО"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/1005"
+    - name: "C4T BuT S4D"
+      edu:
+        en: "to be clarified"
+        ru: "уточняется"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/83435"
+    - name: "Bushwhackers"
+      edu:
+        en: "to be clarified"
+        ru: "уточняется"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/586"
+    - name: "Corrupted Pwnis"
+      edu:
+        en: "Moscow Institute of Physics and Technology"
+        ru: "Московский физико-технический институт"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/87386"
+    - name: "AntiBuddies"
+      edu:
+        en: "National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)"
+        ru: "Национальный исследовательский ядерный университет «МИФИ»"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/142751"
+    - name: "SUSlo.PAS"
+      edu:
+        en: "Novosibirsk State University"
+        ru: "Новосибирский государственный университет"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/6502"
+    - name: "PASECA"
+      edu:
+        en: "to be clarified"
+        ru: "уточняется"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/70335"
+    - name: "[SPbCTF] eltech banana"
+      edu:
+        en: "Saint Petersburg Electrotechnical University"
+        ru: "Санкт-Петербургский государственный электротехнический университет"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/150367"
+    - name: "MailRu"
+      edu:
+        en: "to be clarified"
+        ru: "уточняется"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/32525"
+    - name: "Les Cadets Rouges"
+      edu:
+        en: "A.F. Mozhaysky Military-Space Academy"
+        ru: "Военно-космическая академия имени А. Ф. Можайского"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/59617"
 
 - name:
     en: "Guest teams"
