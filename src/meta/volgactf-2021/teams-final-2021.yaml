@@ -73,20 +73,37 @@
         ru: "Санкт-Петербургский государственный электротехнический университет"
       # status: "accepted"
       ctftime_link: "https://ctftime.org/team/150367"
-    - name: "MailRu"
-      edu:
-        en: "to be clarified"
-        ru: "уточняется"
-      # status: "accepted"
-      ctftime_link: "https://ctftime.org/team/32525"
     - name: "Les Cadets Rouges"
       edu:
         en: "A.F. Mozhaysky Military-Space Academy"
         ru: "Военно-космическая академия имени А. Ф. Можайского"
       # status: "accepted"
       ctftime_link: "https://ctftime.org/team/59617"
-
+    - name: "WebSpiders"
+      edu:
+        en: "Innopolis University"
+        ru: "Университет Иннополис"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/71012"
 - name:
     en: "Guest teams"
     ru: "Гостевые команды"
-  teams: []
+  teams:
+    - name: "MailRu"
+      edu:
+        en: ""
+        ru: ""
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/32525"
+    - name: "Pixels"
+      edu:
+        ru: "Научная рота №5 Министерства обороны Российской Федерации"
+        en: "5th Scientific Military Unit of The Ministry of Defence of the Russian Federation"
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/17424"
+    - name: "v0rt3x"
+      edu:
+        ru: ""
+        en: ""
+      # status: "accepted"
+      ctftime_link: "https://ctftime.org/team/3906"
