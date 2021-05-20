@@ -63,8 +63,8 @@
       ctftime_link: "https://ctftime.org/team/6502"
     - name: "PASECA"
       edu:
-        en: "to be clarified"
-        ru: "уточняется"
+        en: "Higher School of Economics"
+        ru: "Национальный исследовательский университет «Высшая школа экономики»"
       # status: "accepted"
       ctftime_link: "https://ctftime.org/team/70335"
     - name: "[SPbCTF] eltech banana"
