@@ -39,8 +39,8 @@
       ctftime_link: "https://ctftime.org/team/83435"
     - name: "Bushwhackers"
       edu:
-        en: "to be clarified"
-        ru: "уточняется"
+        en: "Moscow State University"
+        ru: "Московский государственный университет"
       # status: "accepted"
       ctftime_link: "https://ctftime.org/team/586"
     - name: "Corrupted Pwnis"
